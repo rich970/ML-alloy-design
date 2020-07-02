@@ -15,6 +15,7 @@ import numpy as np
 from itertools import combinations
 
 def importNovamag(root_dir):
+    
     """
     Auto import all json files in the Novamag database, creating a 
     pandas dataframe object.
@@ -50,6 +51,20 @@ def importNovamag(root_dir):
                    failedfiles.append(filepath)
     X.index = range(len(X)) #Fix the index
     return X
+
+def importPT(root_dir):
+    PT = pd.read_excel(root_dir)
+    PT.index = PT['symbol']
+    return PT
+
+
+def importMM(root_dir):
+# Import Miedema model enthalpies
+    MM = pd.read_excel(root_dir, header = 1,index_col = 73,
+                       usecols = range(0,74), nrows = 73).fillna(0)
+    MM_T = MM.transpose().fillna(0)
+    MM = MM + MM_T
+    return MM
 
 def get_K_mag(X):
     K = X['magnetocrystalline anisotropy constants'].copy()
@@ -98,21 +113,19 @@ def get_compound_radix(X, PT):
     symbols = symbols.reindex(s)
 
     for el in symbols:
-        regex_list = formulas.str.extractall(pat = 
-                                             "(?P<element>{0})(?P<digit>\d*)".format(el))
-        regex_list = regex_list.droplevel(level=1).copy() #drop the multi-indexing that
-                                                          #'extractall' creates
-        
-        #Remove the elements we have just found from the formulas list
+        regex_list = formulas.str.extractall(
+                pat = "(?P<element>{0})(?P<digit>\d*)".format(el))
+        # drop the multi-indexing that 'extractall' creates
+        regex_list = regex_list.droplevel(level=1).copy()
+        # Remove the elements we have just found from the formulas list
         formulas[regex_list.index] = formulas[regex_list.index].replace(
                                           to_replace = regex_list.element
-                                          +regex_list.digit
-                                          ,value ='', regex = True)
-        
-        #Use the regex indices to update the compound radix column
+                                          + regex_list.digit,
+                                          value = '', regex = True)
+
+        # Use the regex indices to update the compound radix column
         X['compound_radix'][regex_list.index] += 1
-        
-    #How many binary, ternary, quaternary compounds do we have?
+    # How many binary, ternary, quaternary compounds do we have?
     total_compound_radix = X['compound_radix'].value_counts()
     print('We have {0} binary compounds'.format(total_compound_radix[2]))
     print('We have {0} ternary compounds'.format(total_compound_radix[3]))
