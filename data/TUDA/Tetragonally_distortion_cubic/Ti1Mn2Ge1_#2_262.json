@@ -1,0 +1,178 @@
+{
+  "confidential": {
+  "value": false
+  }, 
+  "name": "NOVAMAG_theory_TUDA_Ti1Mn2Ge1_#2_262",
+  "properties": {
+    "approach": {
+      "value": "theory"
+    },
+    "summary": {
+      "value": "crystal, tetragonal distortion, magnetization, MAE"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "Ti1Mn2Ge1"
+      },
+      "production info": {
+        "value": "Imposed tetragonal distortion on cubic phase from Materials Project database"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 2
+      },
+      "unit cell volume": {
+        "value": 50.616730
+      },
+      "lattice parameters": {
+        "value": [
+          4.10013,
+          4.10908,
+          4.18882
+        ]
+      },
+      "lattice angles": {
+        "value": [
+          90.54428,
+          118.98719,
+          119.73927
+        ]
+      },
+      "atomic positions": {
+        "value": [
+"Ti1(1h)",
+0.50000,
+0.50000,
+0.50000,
+"Mn1(2i)",
+0.00004,
+0.25005,
+0.74989,
+"Ge1(1d)",
+0.50000,
+0.00000,
+0.00000
+]
+      },
+      "crystal info": {
+        "value": "1% compressive strain is applied to get the tetragonally distorted structure under the constant volume approximation (unrelaxed crystal structure)"
+      }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": null
+      },
+      "unit cell formation enthalpy": {
+        "value": null
+      },
+      "energy info": {
+        "value": null
+      },
+      "interatomic potentials info": {
+        "value": null
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": null
+      },
+      "atomic spin specie": {
+        "value": null
+      },
+      "saturation magnetization": {
+        "value": 0.451783
+      },
+      "magnetization temperature": {
+        "value": 0.0
+      },
+      "magnetization info": {
+        "value": "software VASP (vasp.5.3.3), k-points mesh 12x12x11, Ecut-off=500 eV, PAW_PBE, Ti_sv:PAW_PBE:26Sep2005, Mn:PAW_PBE:06Sep2000, Ge_d:PAW_PBE:03Jul2007"
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": null
+      },
+      "anisotropy energy type": {
+        "value": "uniaxial"
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": [-0.190825,0.00]
+      },
+      "kind of anisotropy": {
+        "value": "easy plane"
+      },
+      "anisotropy info": {
+        "value": "software VASP (vasp.5.3.3) with spin-orbit coupling, k-points mesh 12x12x11, Ecut-off=500 eV, PAW_PBE, Ti_sv:PAW_PBE:26Sep2005, Mn:PAW_PBE:06Sep2000, Ge_d:PAW_PBE:03Jul2007"
+      },
+      "exchange integrals": {
+        "value": null
+      },
+      "exchange info": {
+        "value": null
+      },
+      "magnetic order": {
+        "value": null
+      },
+      "curie temperature": {
+        "value": null
+      },
+      "curie temperature info": {
+        "value": null
+      },
+      "anisotropy field": {
+        "value": null
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": null
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": null
+      },
+      "domain wall width": {
+        "value": null
+      },
+      "domain wall info": {
+        "value": null
+      },
+      "exchange stiffness": {
+        "value": null
+      },
+      "exchange stiffness info": {
+        "value": null
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["TUDA"]
+      },
+      "reference": {
+        "value": null
+      },
+      "comments": {
+        "value": "A tetragonal distortion was imposed on cubic material by changing the lattice constant in a brute force way, just to find out how the material would change under strain"
+      },
+      "attached files": {
+        "value": [
+"Ti1Mn2Ge1_#2_262.cif",
+"CONTCAR_Ti1Mn2Ge1_#2_262",
+"Ti1Mn2Ge1_#2_262.png"
+]
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

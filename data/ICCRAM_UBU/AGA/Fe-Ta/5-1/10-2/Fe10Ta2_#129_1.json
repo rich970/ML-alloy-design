@@ -1,0 +1,211 @@
+{
+  "confidential": {
+  "value": false
+  }, 
+  "name": "NOVAMAG_theory_ICCRAM_Fe10Ta2_#129_1",
+  "properties": {
+    "approach": {
+      "value": "theory"
+    },
+    "summary": {
+      "value": "AGA, crystal, energy, magnetization"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "Fe10Ta2"
+      },
+      "production info": {
+        "value": "obtained by Adaptive Genetic Algorithm Structure Prediction Methods,  software USPEX+VASP"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 129
+      },
+      "unit cell volume": {
+        "value": 147.645706
+      },
+      "lattice parameters": {
+        "value": [
+          4.10023,
+          4.10023,
+          8.78222
+        ]
+      },
+      "lattice angles": {
+        "value": [
+          90.00000,
+          90.00000,
+          90.00000
+        ]
+      },
+      "atomic positions": {
+        "value": [
+"Fe1(4f)",
+0.75000,
+0.25000,
+0.84216,
+"Fe2(2c)",
+0.25000,
+0.25000,
+0.67385,
+"Fe3(2b)",
+0.75000,
+0.25000,
+0.50000,
+"Fe4(2c)",
+0.25000,
+0.25000,
+-0.00169,
+"Ta1(2c)",
+0.25000,
+0.25000,
+0.33013
+]
+      },
+      "crystal info": {
+        "value": "software VASP, k-points mesh 10x10x5, Ecut-off=410.533 eV, PAW_PBE, Fe_pv:PAW_PBE:02Aug2007, Ta_pv:PAW_PBE:07Sep2000, Pressure=0.0 kbar,temperature=0K"
+      }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": -107.15378034
+      },
+      "unit cell formation enthalpy": {
+        "value": -0.964855
+      },
+      "energy info": {
+        "value": "software VASP, k-points mesh 10x10x5, Ecut-off=410.533 eV, PAW_PBE, Fe_pv:PAW_PBE:02Aug2007, Ta_pv:PAW_PBE:07Sep2000, Pressure=0.0 kbar,temperature=0K"
+      },
+      "interatomic potentials info": {
+        "value": null
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": 19.835
+      },
+      "atomic spin specie": {
+        "value": [
+"1 Fe",
+1.895,
+"2 Fe",
+1.895,
+"3 Fe",
+1.944,
+"4 Fe",
+1.944,
+"5 Fe",
+2.426,
+"6 Fe",
+2.426,
+"7 Fe",
+1.603,
+"8 Fe",
+1.603,
+"9 Fe",
+2.519,
+"10 Fe",
+2.519,
+"11 Ta",
+-0.469,
+"12 Ta",
+-0.469
+]
+      },
+      "saturation magnetization": {
+        "value": 1.565
+      },
+      "magnetization temperature": {
+        "value": 0
+      },
+      "magnetization info": {
+        "value": "software VASP, k-points mesh 10x10x5, Ecut-off=410.533 eV, PAW_PBE, Fe_pv:PAW_PBE:02Aug2007, Ta_pv:PAW_PBE:07Sep2000, Pressure=0.0 kbar"
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": null
+      },
+      "anisotropy energy type": {
+        "value": null
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": null
+      },
+      "kind of anisotropy": {
+        "value": null
+      },
+      "anisotropy info": {
+        "value": null
+      },
+      "exchange integrals": {
+        "value": null
+      },
+      "exchange info": {
+        "value": null
+      },
+      "magnetic order": {
+        "value": null
+      },
+      "curie temperature": {
+        "value": null
+      },
+      "curie temperature info": {
+        "value": null
+      },
+      "anisotropy field": {
+        "value": null
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": null
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": null
+      },
+      "domain wall width": {
+        "value": null
+      },
+      "domain wall info": {
+        "value": null
+      },
+      "exchange stiffness": {
+        "value": null
+      },
+      "exchange stiffness info": {
+        "value": null
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["ICCRAM"]
+      },
+      "reference": {
+        "value": null
+      },
+      "comments": {
+        "value": null
+      },
+      "attached files": {
+        "value": [
+"Fe10Ta2_#129_1.cif",
+"CONTCAR_Fe10Ta2_#129_1",
+"Fe10Ta2_#129_1.png"
+]
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

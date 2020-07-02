@@ -1,0 +1,211 @@
+{
+  "confidential": {
+  "value": false
+  }, 
+  "name": "NOVAMAG_theory_ICCRAM_Fe12Ge4_#12_1",
+  "properties": {
+    "approach": {
+      "value": "theory"
+    },
+    "summary": {
+      "value": "AGA, crystal, energy, magnetization"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "Fe12Ge4"
+      },
+      "production info": {
+        "value": "obtained by Adaptive Genetic Algorithm Structure Prediction Methods,  software USPEX+VASP"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 12
+      },
+      "unit cell volume": {
+        "value": 190.694812
+      },
+      "lattice parameters": {
+        "value": [
+          8.47635,
+          5.41265,
+          4.15649
+        ]
+      },
+      "lattice angles": {
+        "value": [
+          90.00000,
+          90.32179,
+          90.00000
+        ]
+      },
+      "atomic positions": {
+        "value": [
+"Fe1(4i)",
+0.13207,
+0.00000,
+0.25033,
+"Fe2(8j)",
+0.60572,
+0.24420,
+0.75081,
+"Ge1(4i)",
+0.65131,
+0.00000,
+0.25108
+]
+      },
+      "crystal info": {
+        "value": "software VASP, k-points mesh 5x7x10, Ecut-off=410.533 eV, PAW_PBE, Fe_pv:PAW_PBE:02Aug2007, Ge:PAW_PBE:05Jan2001, Pressure=0.0 kbar,temperature=0K"
+      }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": -118.33786604
+      },
+      "unit cell formation enthalpy": {
+        "value": -1.298496
+      },
+      "energy info": {
+        "value": "software VASP, k-points mesh 5x7x10, Ecut-off=410.533 eV, PAW_PBE, Fe_pv:PAW_PBE:02Aug2007, Ge:PAW_PBE:05Jan2001, Pressure=0.0 kbar,temperature=0K"
+      },
+      "interatomic potentials info": {
+        "value": null
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": 24.913
+      },
+      "atomic spin specie": {
+        "value": [
+"1 Fe",
+2.522,
+"2 Fe",
+2.522,
+"3 Fe",
+2.522,
+"4 Fe",
+2.522,
+"5 Fe",
+1.905,
+"6 Fe",
+1.918,
+"7 Fe",
+1.905,
+"8 Fe",
+1.918,
+"9 Fe",
+1.905,
+"10 Fe",
+1.918,
+"11 Fe",
+1.905,
+"12 Fe",
+1.918,
+"13 Ge",
+-0.117,
+"14 Ge",
+-0.117,
+"15 Ge",
+-0.117,
+"16 Ge",
+-0.117
+]
+      },
+      "saturation magnetization": {
+        "value": 1.522
+      },
+      "magnetization temperature": {
+        "value": 0
+      },
+      "magnetization info": {
+        "value": "software VASP, k-points mesh 5x7x10, Ecut-off=410.533 eV, PAW_PBE, Fe_pv:PAW_PBE:02Aug2007, Ge:PAW_PBE:05Jan2001, Pressure=0.0 kbar"
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": null
+      },
+      "anisotropy energy type": {
+        "value": null
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": null
+      },
+      "kind of anisotropy": {
+        "value": null
+      },
+      "anisotropy info": {
+        "value": null
+      },
+      "exchange integrals": {
+        "value": null
+      },
+      "exchange info": {
+        "value": null
+      },
+      "magnetic order": {
+        "value": null
+      },
+      "curie temperature": {
+        "value": null
+      },
+      "curie temperature info": {
+        "value": null
+      },
+      "anisotropy field": {
+        "value": null
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": null
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": null
+      },
+      "domain wall width": {
+        "value": null
+      },
+      "domain wall info": {
+        "value": null
+      },
+      "exchange stiffness": {
+        "value": null
+      },
+      "exchange stiffness info": {
+        "value": null
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["ICCRAM"]
+      },
+      "reference": {
+        "value": null
+      },
+      "comments": {
+        "value": null
+      },
+      "attached files": {
+        "value": [
+"Fe12Ge4_#12_1.cif",
+"CONTCAR_Fe12Ge4_#12_1",
+"Fe12Ge4_#12_1.png"
+]
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

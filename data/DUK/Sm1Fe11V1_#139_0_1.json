@@ -1,0 +1,153 @@
+{
+  "confidential": {
+  "value": false
+  },
+  "name": "NOVAMAG_theory_DUK_Sm1Fe11V1_#139_0_1",
+  "properties": {
+    "approach": {
+      "value": "theory"
+    },
+    "summary": {
+      "value": "micromagnetics, magnetization, anisotropy field, coercivity, exchange stiffness"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "Sm1Fe11V1"
+      },
+      "production info": {
+        "value": "known phase, prototype MnTh12 (1:12 phase)"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 139
+      },
+      "unit cell volume": {
+        "value": null
+      },
+      "lattice parameters": {
+        "value": null
+      },
+      "lattice angles": {
+        "value": null
+      },
+      "atomic positions": {
+        "value": null
+      },
+      "crystal info": {
+        "value": null
+	  }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": null
+      },
+      "unit cell formation enthalpy": {
+        "value": null
+      },
+      "energy info": {
+        "value": null
+      },
+      "interatomic potentials info": {
+        "value": null
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": null
+      },
+      "atomic spin specie": {
+        "value": null
+      },
+      "saturation magnetization": {
+        "value": 1.12
+      },
+      "magnetization temperature": {
+        "value": null
+      },
+      "magnetization info": {
+        "value": null
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": null
+      },
+      "anisotropy energy type": {
+        "value": null
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": null
+      },
+      "kind of anisotropy": {
+        "value": null
+      },
+      "anisotropy info": {
+        "value": null
+      },
+      "exchange integrals": {
+        "value": null
+      },
+      "exchange info": {
+        "value": null
+      },
+      "magnetic order": {
+        "value": null
+      },
+      "curie temperature": {
+        "value": null
+      },
+      "curie temperature info": {
+        "value": null
+      },
+      "anisotropy field": {
+        "value": 11.89
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": 7.53
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": "polyhedral grains, 1000 nm grain size, 3D polycrystal generator tool Neper, micromagnetics"
+      },
+      "domain wall width": {
+        "value": null
+      },
+      "domain wall info": {
+        "value": null
+      },
+      "exchange stiffness": {
+        "value": 10.0
+      },
+      "exchange stiffness info": {
+        "value": null
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["DUK"]
+      },
+      "reference": {
+        "value": null
+      },
+      "comments": {
+        "value": null
+      },
+      "attached files": { 
+        "value":  null
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

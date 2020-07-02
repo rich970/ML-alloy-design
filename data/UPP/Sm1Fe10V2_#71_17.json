@@ -1,0 +1,370 @@
+{
+  "confidential": {
+  "value": false
+  }, 
+  "name": "NOVAMAG_theory_UPP_Sm1Fe10V2_#71_17",
+  "properties": {
+    "approach": {
+      "value": "theory"
+    },
+    "summary": {
+      "value": "crystal, energy, magnetization, MAE, exchange integrals"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "Sm1Fe10V2"
+      },
+      "production info": {
+        "value": "Unit cell of the alloy system has been generated from the known stable phase 1:12"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 71
+      },
+      "unit cell volume": {
+        "value": 170.550880
+      },
+      "lattice parameters": {
+        "value": [
+          4.68863,
+          8.56475,
+          8.49422
+        ]
+      },
+      "lattice angles": {
+        "value": [
+          90.00000,
+          90.00000,
+          90.00000
+        ]
+      },
+      "atomic positions": {
+        "value": [
+"Sm1(2a)",
+0.00000,
+0.00000,
+0.00000,
+"Fe1(8k)",
+0.25000,
+0.25000,
+0.25000,
+"Fe2(4i)",
+0.00000,
+0.00000,
+0.36003,
+"Fe3(4j)",
+0.50000,
+0.00000,
+0.76940,
+"Fe4(4h)",
+0.00000,
+0.73105,
+0.50000,
+"V1(4g)",
+0.00000,
+0.35921,
+0.00000
+]
+      },
+      "crystal info": {
+        "value": "software VASP (version 5.3.5), irreducible k-points mesh 1088, Ecut-off=default, PAW_PBE, Sm_3:PAW_PBE:07Sep2000, Fe:PAW_PBE:06Sep2000, V_sv:PAW_PBE:02Aug2007, Pressure=0.0 kbar,temperature=0K"
+      }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": -105.66086505
+      },
+      "unit cell formation enthalpy": {
+        "value": null
+      },
+      "energy info": {
+        "value": "software VASP (version 5.3.5), irreducible k-points mesh 1088, Ecut-off=default, PAW_PBE, Sm_3:PAW_PBE:07Sep2000, Fe:PAW_PBE:06Sep2000, V_sv:PAW_PBE:02Aug2007, Pressure=0.0 kbar,temperature=0K"
+      },
+      "interatomic potentials info": {
+        "value": null
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": 17.369
+      },
+      "atomic spin specie": {
+        "value": [
+"1 Sm",
+-0.234,
+"2 Fe",
+1.726,
+"3 Fe",
+1.725,
+"4 Fe",
+1.716,
+"5 Fe",
+1.727,
+"6 Fe",
+2.383,
+"7 Fe",
+2.383,
+"8 Fe",
+2.065,
+"9 Fe",
+2.030,
+"10 Fe",
+2.030,
+"11 Fe",
+2.065,
+"12 V",
+-1.123,
+"13 V",
+-1.123
+]
+      },
+      "saturation magnetization": {
+        "value": 1.186
+      },
+      "magnetization temperature": {
+        "value": 0
+      },
+      "magnetization info": {
+        "value": "software VASP (version 5.3.5), irreducible k-points mesh 1088, Ecut-off=default, PAW_PBE, Sm_3:PAW_PBE:07Sep2000, Fe:PAW_PBE:06Sep2000, V_sv:PAW_PBE:02Aug2007, Pressure=0.0 kbar"
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": null
+      },
+      "anisotropy energy type": {
+        "value": "uniaxial"
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": [1.31,0.00]
+      },
+      "kind of anisotropy": {
+        "value": "easy axis"
+      },
+      "anisotropy info": {
+        "value": "code RSPT, k-points 24x24x24 (13824), 4f electrons in the core"
+      },
+      "exchange integrals": {
+        "value": ["Sm1-X",
+-0.13366,
+-0.13366,
+-0.13284,
+-0.13284,
+-0.15331,
+-0.15331,
+-0.16695,
+-0.16695,
+-0.16618,
+-0.16618,
+"Fe1-X",
+1.10518,
+1.10518,
+0.97784,
+0.97784,
+0.74047,
+0.74047,
+-0.31998,
+-0.31998,
+0.26954,
+0.26954,
+"Fe2-X",
+1.10518,
+1.10518,
+0.97892,
+0.97892,
+0.74099,
+0.74099,
+-0.31822,
+-0.31822,
+0.26706,
+0.26706,
+"Fe3-X",
+1.10445,
+1.10445,
+0.97409,
+0.97409,
+0.73843,
+0.73843,
+-0.31765,
+-0.31765,
+0.26824,
+0.26824,
+"Fe4-X",
+1.10445,
+1.10445,
+0.97857,
+0.97857,
+0.7363,
+0.7363,
+-0.31845,
+-0.31845,
+0.26764,
+0.26764,
+"Fe5-X",
+3.05623,
+1.34721,
+1.34474,
+0.59558,
+0.59777,
+0.26764,
+0.26706,
+0.26824,
+0.26954,
+"Fe6-X",
+3.05623,
+1.34721,
+1.34474,
+0.59777,
+0.59558,
+0.26954,
+0.26706,
+0.26824,
+0.26764,
+"Fe7-X",
+0.73843,
+0.7363,
+0.74047,
+0.74099,
+-0.2226,
+-0.22412,
+1.34721,
+1.34474,
+0.18413,
+0.1841,
+"Fe8-X",
+0.97857,
+0.97409,
+0.97784,
+0.97892,
+-0.52261,
+-0.51914,
+0.59777,
+0.59558,
+0.18413,
+0.1841,
+"Fe9-X",
+0.97784,
+0.97892,
+0.97409,
+0.97857,
+-0.52261,
+-0.51914,
+0.59558,
+0.59777,
+0.18413,
+0.1841,
+"Fe10-X",
+0.73843,
+0.7363,
+0.74099,
+0.74047,
+-0.2226,
+-0.22412,
+1.34721,
+1.34474,
+0.18413,
+0.1841,
+-0.13366,
+-0.13284,
+"V1-X",
+-0.08299,
+-0.2226,
+-0.22412,
+-0.52261,
+-0.51914,
+-0.31765,
+-0.31845,
+-0.31822,
+-0.31998,
+"V2-X",
+-0.08299,
+-0.2226,
+-0.22412,
+-0.52261,
+-0.51914,
+-0.31998,
+-0.31822,
+-0.31765,
+-0.31845]
+      },
+      "exchange info": {
+        "value": "See attached files, code RSPT, k-points 18x18x24 (7776), 4fs on Sm were treated as core. Factor 1/2 is not included in the definition of the Heisenberg Hamiltonian"
+      },
+      "magnetic order": {
+        "value": "ferromagnet"
+      },
+      "curie temperature": {
+        "value": 576.15
+      },
+      "curie temperature info": {
+        "value": "Mean-field approximation, Tc=2Jo/3kB. Jij summation for Tc is done only taking into account Fe interactions"
+      },
+      "anisotropy field": {
+        "value": null
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": null
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": null
+      },
+      "domain wall width": {
+        "value": null
+      },
+      "domain wall info": {
+        "value": null
+      },
+      "exchange stiffness": {
+        "value": null
+      },
+      "exchange stiffness info": {
+        "value": null
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["UPP"]
+      },
+      "reference": {
+        "value": "A.M. Schonhobel et al., Intrinsic magnetic properties of SmFe12-xVx alloys with reduced V-concentration, Journal of Alloys and Compounds, 786, 969 (2019)"
+      },
+      "comments": {
+        "value": null
+      },
+      "attached files": {
+        "value": [
+"Sm1Fe10V2_#71_17.cif",
+"CONTCAR_Sm1Fe10V2_#71_17",
+"Sm1Fe10V2_#71_17.png",
+"CONTCAR_SmFe10V2_Jijdat_Sm1",
+"CONTCAR_SmFe10V2_Jijdat_Fe1",
+"CONTCAR_SmFe10V2_Jijdat_Fe2",
+"CONTCAR_SmFe10V2_Jijdat_Fe3",
+"CONTCAR_SmFe10V2_Jijdat_Fe4",
+"CONTCAR_SmFe10V2_Jijdat_Fe5",
+"CONTCAR_SmFe10V2_Jijdat_Fe6",
+"CONTCAR_SmFe10V2_Jijdat_Fe7",
+"CONTCAR_SmFe10V2_Jijdat_Fe8",
+"CONTCAR_SmFe10V2_Jijdat_Fe9",
+"CONTCAR_SmFe10V2_Jijdat_Fe10",
+"CONTCAR_SmFe10V2_Jijdat_V1",
+"CONTCAR_SmFe10V2_Jijdat_V2"
+]
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

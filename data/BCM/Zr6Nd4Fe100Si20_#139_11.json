@@ -1,0 +1,161 @@
+{
+  "confidential": {
+  "value": false
+  }, 
+  "name": "NOVAMAG_exp_Demo_Zr6Nd4Fe100Si20_#139_11",
+  "properties": {
+    "approach": {
+      "value": "experiment"
+    },
+    "summary": {
+      "value": "crystal, anisotropy, Tc, magnetization, coercivity"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "Zr6Nd4Fe100Si20"
+      },
+      "production info": {
+        "value": null
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 139
+      },
+      "unit cell volume": {
+        "value": null
+      },
+      "lattice parameters": {
+        "value": [
+          8.370,
+          8.370,
+          4.737
+        ]
+      },
+      "lattice angles": {
+        "value": [
+          90.000,
+          90.000,
+          90.000
+        ]
+      },
+      "atomic positions": {
+        "value": null
+      },
+      "crystal info": {
+        "value": "known phase, prototype MnTh12 (1:12 phase)"
+      }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": null
+      },
+      "unit cell formation enthalpy": {
+        "value": null
+      },
+      "energy info": {
+        "value": null
+      },
+      "interatomic potentials info": {
+        "value": null
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": null
+      },
+      "atomic spin specie": {
+        "value": null
+      },
+      "saturation magnetization": {
+        "value": 1.24
+      },
+      "magnetization temperature": {
+        "value": 300.0
+      },
+      "magnetization info": {
+        "value": null
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": null
+      },
+      "anisotropy energy type": {
+        "value": null
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": null
+      },
+      "kind of anisotropy": {
+        "value": "easy cone"
+      },
+      "anisotropy info": {
+        "value": "Cone angle 24º"
+      },
+      "exchange integrals": {
+        "value": null
+      },
+      "exchange info": {
+        "value": null
+      },
+      "magnetic order": {
+        "value": "ferromagnet"
+      },
+      "curie temperature": {
+        "value": 559
+      },
+      "curie temperature info": {
+        "value": null
+      },
+      "anisotropy field": {
+        "value": 2.8
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": null
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": null
+      },
+      "domain wall width": {
+        "value": null
+      },
+      "domain wall info": {
+        "value": null
+      },
+      "exchange stiffness": {
+        "value": null
+      },
+      "exchange stiffness info": {
+        "value": null
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["Demokritos"]
+      },
+      "reference": {
+        "value": null
+      },
+      "comments": {
+        "value": null
+      },
+      "attached files": {
+        "value": null
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

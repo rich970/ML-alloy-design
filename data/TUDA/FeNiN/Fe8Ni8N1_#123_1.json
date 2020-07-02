@@ -1,0 +1,225 @@
+{
+  "confidential": {
+  "value": false
+  }, 
+  "name": "NOVAMAG_theory_TUDA_Fe8Ni8N1_#123_1",
+  "properties": {
+    "approach": {
+      "value": "theory"
+    },
+    "summary": {
+      "value": "crystal, energy, magnetization"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "Fe8Ni8N1"
+      },
+      "production info": {
+        "value": "initial POSCAR constructed manually"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 123
+      },
+      "unit cell volume": {
+        "value": 188.841017
+      },
+      "lattice parameters": {
+        "value": [
+          5.07736,
+          5.07736,
+          7.32521
+        ]
+      },
+      "lattice angles": {
+        "value": [
+          90.00000,
+          90.00000,
+          90.00000
+        ]
+      },
+      "atomic positions": {
+        "value": [
+"Fe1(2g)",
+0.00000,
+0.00000,
+0.74275,
+"Fe2(4i)",
+0.00000,
+0.50000,
+0.26076,
+"Fe3(2h)",
+0.50000,
+0.50000,
+0.74394,
+"Ni1(4j)",
+0.23891,
+0.23891,
+0.00000,
+"Ni2(4k)",
+0.25127,
+0.25127,
+0.50000,
+"N1(1c)",
+0.50000,
+0.50000,
+0.00000
+]
+      },
+      "crystal info": {
+        "value": "software VASP, irreducible k-points 816, Ecut-off=500 eV, PAW_PBE, Fe:PAW_PBE:06Sep2000, Ni:PAW_PBE:02Aug2007, N_s:PAW_PBE:07Sep2000, Pressure=0.0 kbar,temperature=0K"
+      }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": -118.55903252
+      },
+      "unit cell formation enthalpy": {
+        "value": -1.018575
+      },
+      "energy info": {
+        "value": "software VASP, irreducible k-points 816, Ecut-off=500 eV, PAW_PBE, Fe:PAW_PBE:06Sep2000, Ni:PAW_PBE:02Aug2007, N_s:PAW_PBE:07Sep2000, Pressure=0.0 kbar,temperature=0K"
+      },
+      "interatomic potentials info": {
+        "value": null
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": 25.486
+      },
+      "atomic spin specie": {
+        "value": [
+"1 Fe",
+2.705,
+"2 Fe",
+2.826,
+"3 Fe",
+2.818,
+"4 Fe",
+2.159,
+"5 Fe",
+2.705,
+"6 Fe",
+2.826,
+"7 Fe",
+2.818,
+"8 Fe",
+2.159,
+"9 Ni",
+0.461,
+"10 Ni",
+0.467,
+"11 Ni",
+0.460,
+"12 Ni",
+0.465,
+"13 Ni",
+0.658,
+"14 Ni",
+0.659,
+"15 Ni",
+0.656,
+"16 Ni",
+0.659,
+"17 N",
+-0.015
+]
+      },
+      "saturation magnetization": {
+        "value": 1.572
+      },
+      "magnetization temperature": {
+        "value": 0
+      },
+      "magnetization info": {
+        "value": "software VASP, irreducible k-points 816, Ecut-off=500 eV, PAW_PBE, Fe:PAW_PBE:06Sep2000, Ni:PAW_PBE:02Aug2007, N_s:PAW_PBE:07Sep2000, Pressure=0.0 kbar"
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": null
+      },
+      "anisotropy energy type": {
+        "value": null
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": null
+      },
+      "kind of anisotropy": {
+        "value": null
+      },
+      "anisotropy info": {
+        "value": null
+      },
+      "exchange integrals": {
+        "value": null
+      },
+      "exchange info": {
+        "value": null
+      },
+      "magnetic order": {
+        "value": null
+      },
+      "curie temperature": {
+        "value": null
+      },
+      "curie temperature info": {
+        "value": null
+      },
+      "anisotropy field": {
+        "value": null
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": null
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": null
+      },
+      "domain wall width": {
+        "value": null
+      },
+      "domain wall info": {
+        "value": null
+      },
+      "exchange stiffness": {
+        "value": null
+      },
+      "exchange stiffness info": {
+        "value": null
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["TUDA"]
+      },
+      "reference": {
+        "value": null
+      },
+      "comments": {
+        "value": null
+      },
+      "attached files": {
+        "value": [
+"Fe8Ni8N1_#123_1.cif",
+"CONTCAR_Fe8Ni8N1_#123_1",
+"Fe8Ni8N1_#123_1.png"
+]
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

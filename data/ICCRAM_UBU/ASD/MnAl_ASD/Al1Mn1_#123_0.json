@@ -1,0 +1,174 @@
+{
+  "confidential": {
+  "value": false
+  },
+  "name": "NOVAMAG_theory_ICCRAM_Al1Mn1_#123_0",
+  "properties": {
+    "approach": {
+      "value": "theory"
+    },
+    "summary": {
+      "value": "AGA, crystal, energy, magnetization, MAE, exchange, Tc, domain wall width, exchange stiffness"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "Al1Mn1"
+      },
+      "production info": {
+        "value": "obtained by Adaptive Genetic Algorithm,  software USPEX+VASP"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 123
+      },
+      "unit cell volume": {
+        "value": 26.358
+      },
+      "lattice parameters": {
+        "value": [
+          2.755,
+          2.755,
+          3.473
+        ]
+      },
+      "lattice angles": {
+        "value": [
+          90.000,
+          90.000,
+          90.000
+        ]
+      },
+      "atomic positions": {
+        "value": [
+          "Al1(1a)",
+          0.0,
+          0.0,
+          0.0,
+          "Mn1(1d)",
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "crystal info": {
+        "value": "software VASP (vasp.5.4.1), k-points mesh 15x15x12, Ecut-off=400 eV, PAW_PBE, Mn_pv:PAW_PBE:06Sep2000, Al:PAW_PBE:06Sep2000,Pressure=0.0 kbar,temperature=0K"
+      }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": -13.258362
+      },
+      "unit cell formation enthalpy": {
+        "value": null
+      },
+      "energy info": {
+        "value": "software VASP (vasp.5.4.1), k-points mesh 15x15x12, Ecut-off=400 eV, PAW_PBE, Mn_pv:PAW_PBE:06Sep2000, Al:PAW_PBE:06Sep2000,Pressure=0.0 kbar,temperature=0K"
+      },
+      "interatomic potentials info": {
+        "value": "https://www.ctcms.nist.gov/potentials/Al-Mn-Pd.html"
+      },
+      "magnetic free energy": {
+        "value": -13.258362
+      },
+      "magnetic free energy info": {
+        "value": "software VASP (vasp.5.4.1), k-points mesh 15x15x12, Ecut-off=400 eV, PAW_PBE, Mn_pv:PAW_PBE:06Sep2000, Al:PAW_PBE:06Sep2000,Pressure=0.0 kbar,temperature=0K"
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": 2.296
+      },
+      "atomic spin specie": {
+        "value": ["Al1",-0.056,"Mn1",2.352]
+      },
+      "saturation magnetization": {
+        "value": 1.01
+      },
+      "magnetization temperature": {
+        "value": 0.00
+      },
+      "magnetization info": {
+        "value": "software VASP, k-points mesh 15x15x12, Ecut-off=400 eV, PAW_PBE, Mn_pv:PAW_PBE:06Sep2000, Al:PAW_PBE:06Sep2000,Pressure=0.0 kbar,temperature=0K"
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": [0,0,1,-13.27359703,1,0,1,-13.27347226,1,0,0,-13.27334379]
+      },
+      "anisotropy energy type": {
+        "value": "uniaxial"
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": [1.51,0.00]
+      },
+      "kind of anisotropy": {
+        "value": "easy axis"
+      },
+      "anisotropy info": {
+        "value": "software VASP (vasp.5.4.1), including spin-orbit coupling, 2816 k-points in IBZ, Ecut-off=400 eV, PAW_PBE, Mn_pv:PAW_PBE:06Sep2000, Al:PAW_PBE:06Sep2000,Pressure=0.0 kbar,temperature=0K"
+      },
+      "exchange integrals": {
+        "value": ["Mn-Mn",2.5542,1.53838,1.10922,-0.54833,0.38383,-0.13525,0.1214,0.11231,0.1122,"Al-Al",-0.03054,0.05352,-0.00119,"Mn-Al",0.0967,-0.06642,-0.06491,0.02344,0.02341]
+      },
+      "exchange info": {
+        "value": "software Fleur (v26), spin spirals (Fourier transform), kmax=4.1 a.u., 1089 k-points and 441 q-points, PBE, Pressure=0.0 kbar"
+      },
+      "magnetic order": {
+        "value": "ferromagnet"
+      },
+      "curie temperature": {
+        "value": 660
+      },
+      "curie temperature info": {
+        "value": "software UppASD (v3.6), Atomistic Spin Dynamics, system size 40x40x40 spins, periodic boundary conditions,up to 5 nearest neighbors exchange interactions"
+      },
+      "anisotropy field": {
+        "value": null
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": null
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": null
+      },
+      "domain wall width": {
+        "value": 9.2
+      },
+      "domain wall info": {
+        "value": "Atomistic Spin Dynamics, system size 300x40x40 spins, temperature=5K"
+      },
+      "exchange stiffness": {
+        "value": 12.95
+      },
+      "exchange stiffness info": {
+        "value": "Atomistic Spin Dynamics, system size 300x40x40 spins, temperature=5K"
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["ICCRAM"]
+      },
+      "reference": {
+        "value": "P. Nieves, S. Arapan, T. Schrefl, and S. Cuesta-López, Atomistic spin dynamics simulations of the MnAl t-phase and its antiphase boundary, Phys. Rev. B 96, 224411 (2017)"
+      },
+      "comments": {
+        "value": null
+      },
+      "attached files": {
+        "value": [
+"Al1Mn1_#123_0.cif",
+"CONTCAR_Al1Mn1_#123_0",
+"Al1Mn1_#123_0.png"
+]
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

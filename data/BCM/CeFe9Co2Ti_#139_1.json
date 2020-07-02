@@ -1,0 +1,161 @@
+{
+  "confidential": {
+  "value": false
+  }, 
+  "name": "NOVAMAG_exp_BCM_CeFe9Co2Ti_#139_1",
+  "properties": {
+    "approach": {
+      "value": "experiment"
+    },
+    "summary": {
+      "value": "crystal, anisotropy, Tc, magnetization, coercivity"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "CeFe9Co2Ti"
+      },
+      "production info": {
+        "value": "melt-spun ribbons"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 139
+      },
+      "unit cell volume": {
+        "value": null
+      },
+      "lattice parameters": {
+        "value": [
+          8.527,
+          8.527,
+          4.797
+        ]
+      },
+      "lattice angles": {
+        "value": [
+          90.000,
+          90.000,
+          90.000
+        ]
+      },
+      "atomic positions": {
+        "value": null
+      },
+      "crystal info": {
+        "value": "known phase, prototype MnTh12 (1:12 phase)"
+      }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": null
+      },
+      "unit cell formation enthalpy": {
+        "value": null
+      },
+      "energy info": {
+        "value": null
+      },
+      "interatomic potentials info": {
+        "value": null
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": null
+      },
+      "atomic spin specie": {
+        "value": null
+      },
+      "saturation magnetization": {
+        "value": 1.23
+      },
+      "magnetization temperature": {
+        "value": 300.0
+      },
+      "magnetization info": {
+        "value": null
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": null
+      },
+      "anisotropy energy type": {
+        "value": null
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": null
+      },
+      "kind of anisotropy": {
+        "value": "easy axis"
+      },
+      "anisotropy info": {
+        "value": null
+      },
+      "exchange integrals": {
+        "value": null
+      },
+      "exchange info": {
+        "value": null
+      },
+      "magnetic order": {
+        "value": "ferromagnet"
+      },
+      "curie temperature": {
+        "value": 655
+      },
+      "curie temperature info": {
+        "value": null
+      },
+      "anisotropy field": {
+        "value": 2.6
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": 0.08
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": null
+      },
+      "domain wall width": {
+        "value": null
+      },
+      "domain wall info": {
+        "value": null
+      },
+      "exchange stiffness": {
+        "value": null
+      },
+      "exchange stiffness info": {
+        "value": null
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["BCM"]
+      },
+      "reference": {
+        "value": "A. Martín-Cid et al., Magnetic properties and phase stability of tetragonal Ce1-xSmxFe9Co2Ti1 1:12 phase for permanent magnets, J. Alloys Compd. 749, 640-644 (2018)"
+      },
+      "comments": {
+        "value": null
+      },
+      "attached files": {
+        "value": null
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

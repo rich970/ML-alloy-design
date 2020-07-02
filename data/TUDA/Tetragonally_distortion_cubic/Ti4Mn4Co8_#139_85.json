@@ -1,0 +1,178 @@
+{
+  "confidential": {
+  "value": false
+  }, 
+  "name": "NOVAMAG_theory_TUDA_Ti4Mn4Co8_#139_85",
+  "properties": {
+    "approach": {
+      "value": "theory"
+    },
+    "summary": {
+      "value": "crystal, tetragonal distortion, magnetization, MAE"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "Ti4Mn4Co8"
+      },
+      "production info": {
+        "value": "Imposed tetragonal distortion on cubic phase from Materials Project database"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 139
+      },
+      "unit cell volume": {
+        "value": 199.415526
+      },
+      "lattice parameters": {
+        "value": [
+          4.08984,
+          4.08984,
+          5.96096
+        ]
+      },
+      "lattice angles": {
+        "value": [
+          90.00000,
+          90.00000,
+          90.00000
+        ]
+      },
+      "atomic positions": {
+        "value": [
+"Ti1(2b)",
+0.00000,
+0.00000,
+0.50000,
+"Mn1(2a)",
+0.00000,
+0.00000,
+0.00000,
+"Co1(4d)",
+0.00000,
+0.50000,
+0.25000
+]
+      },
+      "crystal info": {
+        "value": "1% compressive strain is applied to get the tetragonally distorted structure under the constant volume approximation (unrelaxed crystal structure)"
+      }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": null
+      },
+      "unit cell formation enthalpy": {
+        "value": null
+      },
+      "energy info": {
+        "value": null
+      },
+      "interatomic potentials info": {
+        "value": null
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": null
+      },
+      "atomic spin specie": {
+        "value": null
+      },
+      "saturation magnetization": {
+        "value": 1.15553
+      },
+      "magnetization temperature": {
+        "value": 0.0
+      },
+      "magnetization info": {
+        "value": "software VASP (vasp.5.3.3), k-points mesh 8x8x8, Ecut-off=500 eV, PAW_PBE, Ti_sv:PAW_PBE:26Sep2005, Mn:PAW_PBE:06Sep2000, Co:PAW_PBE:02Aug2007"
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": null
+      },
+      "anisotropy energy type": {
+        "value": "uniaxial"
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": [0.0183501,0.00]
+      },
+      "kind of anisotropy": {
+        "value": "easy axis"
+      },
+      "anisotropy info": {
+        "value": "software VASP (vasp.5.3.3) with spin-orbit coupling, k-points mesh 8x8x8, Ecut-off=500 eV, PAW_PBE, Ti_sv:PAW_PBE:26Sep2005, Mn:PAW_PBE:06Sep2000, Co:PAW_PBE:02Aug2007"
+      },
+      "exchange integrals": {
+        "value": null
+      },
+      "exchange info": {
+        "value": null
+      },
+      "magnetic order": {
+        "value": null
+      },
+      "curie temperature": {
+        "value": null
+      },
+      "curie temperature info": {
+        "value": null
+      },
+      "anisotropy field": {
+        "value": null
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": null
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": null
+      },
+      "domain wall width": {
+        "value": null
+      },
+      "domain wall info": {
+        "value": null
+      },
+      "exchange stiffness": {
+        "value": null
+      },
+      "exchange stiffness info": {
+        "value": null
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["TUDA"]
+      },
+      "reference": {
+        "value": null
+      },
+      "comments": {
+        "value": "A tetragonal distortion was imposed on cubic material by changing the lattice constant in a brute force way, just to find out how the material would change under strain"
+      },
+      "attached files": {
+        "value": [
+"Ti4Mn4Co8_#139_85.cif",
+"CONTCAR_Ti4Mn4Co8_#139_85",
+"Ti4Mn4Co8_#139_85.png"
+]
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "confidential": {
+  "value": false
+  }, 
+  "name": "NOVAMAG_theory_ICCRAM_Co4Fe16Ta4_#44_2",
+  "properties": {
+    "approach": {
+      "value": "theory"
+    },
+    "summary": {
+      "value": "AGA, crystal, energy, magnetization"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "Co4Fe16Ta4"
+      },
+      "production info": {
+        "value": "obtained by Adaptive Genetic Algorithm Structure Prediction Methods,  software USPEX+VASP"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 44
+      },
+      "unit cell volume": {
+        "value": 298.193266
+      },
+      "lattice parameters": {
+        "value": [
+          4.03615,
+          3.03986,
+          24.30394
+        ]
+      },
+      "lattice angles": {
+        "value": [
+          90.00000,
+          90.00000,
+          90.00000
+        ]
+      },
+      "atomic positions": {
+        "value": [
+"Co1(2a)",
+0.00000,
+0.00000,
+0.77591,
+"Co2(2b)",
+0.00000,
+0.50000,
+0.03283,
+"Fe1(2b)",
+0.00000,
+0.50000,
+0.69182,
+"Fe2(2b)",
+0.00000,
+0.50000,
+0.85962,
+"Fe3(2b)",
+0.00000,
+0.50000,
+0.36372,
+"Fe4(2b)",
+0.00000,
+0.50000,
+0.53234,
+"Fe5(2a)",
+0.00000,
+0.00000,
+0.11273,
+"Fe6(2a)",
+0.00000,
+0.00000,
+0.61209,
+"Fe7(2b)",
+0.00000,
+0.50000,
+0.19249,
+"Fe8(2a)",
+0.00000,
+0.00000,
+0.44802,
+"Ta1(2a)",
+0.00000,
+0.00000,
+-0.05324,
+"Ta2(2a)",
+0.00000,
+0.00000,
+0.27674
+]
+      },
+      "crystal info": {
+        "value": "software VASP, k-points mesh 10x13x2, Ecut-off=410.533 eV, PAW_PBE, Co_pv:PAW_PBE:23Apr2009, Fe_pv:PAW_PBE:02Aug2007, Ta_pv:PAW_PBE:07Sep2000, Pressure=0.0 kbar,temperature=0K"
+      }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": -208.83907681
+      },
+      "unit cell formation enthalpy": {
+        "value": -1.369634
+      },
+      "energy info": {
+        "value": "software VASP, k-points mesh 10x13x2, Ecut-off=410.533 eV, PAW_PBE, Co_pv:PAW_PBE:23Apr2009, Fe_pv:PAW_PBE:02Aug2007, Ta_pv:PAW_PBE:07Sep2000, Pressure=0.0 kbar,temperature=0K"
+      },
+      "interatomic potentials info": {
+        "value": null
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": 40.289
+      },
+      "atomic spin specie": {
+        "value": [
+"1 Co",
+1.101,
+"2 Co",
+1.101,
+"3 Co",
+1.456,
+"4 Co",
+1.456,
+"5 Fe",
+2.554,
+"6 Fe",
+2.554,
+"7 Fe",
+2.257,
+"8 Fe",
+2.257,
+"9 Fe",
+2.224,
+"10 Fe",
+2.224,
+"11 Fe",
+2.640,
+"12 Fe",
+2.640,
+"13 Fe",
+2.718,
+"14 Fe",
+2.718,
+"15 Fe",
+2.343,
+"16 Fe",
+2.343,
+"17 Fe",
+1.956,
+"18 Fe",
+1.956,
+"19 Fe",
+1.645,
+"20 Fe",
+1.645,
+"21 Ta",
+-0.397,
+"22 Ta",
+-0.397,
+"23 Ta",
+-0.352,
+"24 Ta",
+-0.352
+]
+      },
+      "saturation magnetization": {
+        "value": 1.574
+      },
+      "magnetization temperature": {
+        "value": 0
+      },
+      "magnetization info": {
+        "value": "software VASP, k-points mesh 10x13x2, Ecut-off=410.533 eV, PAW_PBE, Co_pv:PAW_PBE:23Apr2009, Fe_pv:PAW_PBE:02Aug2007, Ta_pv:PAW_PBE:07Sep2000, Pressure=0.0 kbar"
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": null
+      },
+      "anisotropy energy type": {
+        "value": null
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": null
+      },
+      "kind of anisotropy": {
+        "value": null
+      },
+      "anisotropy info": {
+        "value": null
+      },
+      "exchange integrals": {
+        "value": null
+      },
+      "exchange info": {
+        "value": null
+      },
+      "magnetic order": {
+        "value": null
+      },
+      "curie temperature": {
+        "value": null
+      },
+      "curie temperature info": {
+        "value": null
+      },
+      "anisotropy field": {
+        "value": null
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": null
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": null
+      },
+      "domain wall width": {
+        "value": null
+      },
+      "domain wall info": {
+        "value": null
+      },
+      "exchange stiffness": {
+        "value": null
+      },
+      "exchange stiffness info": {
+        "value": null
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["ICCRAM"]
+      },
+      "reference": {
+        "value": null
+      },
+      "comments": {
+        "value": null
+      },
+      "attached files": {
+        "value": [
+"Co4Fe16Ta4_#44_2.cif",
+"CONTCAR_Co4Fe16Ta4_#44_2",
+"Co4Fe16Ta4_#44_2.png"
+]
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

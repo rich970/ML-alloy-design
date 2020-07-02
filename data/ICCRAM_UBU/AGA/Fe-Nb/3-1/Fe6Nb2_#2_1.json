@@ -1,0 +1,199 @@
+{
+  "confidential": {
+  "value": false
+  }, 
+  "name": "NOVAMAG_theory_ICCRAM_Fe6Nb2_#2_1",
+  "properties": {
+    "approach": {
+      "value": "theory"
+    },
+    "summary": {
+      "value": "AGA, crystal, energy, magnetization"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "Fe6Nb2"
+      },
+      "production info": {
+        "value": "obtained by Adaptive Genetic Algorithm Structure Prediction Methods,  software USPEX+VASP"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 2
+      },
+      "unit cell volume": {
+        "value": 103.513708
+      },
+      "lattice parameters": {
+        "value": [
+          4.87193,
+          4.88191,
+          4.98044
+        ]
+      },
+      "lattice angles": {
+        "value": [
+          117.88231,
+          94.31431,
+          94.58506
+        ]
+      },
+      "atomic positions": {
+        "value": [
+"Fe1(2i)",
+0.13265,
+0.32439,
+0.56862,
+"Fe2(2i)",
+0.63479,
+0.55980,
+0.82295,
+"Fe3(2i)",
+0.88264,
+0.19195,
+-0.06636,
+"Nb1(2i)",
+0.63893,
+0.07437,
+0.31022
+]
+      },
+      "crystal info": {
+        "value": "software VASP, k-points mesh 8x9x9, Ecut-off=410.533 eV, PAW_PBE, Fe_pv:PAW_PBE:02Aug2007, Nb_sv:PAW_PBE:25May2007, Pressure=0.0 kbar,temperature=0K"
+      }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": -70.02366507
+      },
+      "unit cell formation enthalpy": {
+        "value": -0.058733
+      },
+      "energy info": {
+        "value": "software VASP, k-points mesh 8x9x9, Ecut-off=410.533 eV, PAW_PBE, Fe_pv:PAW_PBE:02Aug2007, Nb_sv:PAW_PBE:25May2007, Pressure=0.0 kbar,temperature=0K"
+      },
+      "interatomic potentials info": {
+        "value": null
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": 11.644
+      },
+      "atomic spin specie": {
+        "value": [
+"1 Fe",
+2.189,
+"2 Fe",
+2.189,
+"3 Fe",
+1.998,
+"4 Fe",
+1.998,
+"5 Fe",
+2.143,
+"6 Fe",
+2.143,
+"7 Nb",
+-0.508,
+"8 Nb",
+-0.508
+]
+      },
+      "saturation magnetization": {
+        "value": 1.310
+      },
+      "magnetization temperature": {
+        "value": 0
+      },
+      "magnetization info": {
+        "value": "software VASP, k-points mesh 8x9x9, Ecut-off=410.533 eV, PAW_PBE, Fe_pv:PAW_PBE:02Aug2007, Nb_sv:PAW_PBE:25May2007, Pressure=0.0 kbar"
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": null
+      },
+      "anisotropy energy type": {
+        "value": null
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": null
+      },
+      "kind of anisotropy": {
+        "value": null
+      },
+      "anisotropy info": {
+        "value": null
+      },
+      "exchange integrals": {
+        "value": null
+      },
+      "exchange info": {
+        "value": null
+      },
+      "magnetic order": {
+        "value": null
+      },
+      "curie temperature": {
+        "value": null
+      },
+      "curie temperature info": {
+        "value": null
+      },
+      "anisotropy field": {
+        "value": null
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": null
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": null
+      },
+      "domain wall width": {
+        "value": null
+      },
+      "domain wall info": {
+        "value": null
+      },
+      "exchange stiffness": {
+        "value": null
+      },
+      "exchange stiffness info": {
+        "value": null
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["ICCRAM"]
+      },
+      "reference": {
+        "value": null
+      },
+      "comments": {
+        "value": null
+      },
+      "attached files": {
+        "value": [
+"Fe6Nb2_#2_1.cif",
+"CONTCAR_Fe6Nb2_#2_1",
+"Fe6Nb2_#2_1.png"
+]
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

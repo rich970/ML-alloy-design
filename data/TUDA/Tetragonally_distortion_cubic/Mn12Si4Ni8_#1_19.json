@@ -1,0 +1,262 @@
+{
+  "confidential": {
+  "value": false
+  }, 
+  "name": "NOVAMAG_theory_TUDA_Mn12Si4Ni8_#1_19",
+  "properties": {
+    "approach": {
+      "value": "theory"
+    },
+    "summary": {
+      "value": "crystal, tetragonal distortion, magnetization, MAE"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "Mn12Si4Ni8"
+      },
+      "production info": {
+        "value": "Imposed tetragonal distortion on cubic phase from Materials Project database"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 1
+      },
+      "unit cell volume": {
+        "value": 304.186689
+      },
+      "lattice parameters": {
+        "value": [
+          7.45489,
+          7.47171,
+          7.61501
+        ]
+      },
+      "lattice angles": {
+        "value": [
+          60.94482,
+          60.70349,
+          60.24832
+        ]
+      },
+      "atomic positions": {
+        "value": [
+"Mn1(1a)",
+0.43478,
+0.31522,
+0.31521,
+"Mn2(1a)",
+0.18484,
+0.06513,
+0.06519,
+"Mn3(1a)",
+0.56524,
+0.06520,
+0.68478,
+"Mn4(1a)",
+0.18485,
+0.06515,
+0.68485,
+"Mn5(1a)",
+0.81523,
+-0.06523,
+0.31522,
+"Mn6(1a)",
+0.81522,
+-0.06523,
+-0.06521,
+"Mn7(1a)",
+0.56519,
+0.68481,
+0.06520,
+"Mn8(1a)",
+0.56516,
+0.68487,
+0.68485,
+"Mn9(1a)",
+0.81526,
+0.31527,
+-0.06525,
+"Mn10(1a)",
+0.43477,
+0.31523,
+-0.06523,
+"Mn11(1a)",
+0.43477,
+-0.06527,
+0.31524,
+"Mn12(1a)",
+0.18478,
+0.68477,
+0.06526,
+"Si1(1a)",
+-0.00019,
+0.49994,
+0.00021,
+"Si2(1a)",
+-0.00009,
+0.49984,
+0.50000,
+"Si3(1a)",
+0.50021,
+0.50003,
+0.49981,
+"Si4(1a)",
+0.00000,
+0.00025,
+0.49990,
+"Ni1(1a)",
+0.86652,
+0.71117,
+0.71118,
+"Ni2(1a)",
+0.21111,
+0.71120,
+0.71112,
+"Ni3(1a)",
+0.13315,
+0.28883,
+0.28907,
+"Ni4(1a)",
+0.78897,
+0.28896,
+0.28887,
+"Ni5(1a)",
+0.21114,
+0.36657,
+0.71111,
+"Ni6(1a)",
+0.78906,
+0.28896,
+0.63314,
+"Ni7(1a)",
+0.78885,
+0.63320,
+0.28898,
+"Ni8(1a)",
+0.21119,
+0.71114,
+0.36652
+]
+      },
+      "crystal info": {
+        "value": "1% compressive strain is applied to get the tetragonally distorted structure under the constant volume approximation (unrelaxed crystal structure)"
+      }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": null
+      },
+      "unit cell formation enthalpy": {
+        "value": null
+      },
+      "energy info": {
+        "value": null
+      },
+      "interatomic potentials info": {
+        "value": null
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": null
+      },
+      "atomic spin specie": {
+        "value": null
+      },
+      "saturation magnetization": {
+        "value": 1.70857
+      },
+      "magnetization temperature": {
+        "value": 0.0
+      },
+      "magnetization info": {
+        "value": "software VASP (vasp.5.3.3), k-points mesh 6x6x6, Ecut-off=500 eV, PAW_PBE, Mn:PAW_PBE:06Sep2000, Si:PAW_PBE:05Jan2001, Ni:PAW_PBE:02Aug2007"
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": null
+      },
+      "anisotropy energy type": {
+        "value": "uniaxial"
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": [-0.00805329,0.00]
+      },
+      "kind of anisotropy": {
+        "value": "easy plane"
+      },
+      "anisotropy info": {
+        "value": "software VASP (vasp.5.3.3) with spin-orbit coupling, k-points mesh 6x6x6, Ecut-off=500 eV, PAW_PBE, Mn:PAW_PBE:06Sep2000, Si:PAW_PBE:05Jan2001, Ni:PAW_PBE:02Aug2007"
+      },
+      "exchange integrals": {
+        "value": null
+      },
+      "exchange info": {
+        "value": null
+      },
+      "magnetic order": {
+        "value": null
+      },
+      "curie temperature": {
+        "value": null
+      },
+      "curie temperature info": {
+        "value": null
+      },
+      "anisotropy field": {
+        "value": null
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": null
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": null
+      },
+      "domain wall width": {
+        "value": null
+      },
+      "domain wall info": {
+        "value": null
+      },
+      "exchange stiffness": {
+        "value": null
+      },
+      "exchange stiffness info": {
+        "value": null
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["TUDA"]
+      },
+      "reference": {
+        "value": null
+      },
+      "comments": {
+        "value": "A tetragonal distortion was imposed on cubic material by changing the lattice constant in a brute force way, just to find out how the material would change under strain"
+      },
+      "attached files": {
+        "value": [
+"Mn12Si4Ni8_#1_19.cif",
+"CONTCAR_Mn12Si4Ni8_#1_19",
+"Mn12Si4Ni8_#1_19.png"
+]
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

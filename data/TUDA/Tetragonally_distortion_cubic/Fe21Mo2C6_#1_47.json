@@ -1,0 +1,282 @@
+{
+  "confidential": {
+  "value": false
+  }, 
+  "name": "NOVAMAG_theory_TUDA_Fe21Mo2C6_#1_47",
+  "properties": {
+    "approach": {
+      "value": "theory"
+    },
+    "summary": {
+      "value": "crystal, tetragonal distortion, magnetization, MAE"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "Fe21Mo2C6"
+      },
+      "production info": {
+        "value": "Imposed tetragonal distortion on cubic phase from Materials Project database"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 1
+      },
+      "unit cell volume": {
+        "value": 289.300309
+      },
+      "lattice parameters": {
+        "value": [
+          7.33329,
+          7.34624,
+          7.48884
+        ]
+      },
+      "lattice angles": {
+        "value": [
+          60.95006,
+          60.69382,
+          60.24107
+        ]
+      },
+      "atomic positions": {
+        "value": [
+"Fe1(1a)",
+0.00028,
+0.65951,
+0.34013,
+"Fe2(1a)",
+0.34029,
+0.65970,
+0.00031,
+"Fe3(1a)",
+0.61618,
+0.61566,
+0.15188,
+"Fe4(1a)",
+-0.00019,
+0.00020,
+0.65964,
+"Fe5(1a)",
+0.15161,
+0.61587,
+0.61605,
+"Fe6(1a)",
+0.34028,
+0.00030,
+0.65974,
+"Fe7(1a)",
+0.65944,
+0.34048,
+0.00039,
+"Fe8(1a)",
+0.34044,
+-0.00020,
+-0.00021,
+"Fe9(1a)",
+0.65967,
+0.00032,
+0.34040,
+"Fe10(1a)",
+-0.00019,
+0.34041,
+0.00027,
+"Fe11(1a)",
+0.00035,
+0.34022,
+0.65931,
+"Fe12(1a)",
+0.65980,
+-0.00020,
+-0.00019,
+"Fe13(1a)",
+0.38386,
+0.84847,
+0.38358,
+"Fe14(1a)",
+0.00026,
+-0.00024,
+-0.00011,
+"Fe15(1a)",
+-0.00029,
+0.00022,
+0.34034,
+"Fe16(1a)",
+0.84828,
+0.38383,
+0.38367,
+"Fe17(1a)",
+0.61611,
+0.15192,
+0.61573,
+"Fe18(1a)",
+0.38412,
+0.38393,
+0.38379,
+"Fe19(1a)",
+-0.00017,
+0.65954,
+0.00021,
+"Fe20(1a)",
+0.61641,
+0.61594,
+0.61612,
+"Fe21(1a)",
+0.38378,
+0.38370,
+0.84850,
+"Mo1(1a)",
+0.24962,
+0.25057,
+0.25027,
+"Mo2(1a)",
+0.74983,
+0.75017,
+0.75042,
+"C1(1a)",
+0.27691,
+0.72298,
+0.72314,
+"C2(1a)",
+0.27719,
+0.27703,
+0.72277,
+"C3(1a)",
+0.72301,
+0.27698,
+0.72277,
+"C4(1a)",
+0.27722,
+0.72268,
+0.27697,
+"C5(1a)",
+0.72313,
+0.72272,
+0.27692,
+"C6(1a)",
+0.72276,
+0.27728,
+0.27719
+]
+      },
+      "crystal info": {
+        "value": "1% compressive strain is applied to get the tetragonally distorted structure under the constant volume approximation (unrelaxed crystal structure)"
+      }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": null
+      },
+      "unit cell formation enthalpy": {
+        "value": null
+      },
+      "energy info": {
+        "value": null
+      },
+      "interatomic potentials info": {
+        "value": null
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": null
+      },
+      "atomic spin specie": {
+        "value": null
+      },
+      "saturation magnetization": {
+        "value": 1.41479
+      },
+      "magnetization temperature": {
+        "value": 0.0
+      },
+      "magnetization info": {
+        "value": "software VASP (vasp.5.3.3), k-points mesh 6x6x6, Ecut-off=500 eV, PAW_PBE, Fe:PAW_PBE:06Sep2000, Mo:PAW_PBE:08Apr2002, C_s:PAW_PBE:06Sep2000"
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": null
+      },
+      "anisotropy energy type": {
+        "value": "uniaxial"
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": [-0.459852,0.00]
+      },
+      "kind of anisotropy": {
+        "value": "easy plane"
+      },
+      "anisotropy info": {
+        "value": "software VASP (vasp.5.3.3) with spin-orbit coupling, k-points mesh 6x6x6, Ecut-off=500 eV, PAW_PBE, Fe:PAW_PBE:06Sep2000, Mo:PAW_PBE:08Apr2002, C_s:PAW_PBE:06Sep2000"
+      },
+      "exchange integrals": {
+        "value": null
+      },
+      "exchange info": {
+        "value": null
+      },
+      "magnetic order": {
+        "value": null
+      },
+      "curie temperature": {
+        "value": null
+      },
+      "curie temperature info": {
+        "value": null
+      },
+      "anisotropy field": {
+        "value": null
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": null
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": null
+      },
+      "domain wall width": {
+        "value": null
+      },
+      "domain wall info": {
+        "value": null
+      },
+      "exchange stiffness": {
+        "value": null
+      },
+      "exchange stiffness info": {
+        "value": null
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["TUDA"]
+      },
+      "reference": {
+        "value": null
+      },
+      "comments": {
+        "value": "A tetragonal distortion was imposed on cubic material by changing the lattice constant in a brute force way, just to find out how the material would change under strain"
+      },
+      "attached files": {
+        "value": [
+"Fe21Mo2C6_#1_47.cif",
+"CONTCAR_Fe21Mo2C6_#1_47",
+"Fe21Mo2C6_#1_47.png"
+]
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "confidential": {
+  "value": false
+  }, 
+  "name": "NOVAMAG_theory_TUDA_Zn4Ni4_#119_572",
+  "properties": {
+    "approach": {
+      "value": "theory"
+    },
+    "summary": {
+      "value": "crystal, tetragonal distortion, magnetization, MAE"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "Zn4Ni4"
+      },
+      "production info": {
+        "value": "Imposed tetragonal distortion on cubic phase from Materials Project database"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 119
+      },
+      "unit cell volume": {
+        "value": 152.798323
+      },
+      "lattice parameters": {
+        "value": [
+          3.74248,
+          3.74248,
+          5.45468
+        ]
+      },
+      "lattice angles": {
+        "value": [
+          90.00000,
+          90.00000,
+          90.00000
+        ]
+      },
+      "atomic positions": {
+        "value": [
+"Zn1(2d)",
+0.00000,
+0.50000,
+0.75000,
+"Ni1(2a)",
+0.00000,
+0.00000,
+0.00000
+]
+      },
+      "crystal info": {
+        "value": "1% compressive strain is applied to get the tetragonally distorted structure under the constant volume approximation (unrelaxed crystal structure)"
+      }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": null
+      },
+      "unit cell formation enthalpy": {
+        "value": null
+      },
+      "energy info": {
+        "value": null
+      },
+      "interatomic potentials info": {
+        "value": null
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": null
+      },
+      "atomic spin specie": {
+        "value": null
+      },
+      "saturation magnetization": {
+        "value": 3.81339e-05
+      },
+      "magnetization temperature": {
+        "value": 0.0
+      },
+      "magnetization info": {
+        "value": "software VASP (vasp.5.3.3), k-points mesh 9x9x9, Ecut-off=500 eV, PAW_PBE, Zn:PAW_PBE:06Sep2000, Ni:PAW_PBE:02Aug2007"
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": null
+      },
+      "anisotropy energy type": {
+        "value": "uniaxial"
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": [-0.000272622,0.00]
+      },
+      "kind of anisotropy": {
+        "value": "easy plane"
+      },
+      "anisotropy info": {
+        "value": "software VASP (vasp.5.3.3) with spin-orbit coupling, k-points mesh 9x9x9, Ecut-off=500 eV, PAW_PBE, Zn:PAW_PBE:06Sep2000, Ni:PAW_PBE:02Aug2007"
+      },
+      "exchange integrals": {
+        "value": null
+      },
+      "exchange info": {
+        "value": null
+      },
+      "magnetic order": {
+        "value": null
+      },
+      "curie temperature": {
+        "value": null
+      },
+      "curie temperature info": {
+        "value": null
+      },
+      "anisotropy field": {
+        "value": null
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": null
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": null
+      },
+      "domain wall width": {
+        "value": null
+      },
+      "domain wall info": {
+        "value": null
+      },
+      "exchange stiffness": {
+        "value": null
+      },
+      "exchange stiffness info": {
+        "value": null
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["TUDA"]
+      },
+      "reference": {
+        "value": null
+      },
+      "comments": {
+        "value": "A tetragonal distortion was imposed on cubic material by changing the lattice constant in a brute force way, just to find out how the material would change under strain"
+      },
+      "attached files": {
+        "value": [
+"Zn4Ni4_#119_572.cif",
+"CONTCAR_Zn4Ni4_#119_572",
+"Zn4Ni4_#119_572.png"
+]
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

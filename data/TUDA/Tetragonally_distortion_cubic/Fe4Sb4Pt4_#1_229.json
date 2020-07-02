@@ -1,0 +1,214 @@
+{
+  "confidential": {
+  "value": false
+  }, 
+  "name": "NOVAMAG_theory_TUDA_Fe4Sb4Pt4_#1_229",
+  "properties": {
+    "approach": {
+      "value": "theory"
+    },
+    "summary": {
+      "value": "crystal, tetragonal distortion, magnetization, MAE"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "Fe4Sb4Pt4"
+      },
+      "production info": {
+        "value": "Imposed tetragonal distortion on cubic phase from Materials Project database"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 1
+      },
+      "unit cell volume": {
+        "value": 231.394572
+      },
+      "lattice parameters": {
+        "value": [
+          6.07659,
+          6.07772,
+          6.26546
+        ]
+      },
+      "lattice angles": {
+        "value": [
+          89.96974,
+          89.98083,
+          89.99656
+        ]
+      },
+      "atomic positions": {
+        "value": [
+"Fe1(1a)",
+0.87840,
+0.87821,
+0.62191,
+"Fe2(1a)",
+0.12169,
+0.37844,
+0.87839,
+"Fe3(1a)",
+0.37832,
+0.62181,
+0.37822,
+"Fe4(1a)",
+0.62149,
+0.12146,
+0.12160,
+"Sb1(1a)",
+0.38661,
+0.88657,
+0.88658,
+"Sb2(1a)",
+0.88674,
+0.61330,
+0.11328,
+"Sb3(1a)",
+0.11332,
+0.11324,
+0.38657,
+"Sb4(1a)",
+0.61305,
+0.38684,
+0.61322,
+"Pt1(1a)",
+0.03302,
+0.53285,
+0.53291,
+"Pt2(1a)",
+0.53312,
+-0.03293,
+0.46723,
+"Pt3(1a)",
+0.46713,
+0.46707,
+0.03300,
+"Pt4(1a)",
+-0.03288,
+0.03313,
+-0.03290
+]
+      },
+      "crystal info": {
+        "value": "1% compressive strain is applied to get the tetragonally distorted structure under the constant volume approximation (unrelaxed crystal structure)"
+      }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": null
+      },
+      "unit cell formation enthalpy": {
+        "value": null
+      },
+      "energy info": {
+        "value": null
+      },
+      "interatomic potentials info": {
+        "value": null
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": null
+      },
+      "atomic spin specie": {
+        "value": null
+      },
+      "saturation magnetization": {
+        "value": 0.597483
+      },
+      "magnetization temperature": {
+        "value": 0.0
+      },
+      "magnetization info": {
+        "value": "software VASP (vasp.5.3.3), k-points mesh 8x8x7, Ecut-off=500 eV, PAW_PBE, Fe:PAW_PBE:06Sep2000, Sb:PAW_PBE:06Sep2000, Pt:PAW_PBE:04Feb2005"
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": null
+      },
+      "anisotropy energy type": {
+        "value": "uniaxial"
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": [-2.138,0.00]
+      },
+      "kind of anisotropy": {
+        "value": "easy plane"
+      },
+      "anisotropy info": {
+        "value": "software VASP (vasp.5.3.3) with spin-orbit coupling, k-points mesh 8x8x7, Ecut-off=500 eV, PAW_PBE, Fe:PAW_PBE:06Sep2000, Sb:PAW_PBE:06Sep2000, Pt:PAW_PBE:04Feb2005"
+      },
+      "exchange integrals": {
+        "value": null
+      },
+      "exchange info": {
+        "value": null
+      },
+      "magnetic order": {
+        "value": null
+      },
+      "curie temperature": {
+        "value": null
+      },
+      "curie temperature info": {
+        "value": null
+      },
+      "anisotropy field": {
+        "value": null
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": null
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": null
+      },
+      "domain wall width": {
+        "value": null
+      },
+      "domain wall info": {
+        "value": null
+      },
+      "exchange stiffness": {
+        "value": null
+      },
+      "exchange stiffness info": {
+        "value": null
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["TUDA"]
+      },
+      "reference": {
+        "value": null
+      },
+      "comments": {
+        "value": "A tetragonal distortion was imposed on cubic material by changing the lattice constant in a brute force way, just to find out how the material would change under strain"
+      },
+      "attached files": {
+        "value": [
+"Fe4Sb4Pt4_#1_229.cif",
+"CONTCAR_Fe4Sb4Pt4_#1_229",
+"Fe4Sb4Pt4_#1_229.png"
+]
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

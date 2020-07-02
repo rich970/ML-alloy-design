@@ -1,0 +1,247 @@
+{
+  "confidential": {
+  "value": false
+  }, 
+  "name": "NOVAMAG_theory_ICCRAM_Fe12Ta4_#8_2",
+  "properties": {
+    "approach": {
+      "value": "theory"
+    },
+    "summary": {
+      "value": "AGA, crystal, energy, magnetization"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "Fe12Ta4"
+      },
+      "production info": {
+        "value": "obtained by Adaptive Genetic Algorithm Structure Prediction Methods,  software USPEX+VASP"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 8
+      },
+      "unit cell volume": {
+        "value": 205.310966
+      },
+      "lattice parameters": {
+        "value": [
+          8.29958,
+          5.96380,
+          8.29807
+        ]
+      },
+      "lattice angles": {
+        "value": [
+          90.00000,
+          91.31372,
+          90.00000
+        ]
+      },
+      "atomic positions": {
+        "value": [
+"Fe1(4b)",
+0.00409,
+0.25728,
+0.24143,
+"Fe2(2a)",
+0.50511,
+0.00000,
+-0.00076,
+"Fe3(2a)",
+0.75873,
+0.00000,
+0.74858,
+"Fe4(2a)",
+0.75432,
+0.00000,
+0.24423,
+"Fe5(2a)",
+0.25464,
+0.00000,
+0.24407,
+"Fe6(4b)",
+0.51285,
+0.24797,
+0.74755,
+"Fe7(4b)",
+0.75088,
+0.24714,
+0.00278,
+"Fe8(4b)",
+0.25917,
+0.24414,
+0.49291,
+"Ta1(2a)",
+0.51541,
+0.00000,
+0.49120,
+"Ta2(2a)",
+0.00208,
+0.00000,
+0.48950,
+"Ta3(2a)",
+0.26481,
+0.00000,
+0.75324,
+"Ta4(2a)",
+-0.00010,
+0.00000,
+-0.00004
+]
+      },
+      "crystal info": {
+        "value": "software VASP, k-points mesh 5x8x8, Ecut-off=410.533 eV, PAW_PBE, Fe_pv:PAW_PBE:02Aug2007, Ta_pv:PAW_PBE:07Sep2000, Pressure=0.0 kbar,temperature=0K"
+      }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": -147.71086288
+      },
+      "unit cell formation enthalpy": {
+        "value": -1.383107
+      },
+      "energy info": {
+        "value": "software VASP, k-points mesh 5x8x8, Ecut-off=410.533 eV, PAW_PBE, Fe_pv:PAW_PBE:02Aug2007, Ta_pv:PAW_PBE:07Sep2000, Pressure=0.0 kbar,temperature=0K"
+      },
+      "interatomic potentials info": {
+        "value": null
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": 20.767
+      },
+      "atomic spin specie": {
+        "value": [
+"1 Fe",
+1.728,
+"2 Fe",
+1.716,
+"3 Fe",
+2.591,
+"4 Fe",
+2.552,
+"5 Fe",
+2.593,
+"6 Fe",
+2.568,
+"7 Fe",
+1.224,
+"8 Fe",
+1.350,
+"9 Fe",
+1.784,
+"10 Fe",
+1.671,
+"11 Fe",
+1.284,
+"12 Fe",
+1.308,
+"13 Ta",
+-0.388,
+"14 Ta",
+-0.372,
+"15 Ta",
+-0.357,
+"16 Ta",
+-0.484
+]
+      },
+      "saturation magnetization": {
+        "value": 1.178
+      },
+      "magnetization temperature": {
+        "value": 0
+      },
+      "magnetization info": {
+        "value": "software VASP, k-points mesh 5x8x8, Ecut-off=410.533 eV, PAW_PBE, Fe_pv:PAW_PBE:02Aug2007, Ta_pv:PAW_PBE:07Sep2000, Pressure=0.0 kbar"
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": null
+      },
+      "anisotropy energy type": {
+        "value": null
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": null
+      },
+      "kind of anisotropy": {
+        "value": null
+      },
+      "anisotropy info": {
+        "value": null
+      },
+      "exchange integrals": {
+        "value": null
+      },
+      "exchange info": {
+        "value": null
+      },
+      "magnetic order": {
+        "value": null
+      },
+      "curie temperature": {
+        "value": null
+      },
+      "curie temperature info": {
+        "value": null
+      },
+      "anisotropy field": {
+        "value": null
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": null
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": null
+      },
+      "domain wall width": {
+        "value": null
+      },
+      "domain wall info": {
+        "value": null
+      },
+      "exchange stiffness": {
+        "value": null
+      },
+      "exchange stiffness info": {
+        "value": null
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["ICCRAM"]
+      },
+      "reference": {
+        "value": null
+      },
+      "comments": {
+        "value": null
+      },
+      "attached files": {
+        "value": [
+"Fe12Ta4_#8_2.cif",
+"CONTCAR_Fe12Ta4_#8_2",
+"Fe12Ta4_#8_2.png"
+]
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

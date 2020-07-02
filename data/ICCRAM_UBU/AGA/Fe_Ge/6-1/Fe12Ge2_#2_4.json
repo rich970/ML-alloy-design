@@ -1,0 +1,223 @@
+{
+  "confidential": {
+  "value": false
+  }, 
+  "name": "NOVAMAG_theory_ICCRAM_Fe12Ge2_#2_4",
+  "properties": {
+    "approach": {
+      "value": "theory"
+    },
+    "summary": {
+      "value": "AGA, crystal, energy, magnetization"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "Fe12Ge2"
+      },
+      "production info": {
+        "value": "obtained by Adaptive Genetic Algorithm Structure Prediction Methods,  software USPEX+VASP"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 2
+      },
+      "unit cell volume": {
+        "value": 164.830022
+      },
+      "lattice parameters": {
+        "value": [
+          4.97251,
+          6.24916,
+          6.26438
+        ]
+      },
+      "lattice angles": {
+        "value": [
+          118.89420,
+          98.34541,
+          96.46217
+        ]
+      },
+      "atomic positions": {
+        "value": [
+"Fe1(2i)",
+0.02620,
+0.41851,
+0.27941,
+"Fe2(2i)",
+0.81317,
+0.85791,
+0.57209,
+"Fe3(2i)",
+0.25084,
+0.00396,
+0.00797,
+"Fe4(2i)",
+0.89443,
+0.71415,
+0.14362,
+"Fe5(2i)",
+0.52878,
+0.43536,
+0.28222,
+"Fe6(2i)",
+0.39299,
+0.71417,
+0.14167,
+"Ge1(2i)",
+0.30777,
+0.84546,
+0.57465
+]
+      },
+      "crystal info": {
+        "value": "software VASP, k-points mesh 8x7x7, Ecut-off=410.533 eV, PAW_PBE, Fe_pv:PAW_PBE:02Aug2007, Ge:PAW_PBE:05Jan2001, Pressure=0.0 kbar,temperature=0K"
+      }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": -108.89218498
+      },
+      "unit cell formation enthalpy": {
+        "value": -0.836770
+      },
+      "energy info": {
+        "value": "software VASP, k-points mesh 8x7x7, Ecut-off=410.533 eV, PAW_PBE, Fe_pv:PAW_PBE:02Aug2007, Ge:PAW_PBE:05Jan2001, Pressure=0.0 kbar,temperature=0K"
+      },
+      "interatomic potentials info": {
+        "value": null
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": 27.695
+      },
+      "atomic spin specie": {
+        "value": [
+"1 Fe",
+2.321,
+"2 Fe",
+2.321,
+"3 Fe",
+2.159,
+"4 Fe",
+2.159,
+"5 Fe",
+2.321,
+"6 Fe",
+2.321,
+"7 Fe",
+2.484,
+"8 Fe",
+2.484,
+"9 Fe",
+2.365,
+"10 Fe",
+2.365,
+"11 Fe",
+2.314,
+"12 Fe",
+2.314,
+"13 Ge",
+-0.118,
+"14 Ge",
+-0.118
+]
+      },
+      "saturation magnetization": {
+        "value": 1.957
+      },
+      "magnetization temperature": {
+        "value": 0
+      },
+      "magnetization info": {
+        "value": "software VASP, k-points mesh 8x7x7, Ecut-off=410.533 eV, PAW_PBE, Fe_pv:PAW_PBE:02Aug2007, Ge:PAW_PBE:05Jan2001, Pressure=0.0 kbar"
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": null
+      },
+      "anisotropy energy type": {
+        "value": null
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": null
+      },
+      "kind of anisotropy": {
+        "value": null
+      },
+      "anisotropy info": {
+        "value": null
+      },
+      "exchange integrals": {
+        "value": null
+      },
+      "exchange info": {
+        "value": null
+      },
+      "magnetic order": {
+        "value": null
+      },
+      "curie temperature": {
+        "value": null
+      },
+      "curie temperature info": {
+        "value": null
+      },
+      "anisotropy field": {
+        "value": null
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": null
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": null
+      },
+      "domain wall width": {
+        "value": null
+      },
+      "domain wall info": {
+        "value": null
+      },
+      "exchange stiffness": {
+        "value": null
+      },
+      "exchange stiffness info": {
+        "value": null
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["ICCRAM"]
+      },
+      "reference": {
+        "value": null
+      },
+      "comments": {
+        "value": null
+      },
+      "attached files": {
+        "value": [
+"Fe12Ge2_#2_4.cif",
+"CONTCAR_Fe12Ge2_#2_4",
+"Fe12Ge2_#2_4.png"
+]
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

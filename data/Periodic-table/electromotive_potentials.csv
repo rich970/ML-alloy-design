@@ -1,0 +1,284 @@
+oxidant,reductant,potential
+Sr+ + e?,Sr,-4.1
+Ca+ + e?,Ca,-3.8
+Pr3+ + e?,Pr2+,-3.1
+N3N2(g) + 2H+ + 2e?,2HN3(aq),-3.09
+Li+ + e?,Li(s),-3.0401
+N2(g) + 4H2O + 2e?,2NH2OH(aq) + 2OH?,-3.04
+Cs+ + e?,Cs(s),-3.026
+Ca(OH)2 + 2e?,Ca + 2 OH?,-3.02
+Er3+ + e?,Er2+,-3
+Ba(OH)2 + 2e?,Ba + 2 OH?,-2.99
+Rb+ + e?,Rb(s),-2.98
+K+ + e?,K(s),-2.931
+Ba2+ + 2e?,Ba(s),-2.912
+La(OH)3(s) + 3e?,La(s) + 3OH?,-2.9
+Fr+ + e?,Fr,-2.9
+Sr2+ + 2e?,Sr(s),-2.899
+Sr(OH)2 + 2e?,Sr + 2 OH?,-2.88
+Ca2+ + 2e?,Ca(s),-2.868
+Li+ + e?,LiC6(s),-2.84
+Eu2+ + 2e?,Eu(s),-2.812
+Ra2+ + 2e?,Ra(s),-2.8
+Ho3+ + e?,Ho2+,-2.8
+Bk3+ + e?,Bk2+,-2.8
+Yb2+ + 2e?,Yb,-2.76
+Na+ + e?,Na(s),-2.71
+Mg+ + e?,Mg,-2.7
+Nd3+ + e?,Nd2+,-2.7
+Mg(OH)2 + 2e?,Mg + 2 OH?,-2.69
+Sm2+ + 2e?,Sm,-2.68
+Be2O32? + 3 H2O + 4e?,2 Be + 6 OH?,-2.63
+Pm3+ + e?,Pm2+,-2.6
+Dy3+ + e?,Dy2+,-2.6
+No2+ + 2e?,No,-2.5
+HfO(OH)2 + H2O + 4e?,Hf + 4 OH?,-2.5
+Th(OH)4 + 4e?,Th + 4 OH?,-2.48
+Md2+ + 2e?,Md,-2.4
+Tm2+ + 2e?,Tm,-2.4
+La3+ + 3e?,La(s),-2.379
+Y3+ + 3e?,Y(s),-2.372
+Mg2+ + 2e?,Mg(s),-2.372
+ZrO(OH)2(s) + H2O + 4e?,Zr(s) + 4OH?,-2.36
+Pr3+ + 3e?,Pr,-2.353
+Ce3+ + 3e?,Ce,-2.336
+Er3+ + 3e?,Er,-2.331
+Ho3+ + 3e?,Ho,-2.33
+H2AlO3? + H2O + 3e?,Al + 4 OH?,-2.33
+Nd3+ + 3e?,Nd,-2.323
+Tm3+ + 3e?,Tm,-2.319
+Al(OH)3(s) + 3e?,Al(s) + 3OH?,-2.31
+Sm3+ + 3e?,Sm,-2.304
+Fm2+ + 2e?,Fm,-2.3
+Am3+ + e?,Am2+,-2.3
+Dy3+ + 3e?,Dy,-2.295
+Lu3+ + 3e?,Lu,-2.28
+Tb3+ + 3e?,Tb,-2.28
+Gd3+ + 3e?,Gd,-2.279
+H2 + 2e?,2H?,-2.23
+Es2+ + 2e?,Es,-2.23
+Pm2+ + 2e?,Pm,-2.2
+Tm3+ + e?,Tm2+,-2.2
+Dy2+ + 2e?,Dy,-2.2
+Ac3+ + 3e?,Ac,-2.2
+Yb3+ + 3e?,Yb,-2.19
+Cf2+ + 2e?,Cf,-2.12
+Nd2+ + 2e?,Nd,-2.1
+Ho2+ + 2e?,Ho,-2.1
+Sc3+ + 3e?,Sc(s),-2.077
+AlF63? + 3e?,Al + 6 F?,-2.069
+Am3+ + 3e?,Am,-2.048
+Cm3+ + 3e?,Cm,-2.04
+Pu3+ + 3e?,Pu,-2.031
+Pr2+ + 2e?,Pr,-2
+Er2+ + 2e?,Er,-2
+Eu3+ + 3e?,Eu,-1.991
+Lr3+ + 3e?,Lr,-1.96
+Cf3+ + 3e?,Cf,-1.94
+Es3+ + 3e?,Es,-1.91
+Pa4+ + e?,Pa3+,-1.9
+Am2+ + 2e?,Am,-1.9
+Th4+ + 4e?,Th,-1.899
+Fm3+ + 3e?,Fm,-1.89
+Np3+ + 3e?,Np,-1.856
+Be2+ + 2e?,Be,-1.847
+H2PO2? + e?,P + 2 OH?,-1.82
+U3+ + 3e?,U,-1.798
+Sr2+ + 2e?,Sr/Hg,-1.793
+H2BO3? + H2O + 3e?,B + 4 OH?,-1.79
+ThO2 + 4H+ + 4e?,Th + 2 H2O,-1.789
+HfO2+ + 2 H+ + 4e?,Hf + H2O,-1.724
+HPO32? + 2 H2O + 3e?,P + 5 OH?,-1.71
+SiO32? + H2O + 4e?,Si + 6 OH?,-1.697
+Al3+ + 3e?,Al(s),-1.662
+Ti2+ + 2e?,Ti(s),-1.63
+ZrO2(s) + 4H+ + 4e?,Zr(s) + 2H2O,-1.553
+Zr4+ + 4e?,Zr(s),-1.45
+Ti3+ + 3e?,Ti(s),-1.37
+TiO(s) + 2H+ + 2e?,Ti(s) + H2O,-1.31
+Ti2O3(s) + 2H+ + 2e?,2TiO(s) + H2O,-1.23
+Zn(OH)42? + 2e?,Zn(s) + 4OH?,-1.199
+Mn2+ + 2e?,Mn(s),-1.185
+Fe(CN)64? + 6H+ + 2 e?,Fe(s) + 6HCN(aq),-1.16
+Te(s) + 2e?,Te2?,-1.143
+V2+ + 2e?,V(s),-1.13
+Nb3+ + 3e?,Nb(s),-1.099
+Sn(s) + 4H+ + 4e?,SnH4(g),-1.07
+SiO2(s) + 4H+ + 4e?,Si(s) + 2H2O,-0.91
+B(OH)3(aq) + 3H+ + 3e?,B(s) + 3H2O,-0.89
+Fe(OH)2(s) + 2e?,Fe(s) + 2OH?,-0.89
+Fe2O3(s) + 3H2O + 2e?,2Fe(OH)2(s) + 2OH?,-0.86
+TiO2+ + 2H+ + 4e?,Ti(s) + H2O,-0.86
+H2H2O + 2e?,H2(g) + 2OH?,-0.8277
+Bi(s) + 3H+ + 3e?,BiH3,-0.8
+Zn2+ + 2e?,Zn(Hg),-0.7628
+Zn2+ + 2e?,Zn(s),-0.7618
+Ta2O5(s) + 10H+ + 10e?,2Ta(s) + 5H2O,-0.75
+Cr3+ + 3e?,Cr(s),-0.74
+Ag2S(s) + 2e?,2Ag(s) + S2-(aq),-0.69
+Au[Au(CN)2]? + e?,Au(s) + 2CN?,-0.6
+Ta3+ + 3e?,Ta(s),-0.6
+PbO(s) + H2O + 2e?,Pb(s) + 2OH?,-0.58
+Ti2TiO2(s) + 2H+ + 2e?,Ti2O3(s) + H2O,-0.56
+Ga3+ + 3e?,Ga(s),-0.53
+U4+ + e?,U3+,-0.52
+P H3PO2(aq) + H+ + e?,P(white)[note 1] + 2H2O,-0.508
+P H3PO3(aq) + 2H+ + 2e?,H3PO2(aq) + H2O,-0.499
+P H3PO3(aq) + 3H+ + 3e?,P(red)[note 1] + 3H2O,-0.454
+Fe2+ + 2e?,Fe(s),-0.44
+C2CO2(g) + 2H+ + 2e?,HOOCCOOH(aq),-0.43
+Cr3+ + e?,Cr2+,-0.42
+Cd2+ + 2e?,Cd(s),-0.4
+GeO2(s) + 2H+ + 2e?,GeO(s) + H2O,-0.37
+Cu2O(s) + H2O + 2e?,2Cu(s) + 2OH?,-0.36
+PbSO4(s) + 2e?,Pb(s) + SO42?,-0.3588
+PbSO4(s) + 2e?,Pb(Hg) + SO42?,-0.3505
+Eu3+ + e?,Eu2+,-0.35
+In3+ + 3e?,In(s),-0.34
+Tl+ + e?,Tl(s),-0.34
+Ge(s) + 4H+ + 4e?,GeH4(g),-0.29
+Co2+ + 2e?,Co(s),-0.28
+P H3PO4(aq) + 2H+ + 2e?,H3PO3(aq) + H2O,-0.276
+V3+ + e?,V2+,-0.26
+Ni2+ + 2e?,Ni(s),-0.25
+As(s) + 3H+ + 3e?,AsH3(g),-0.23
+AgI(s) + e?,Ag(s) + I?,-0.15224
+MoO2(s) + 4H+ + 4e?,Mo(s) + 2H2O,-0.15
+Si(s) + 4H+ + 4e?,SiH4(g),-0.14
+Sn2+ + 2e?,Sn(s),-0.13
+O2(g) + H+ + e?,HO2•(aq),-0.13
+Pb2+ + 2e?,Pb(s),-0.126
+WO2(s) + 4H+ + 4e?,W(s) + 2H2O,-0.12
+P(red) + 3H+ + 3e?,PH3(g),-0.111
+C CO2(g) + 2H+ + 2e?,HCOOH(aq),-0.11
+Se(s) + 2H+ + 2e?,H2Se(g),-0.11
+C CO2(g) + 2H+ + 2e?,CO(g) + H2O,-0.11
+SnO(s) + 2H+ + 2e?,Sn(s) + H2O,-0.1
+SnO2(s) + 4H+ + 4e?,SnO(s) + 2H2O,-0.09
+WO3(aq) + 6H+ + 6e?,W(s) + 3H2O,-0.09
+P(white) + 3H+ + 3e?,PH3(g),-0.063
+Fe3+ + 3e?,Fe(s),-0.04
+C HCOOH(aq) + 2H+ + 2e?,HCHO(aq) + H2O,-0.03
+H 2H+ + 2e?,H2(g),0
+AgBr(s) + e?,Ag(s) + Br?,0.07133
+S4O62? + 2e?,2S2O32?,0.08
+Fe3O4(s) + 8H+ + 8e?,3Fe(s) + 4H2O,0.085
+N2(g) + 2H2O + 6H+ + 6e?,2NH4OH(aq),0.092
+HgO(s) + H2O + 2e?,Hg(l) + 2OH?,0.0977
+Cu(NH3)42+ + e?,Cu(NH3)2+ + 2NH3,0.1
+Ru(NH3)63+ + e?,Ru(NH3)62+,0.1
+N2H4(aq) + 4H2O + 2e?,2NH4+ + 4OH?,0.11
+Mo H2MoO4(aq) + 6H+ + 6e?,Mo(s) + 4H2O,0.11
+Ge4+ + 4e?,Ge(s),0.12
+C(s) + 4H+ + 4e?,CH4(g),0.13
+C HCHO(aq) + 2H+ + 2e?,CH3OH(aq),0.13
+S(s) + 2H+ + 2e?,H2S(g),0.14
+Sn4+ + 2e?,Sn2+,0.15
+Cu2+ + e?,Cu+,0.159
+S HSO4? + 3H+ + 2e?,SO2(aq) + 2H2O,0.16
+UO22+ + e?,UO2+,0.163
+S SO42? + 4H+ + 2e?,SO2(aq) + 2H2O,0.17
+TiO2+ + 2H+ + e?,Ti3+ + H2O,0.19
+SbO+ + 2H+ + 3e?,Sb(s) + H2O,0.2
+AgCl(s) + e?,Ag(s) + Cl?,0.22233
+As H3AsO3(aq) + 3H+ + 3e?,As(s) + 3H2O,0.24
+GeO(s) + 2H+ + 2e?,Ge(s) + H2O,0.26
+UO2+ + 4H+ + e?,U4+ + 2H2O,0.273
+Re3+ + 3e?,Re(s),0.3
+Bi3+ + 3e?,Bi(s),0.308
+Cu2+ + 2e?,Cu(s),0.337
+VO2+ + 2H+ + e?,V3+ + H2O,0.34
+Fe [Fe(CN)6]3? + e?,[Fe(CN)6]4?,0.36
+Fc+ + e?,Fc(s),0.4
+O2(g) + 2H2O + 4e?,4OH?(aq),0.401
+Mo H2MoO4 + 6H+ + 3e?,Mo3+ + 2H2O,0.43
+C CH3OH(aq) + 2H+ + 2e?,CH4(g) + H2O,0.5
+S SO2(aq) + 4H+ + 4e?,S(s) + 2H2O,0.5
+Cu+ + e?,Cu(s),0.52
+C CO(g) + 2H+ + 2e?,C(s) + H2O,0.52
+I3? + 2e?,3I?,0.53
+I2(s) + 2e?,2I?,0.54
+Au [AuI4]? + 3e?,Au(s) + 4I?,0.56
+As H3AsO4(aq) + 2H+ + 2e?,H3AsO3(aq) + H2O,0.56
+Au [AuI2]? + e?,Au(s) + 2I?,0.58
+MnO4? + 2H2O + 3e?,MnO2(s) + 4OH?,1.692
+S2O32? + 6H+ + 4e?,2S(s) + 3H2O,0.6
+Mo H2MoO4(aq) + 2H+ + 2e?,MoO2(s) + 2H2O,0.65
+C  + 2H+ + 2e?,,0.6992
+O2(g) + 2H+ + 2e?,H2O2(aq),0.7
+Tl3+ + 3e?,Tl(s),0.72
+PtCl62? + 2e?,PtCl42? + 2Cl?,0.726
+Se H2SeO3(aq) + 4H+ + 4e?,Se(s) + 3H2O,0.74
+PtCl42? + 2e?,Pt(s) + 4Cl?,0.758
+Fe3+ + e?,Fe2+,0.77
+Ag+ + e?,Ag(s),0.7996
+Hg22+ + 2e?,2Hg(l),0.8
+N NO3?(aq) + 2H+ + e?,NO2(g) + H2O,0.8
+Fe 2FeO42? + 5H2O + 6e?,Fe2O3(s) + 10 OH?,0.81
+Au [AuBr4]? + 3e?,Au(s) + 4Br?,0.85
+Hg2+ + 2e?,Hg(l),0.85
+Ir [IrCl6]2? + e?,[IrCl6]3?,0.87
+MnO4? + H+ + e?,HMnO4?,0.9
+Hg2Hg2+ + 2e?,Hg22+,0.91
+Pd2+ + 2e?,Pd(s),0.915
+Au [AuCl4]? + 3e?,Au(s) + 4Cl?,0.93
+MnO2(s) + 4H+ + e?,Mn3+ + 2H2O,0.95
+NO3?(aq) + 4H+ + 3e?,NO(g) + 2H2O(l),0.958
+Au[AuBr2]? + e?,Au(s) + 2Br?,0.96
+Xe[HXeO6]3? + 2H2O + 2e? +,[HXeO4]? + 4OH?,0.99
+[VO2]+(aq) + 2H+ + e?,[VO]2+(aq) + H2O,1
+TeH6TeO6(aq) + 2H+ + 2e?,TeO2(s) + 4H2O,1.02
+Br2(l) + 2e?,2Br?,1.066
+Br2(aq) + 2e?,2Br?,1.0873
+I IO3? + 5H+ + 4e?,HIO(aq) + 2H2O,1.13
+Au [AuCl2]? + e?,Au(s) + 2Cl?,1.15
+Se HSeO4? + 3H+ + 2e?,H2SeO3(aq) + H2O,1.15
+Ag2O(s) + 2H+ + 2e?,2Ag(s) + H2O,1.17
+ClO3? + 2H+ + e?,ClO2(g) + H2O,1.18
+Xe[HXeO6]3? + 5H2O + 8 e?,Xe(g) + 11OH?,1.18
+Pt2+ + 2e?,Pt(s),1.188
+ClO2(g) + H+ + e?,HClO2(aq),1.19
+I 2IO3? + 12H+ + 10e?,I2(s) + 6H2O,1.2
+ClO4? + 2H+ + 2e?,ClO3? + H2O,1.2
+O2(g) + 4H+ + 4e?,2H2O,1.229
+MnO2(s) + 4H+ + 2e?,Mn2+ + 2H2O,1.23
+Xe[HXeO4]? + 3H2O + 6 e?,Xe(g) + 7OH?,1.24
+Tl3+ + 2e?,Tl+,1.25
+Cr2O72? + 14H+ + 6e?,2Cr3+ + 7H2O,1.33
+Cl2(g) + 2e?,2Cl?,1.36
+CoO2(s) + 4H+ + e?,Co3+ + 2H2O,1.42
+N 2NH3OH+ + H+ + 2e?,N2H5+ + 2H2O,1.42
+I 2HIO(aq) + 2H+ + 2e?,I2(s) + 2H2O,1.44
+BrO3? + 5H+ + 4e?,HBrO(aq) + 2H2O,1.45
+PbO ?-PbO2(s) + 4H+ + 2e?,Pb2+ + 2H2O,1.46
+PbO ?-PbO2(s) + 4H+ + 2e?,Pb2+ + 2H2O,1.468
+Br 2BrO3? + 12H+ + 10e?,Br2(l) + 6H2O,1.48
+Cl 2ClO3? + 12H+ + 10e?,Cl2(g) + 6H2O,1.49
+Cl HClO(aq) + H+ + 2e?,Cl?(aq) + H2O,1.49
+MnO4? + 8H+ + 5e?,Mn2+ + 4H2O,1.51
+O HO2• + H+ + e?,H2O2(aq),1.51
+Au3+ + 3e?,Au(s),1.52
+NiO2(s) + 4H+ + 2e?,Ni2+ + 2OH?,1.59
+Ce4+ + e?,Ce3+,1.61
+Cl 2HClO(aq) + 2H+ + 2e?,Cl2(g) + 2H2O,1.63
+Ag2O3(s) + 6H+ + 4e?,2Ag+ + 3H2O,1.67
+Cl HClO2(aq) + 2H+ + 2e?,HClO(aq) + H2O,1.67
+Pb4+ + 2e?,Pb2+,1.69
+MnO4? + 4H+ + 3e?,MnO2(s) + 2H2O,1.7
+AgO(s) + 2H+ + e?,Ag+ + H2O,1.77
+O H2O2(aq) + 2H+ + 2e?,2H2O,1.78
+Co3+ + e?,Co2+,1.82
+Au+ + e?,Au(s),1.83
+BrO4? + 2H+ + 2e?,BrO3? + H2O,1.85
+Ag2+ + e?,Ag+,1.98
+S2O82? + 2e?,2SO42?,2.01
+O3(g) + 2H+ + 2e?,O2(g) + H2O,2.075
+Mn HMnO4? + 3H+ + 2e?,MnO2(s) + 2H2O,2.09
+XeO3(aq) + 6H+ + 6 e?,Xe(g) + 3H2O,2.12
+XeH4XeO6(aq) + 8H+ + 8 e?,Xe(g) + 6 H2O,2.18
+FeO42? + 3e? + 8H+,Fe3+ + 4H2O,2.2
+XeF2(aq) + 2H+ + 2e?,Xe(g) + 2HF(aq),2.32
+XeH4XeO6(aq) + 2H+ + 2e?,XeO3(aq) + 3H2O,2.42
+F2(g) + 2e?,2F?,2.87
+F2(g) + 2H+ + 2e?,2HF(aq),3.05
+KrF2(aq) + 2e?,Kr(g) + 2F?(aq),3.27

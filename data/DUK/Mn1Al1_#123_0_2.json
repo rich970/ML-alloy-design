@@ -1,0 +1,155 @@
+{
+  "confidential": {
+  "value": false
+  },
+  "name": "NOVAMAG_theory_DUK_Mn1Al1_#123_0_2",
+  "properties": {
+    "approach": {
+      "value": "theory"
+    },
+    "summary": {
+      "value": "micromagnetics, magnetization, anisotropy field, coercivity, exchange stiffness"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "Mn1Al1"
+      },
+      "production info": {
+        "value": "known phase (tau-phase), http://crono.ubu.es/novamag/show_item_features?mafid=1676"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 123
+      },
+      "unit cell volume": {
+        "value": null
+      },
+      "lattice parameters": {
+        "value": null
+      },
+      "lattice angles": {
+        "value": null
+      },
+      "atomic positions": {
+        "value": null
+      },
+      "crystal info": {
+        "value": null
+	  }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": null
+      },
+      "unit cell formation enthalpy": {
+        "value": null
+      },
+      "energy info": {
+        "value": null
+      },
+      "interatomic potentials info": {
+        "value": null
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": null
+      },
+      "atomic spin specie": {
+        "value": null
+      },
+      "saturation magnetization": {
+        "value": 0.8
+      },
+      "magnetization temperature": {
+        "value": null
+      },
+      "magnetization info": {
+        "value": null
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": null
+      },
+      "anisotropy energy type": {
+        "value": null
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": null
+      },
+      "kind of anisotropy": {
+        "value": null
+      },
+      "anisotropy info": {
+        "value": null
+      },
+      "exchange integrals": {
+        "value": null
+      },
+      "exchange info": {
+        "value": null
+      },
+      "magnetic order": {
+        "value": null
+      },
+      "curie temperature": {
+        "value": null
+      },
+      "curie temperature info": {
+        "value": null
+      },
+      "anisotropy field": {
+        "value": 4.71
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": 2.86
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": "polyhedral grains, 1000 nm grain size, 3D polycrystal generator tool Neper, micromagnetics"
+      },
+      "domain wall width": {
+        "value": null
+      },
+      "domain wall info": {
+        "value": null
+      },
+      "exchange stiffness": {
+        "value": 20.0
+      },
+      "exchange stiffness info": {
+        "value": null
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["DUK"]
+      },
+      "reference": {
+        "value": "A. Kovacs, J. Fischbacher, M. Gusenbauer, H. Oezelt, H. C. Herper, O. Y. Vekilova, P. Nieves, S. Arapan, T. Schrefl, Computational Design of the Rare-Earth Reduced Permanent Magnets, submitted to Engineering (2018), proceedings of the REMP2018 conference"
+      },
+      "comments": {
+        "value": null
+      },
+      "attached files": { 
+        "value":  [
+"MnAl_0_2.png"
+]
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

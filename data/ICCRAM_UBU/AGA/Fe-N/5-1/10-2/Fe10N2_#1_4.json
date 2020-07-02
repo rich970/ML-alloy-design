@@ -1,0 +1,239 @@
+{
+  "confidential": {
+  "value": false
+  }, 
+  "name": "NOVAMAG_theory_ICCRAM_Fe10N2_#1_4",
+  "properties": {
+    "approach": {
+      "value": "theory"
+    },
+    "summary": {
+      "value": "AGA, crystal, energy, magnetization"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "Fe10N2"
+      },
+      "production info": {
+        "value": "obtained by Adaptive Genetic Algorithm Structure Prediction Methods,  software USPEX+VASP"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 1
+      },
+      "unit cell volume": {
+        "value": 127.674994
+      },
+      "lattice parameters": {
+        "value": [
+          2.57465,
+          4.71111,
+          10.69181
+        ]
+      },
+      "lattice angles": {
+        "value": [
+          83.24561,
+          85.59882,
+          83.42412
+        ]
+      },
+      "atomic positions": {
+        "value": [
+"Fe1(1a)",
+0.76612,
+0.60581,
+0.88252,
+"Fe2(1a)",
+0.05410,
+0.05949,
+0.29049,
+"Fe3(1a)",
+0.60514,
+0.40135,
+0.68650,
+"Fe4(1a)",
+0.44845,
+0.18499,
+0.50070,
+"Fe5(1a)",
+0.34553,
+0.09279,
+0.87242,
+"Fe6(1a)",
+0.87615,
+0.69990,
+0.49056,
+"Fe7(1a)",
+0.24449,
+0.37792,
+0.09344,
+"Fe8(1a)",
+0.10393,
+0.89378,
+0.68620,
+"Fe9(1a)",
+0.83138,
+0.87048,
+0.08856,
+"Fe10(1a)",
+0.47407,
+0.57780,
+0.27527,
+"N1(1a)",
+-0.04096,
+0.38352,
+0.38941,
+"N2(1a)",
+0.79716,
+0.23498,
+-0.01717
+]
+      },
+      "crystal info": {
+        "value": "software VASP, k-points mesh 16x9x4, Ecut-off=560.000 eV, PAW_PBE, Fe_pv:PAW_PBE:02Aug2007, N:PAW_PBE:08Apr2002, Pressure=0.0 kbar,temperature=0K"
+      }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": -99.24405924
+      },
+      "unit cell formation enthalpy": {
+        "value": -0.000685
+      },
+      "energy info": {
+        "value": "software VASP, k-points mesh 16x9x4, Ecut-off=560.000 eV, PAW_PBE, Fe_pv:PAW_PBE:02Aug2007, N:PAW_PBE:08Apr2002, Pressure=0.0 kbar,temperature=0K"
+      },
+      "interatomic potentials info": {
+        "value": null
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": 22.428
+      },
+      "atomic spin specie": {
+        "value": [
+"1 Fe",
+2.392,
+"2 Fe",
+2.494,
+"3 Fe",
+2.680,
+"4 Fe",
+1.867,
+"5 Fe",
+1.855,
+"6 Fe",
+2.388,
+"7 Fe",
+1.983,
+"8 Fe",
+2.602,
+"9 Fe",
+2.451,
+"10 Fe",
+1.917,
+"11 N",
+-0.100,
+"12 N",
+-0.101
+]
+      },
+      "saturation magnetization": {
+        "value": 2.046
+      },
+      "magnetization temperature": {
+        "value": 0
+      },
+      "magnetization info": {
+        "value": "software VASP, k-points mesh 16x9x4, Ecut-off=560.000 eV, PAW_PBE, Fe_pv:PAW_PBE:02Aug2007, N:PAW_PBE:08Apr2002, Pressure=0.0 kbar"
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": null
+      },
+      "anisotropy energy type": {
+        "value": null
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": null
+      },
+      "kind of anisotropy": {
+        "value": null
+      },
+      "anisotropy info": {
+        "value": null
+      },
+      "exchange integrals": {
+        "value": null
+      },
+      "exchange info": {
+        "value": null
+      },
+      "magnetic order": {
+        "value": null
+      },
+      "curie temperature": {
+        "value": null
+      },
+      "curie temperature info": {
+        "value": null
+      },
+      "anisotropy field": {
+        "value": null
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": null
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": null
+      },
+      "domain wall width": {
+        "value": null
+      },
+      "domain wall info": {
+        "value": null
+      },
+      "exchange stiffness": {
+        "value": null
+      },
+      "exchange stiffness info": {
+        "value": null
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["ICCRAM"]
+      },
+      "reference": {
+        "value": null
+      },
+      "comments": {
+        "value": null
+      },
+      "attached files": {
+        "value": [
+"Fe10N2_#1_4.cif",
+"CONTCAR_Fe10N2_#1_4",
+"Fe10N2_#1_4.png"
+]
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

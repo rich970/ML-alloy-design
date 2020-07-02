@@ -1,0 +1,315 @@
+{
+  "confidential": {
+  "value": false
+  }, 
+  "name": "NOVAMAG_theory_ICCRAM_Co56Ta8_#141_1",
+  "properties": {
+    "approach": {
+      "value": "theory"
+    },
+    "summary": {
+      "value": "AGA, crystal, energy, magnetization"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "Co56Ta8"
+      },
+      "production info": {
+        "value": "obtained by Adaptive Genetic Algorithm Structure Prediction Methods,  software USPEX+VASP"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 141
+      },
+      "unit cell volume": {
+        "value": 738.149378
+      },
+      "lattice parameters": {
+        "value": [
+          7.15784,
+          7.15784,
+          14.40722
+        ]
+      },
+      "lattice angles": {
+        "value": [
+          90.00000,
+          90.00000,
+          90.00000
+        ]
+      },
+      "atomic positions": {
+        "value": [
+"Co1(16h)",
+0.00000,
+0.50741,
+0.62317,
+"Co2(16h)",
+0.00000,
+0.01202,
+0.12681,
+"Co3(16f)",
+0.73563,
+0.00000,
+0.00000,
+"Co4(8e)",
+0.00000,
+0.25000,
+0.49990,
+"Ta1(8e)",
+0.00000,
+0.25000,
+0.75518
+]
+      },
+      "crystal info": {
+        "value": "software VASP, k-points mesh 6x6x3, Ecut-off=379.459 eV, PAW_PBE, Co_pv:PAW_PBE:23Apr2009, Ta_pv:PAW_PBE:07Sep2000, Pressure=0.0 kbar,temperature=0K"
+      }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": -492.18329076
+      },
+      "unit cell formation enthalpy": {
+        "value": -4.001412
+      },
+      "energy info": {
+        "value": "software VASP, k-points mesh 6x6x3, Ecut-off=379.459 eV, PAW_PBE, Co_pv:PAW_PBE:23Apr2009, Ta_pv:PAW_PBE:07Sep2000, Pressure=0.0 kbar,temperature=0K"
+      },
+      "interatomic potentials info": {
+        "value": null
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": 72.119
+      },
+      "atomic spin specie": {
+        "value": [
+"1 Co",
+1.490,
+"2 Co",
+1.490,
+"3 Co",
+1.495,
+"4 Co",
+1.495,
+"5 Co",
+1.482,
+"6 Co",
+1.489,
+"7 Co",
+1.482,
+"8 Co",
+1.489,
+"9 Co",
+1.490,
+"10 Co",
+1.490,
+"11 Co",
+1.495,
+"12 Co",
+1.495,
+"13 Co",
+1.482,
+"14 Co",
+1.489,
+"15 Co",
+1.482,
+"16 Co",
+1.489,
+"17 Co",
+0.931,
+"18 Co",
+0.931,
+"19 Co",
+0.935,
+"20 Co",
+0.935,
+"21 Co",
+0.993,
+"22 Co",
+0.997,
+"23 Co",
+0.993,
+"24 Co",
+0.997,
+"25 Co",
+0.931,
+"26 Co",
+0.931,
+"27 Co",
+0.935,
+"28 Co",
+0.935,
+"29 Co",
+0.993,
+"30 Co",
+0.997,
+"31 Co",
+0.993,
+"32 Co",
+0.997,
+"33 Co",
+1.297,
+"34 Co",
+1.301,
+"35 Co",
+1.278,
+"36 Co",
+1.282,
+"37 Co",
+1.278,
+"38 Co",
+1.282,
+"39 Co",
+1.297,
+"40 Co",
+1.301,
+"41 Co",
+1.278,
+"42 Co",
+1.282,
+"43 Co",
+1.278,
+"44 Co",
+1.282,
+"45 Co",
+1.297,
+"46 Co",
+1.301,
+"47 Co",
+1.297,
+"48 Co",
+1.301,
+"49 Co",
+1.867,
+"50 Co",
+1.867,
+"51 Co",
+1.838,
+"52 Co",
+1.838,
+"53 Co",
+1.867,
+"54 Co",
+1.867,
+"55 Co",
+1.838,
+"56 Co",
+1.838,
+"57 Ta",
+-0.323,
+"58 Ta",
+-0.323,
+"59 Ta",
+-0.322,
+"60 Ta",
+-0.322,
+"61 Ta",
+-0.323,
+"62 Ta",
+-0.323,
+"63 Ta",
+-0.322,
+"64 Ta",
+-0.322
+]
+      },
+      "saturation magnetization": {
+        "value": 1.138
+      },
+      "magnetization temperature": {
+        "value": 0
+      },
+      "magnetization info": {
+        "value": "software VASP, k-points mesh 6x6x3, Ecut-off=379.459 eV, PAW_PBE, Co_pv:PAW_PBE:23Apr2009, Ta_pv:PAW_PBE:07Sep2000, Pressure=0.0 kbar"
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": null
+      },
+      "anisotropy energy type": {
+        "value": null
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": null
+      },
+      "kind of anisotropy": {
+        "value": null
+      },
+      "anisotropy info": {
+        "value": null
+      },
+      "exchange integrals": {
+        "value": null
+      },
+      "exchange info": {
+        "value": null
+      },
+      "magnetic order": {
+        "value": null
+      },
+      "curie temperature": {
+        "value": null
+      },
+      "curie temperature info": {
+        "value": null
+      },
+      "anisotropy field": {
+        "value": null
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": null
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": null
+      },
+      "domain wall width": {
+        "value": null
+      },
+      "domain wall info": {
+        "value": null
+      },
+      "exchange stiffness": {
+        "value": null
+      },
+      "exchange stiffness info": {
+        "value": null
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["ICCRAM"]
+      },
+      "reference": {
+        "value": null
+      },
+      "comments": {
+        "value": null
+      },
+      "attached files": {
+        "value": [
+"Co56Ta8_#141_1.cif",
+"CONTCAR_Co56Ta8_#141_1",
+"Co56Ta8_#141_1.png"
+]
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

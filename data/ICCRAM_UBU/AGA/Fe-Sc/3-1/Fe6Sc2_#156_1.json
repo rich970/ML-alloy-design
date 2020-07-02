@@ -1,0 +1,207 @@
+{
+  "confidential": {
+  "value": false
+  }, 
+  "name": "NOVAMAG_theory_ICCRAM_Fe6Sc2_#156_1",
+  "properties": {
+    "approach": {
+      "value": "theory"
+    },
+    "summary": {
+      "value": "AGA, crystal, energy, magnetization"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "Fe6Sc2"
+      },
+      "production info": {
+        "value": "obtained by Adaptive Genetic Algorithm Structure Prediction Methods,  software USPEX+VASP"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 156
+      },
+      "unit cell volume": {
+        "value": 108.019697
+      },
+      "lattice parameters": {
+        "value": [
+          4.65921,
+          4.65921,
+          5.74577
+        ]
+      },
+      "lattice angles": {
+        "value": [
+          90.00000,
+          90.00000,
+          120.00000
+        ]
+      },
+      "atomic positions": {
+        "value": [
+"Fe1(3d)",
+0.17288,
+0.82712,
+0.75164,
+"Fe2(1a)",
+0.00000,
+0.00000,
+0.07452,
+"Fe3(1c)",
+0.66667,
+0.33333,
+-0.07059,
+"Fe4(1a)",
+0.00000,
+0.00000,
+0.43469,
+"Sc1(1c)",
+0.66667,
+0.33333,
+0.45379,
+"Sc2(1b)",
+0.33333,
+0.66667,
+0.19763
+]
+      },
+      "crystal info": {
+        "value": "software VASP, k-points mesh 10x10x7, Ecut-off=410.533 eV, PAW_PBE, Fe_pv:PAW_PBE:02Aug2007, Sc_sv:PAW_PBE:07Sep2000, Pressure=0.0 kbar,temperature=0K"
+      }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": -61.77614296
+      },
+      "unit cell formation enthalpy": {
+        "value": 0.256368
+      },
+      "energy info": {
+        "value": "software VASP, k-points mesh 10x10x7, Ecut-off=410.533 eV, PAW_PBE, Fe_pv:PAW_PBE:02Aug2007, Sc_sv:PAW_PBE:07Sep2000, Pressure=0.0 kbar,temperature=0K"
+      },
+      "interatomic potentials info": {
+        "value": null
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": 2.686
+      },
+      "atomic spin specie": {
+        "value": [
+"1 Fe",
+1.262,
+"2 Fe",
+1.236,
+"3 Fe",
+0.921,
+"4 Fe",
+-0.863,
+"5 Fe",
+-0.121,
+"6 Fe",
+0.306,
+"7 Sc",
+-0.040,
+"8 Sc",
+-0.016
+]
+      },
+      "saturation magnetization": {
+        "value": 0.290
+      },
+      "magnetization temperature": {
+        "value": 0
+      },
+      "magnetization info": {
+        "value": "software VASP, k-points mesh 10x10x7, Ecut-off=410.533 eV, PAW_PBE, Fe_pv:PAW_PBE:02Aug2007, Sc_sv:PAW_PBE:07Sep2000, Pressure=0.0 kbar"
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": null
+      },
+      "anisotropy energy type": {
+        "value": null
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": null
+      },
+      "kind of anisotropy": {
+        "value": null
+      },
+      "anisotropy info": {
+        "value": null
+      },
+      "exchange integrals": {
+        "value": null
+      },
+      "exchange info": {
+        "value": null
+      },
+      "magnetic order": {
+        "value": null
+      },
+      "curie temperature": {
+        "value": null
+      },
+      "curie temperature info": {
+        "value": null
+      },
+      "anisotropy field": {
+        "value": null
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": null
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": null
+      },
+      "domain wall width": {
+        "value": null
+      },
+      "domain wall info": {
+        "value": null
+      },
+      "exchange stiffness": {
+        "value": null
+      },
+      "exchange stiffness info": {
+        "value": null
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["ICCRAM"]
+      },
+      "reference": {
+        "value": null
+      },
+      "comments": {
+        "value": null
+      },
+      "attached files": {
+        "value": [
+"Fe6Sc2_#156_1.cif",
+"CONTCAR_Fe6Sc2_#156_1",
+"Fe6Sc2_#156_1.png"
+]
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "confidential": {
+  "value": false
+  }, 
+  "name": "NOVAMAG_theory_ICCRAM_Fe32Ge16_#8_2",
+  "properties": {
+    "approach": {
+      "value": "theory"
+    },
+    "summary": {
+      "value": "AGA, crystal, energy, magnetization"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "Fe32Ge16"
+      },
+      "production info": {
+        "value": "obtained by Adaptive Genetic Algorithm Structure Prediction Methods,  software USPEX+VASP"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 8
+      },
+      "unit cell volume": {
+        "value": 615.395619
+      },
+      "lattice parameters": {
+        "value": [
+          13.25367,
+          3.96976,
+          11.77417
+        ]
+      },
+      "lattice angles": {
+        "value": [
+          90.00000,
+          96.58723,
+          90.00000
+        ]
+      },
+      "atomic positions": {
+        "value": [
+"Fe1(2a)",
+0.31234,
+0.00000,
+0.10599,
+"Fe2(2a)",
+0.12507,
+0.00000,
+0.07229,
+"Fe3(2a)",
+-0.00680,
+0.00000,
+0.45122,
+"Fe4(2a)",
+0.79813,
+0.00000,
+0.43308,
+"Fe5(2a)",
+0.63868,
+0.00000,
+0.78570,
+"Fe6(2a)",
+0.68184,
+0.00000,
+0.18508,
+"Fe7(2a)",
+0.82798,
+0.00000,
+0.81916,
+"Fe8(2a)",
+0.49883,
+0.00000,
+0.14789,
+"Fe9(2a)",
+0.24411,
+0.00000,
+0.29502,
+"Fe10(2a)",
+0.03332,
+0.00000,
+0.83307,
+"Fe11(2a)",
+-0.08594,
+0.00000,
+0.64176,
+"Fe12(2a)",
+0.05747,
+0.00000,
+0.25904,
+"Fe13(2a)",
+0.75345,
+0.00000,
+0.00408,
+"Fe14(2a)",
+0.56620,
+0.00000,
+-0.03592,
+"Fe15(2a)",
+0.42998,
+0.00000,
+0.33297,
+"Fe16(2a)",
+0.18995,
+0.00000,
+0.48289,
+"Ge1(2a)",
+0.61227,
+0.00000,
+0.37704,
+"Ge2(2a)",
+0.86613,
+0.00000,
+0.23334,
+"Ge3(2a)",
+0.73242,
+0.00000,
+0.62229,
+"Ge4(2a)",
+-0.06041,
+0.00000,
+0.00914,
+"Ge5(2a)",
+0.22633,
+0.00000,
+0.88601,
+"Ge6(2a)",
+0.09442,
+0.00000,
+0.64511,
+"Ge7(2a)",
+0.42970,
+0.00000,
+0.77301,
+"Ge8(2a)",
+0.39066,
+0.00000,
+0.52547
+]
+      },
+      "crystal info": {
+        "value": "software VASP, k-points mesh 3x10x3, Ecut-off=410.533 eV, PAW_PBE, Fe_pv:PAW_PBE:02Aug2007, Ge:PAW_PBE:05Jan2001, Pressure=0.0 kbar,temperature=0K"
+      }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": -339.11410763
+      },
+      "unit cell formation enthalpy": {
+        "value": -3.051907
+      },
+      "energy info": {
+        "value": "software VASP, k-points mesh 3x10x3, Ecut-off=410.533 eV, PAW_PBE, Fe_pv:PAW_PBE:02Aug2007, Ge:PAW_PBE:05Jan2001, Pressure=0.0 kbar,temperature=0K"
+      },
+      "interatomic potentials info": {
+        "value": null
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": 63.224
+      },
+      "atomic spin specie": {
+        "value": [
+"1 Fe",
+2.294,
+"2 Fe",
+2.294,
+"3 Fe",
+2.278,
+"4 Fe",
+2.278,
+"5 Fe",
+2.444,
+"6 Fe",
+2.444,
+"7 Fe",
+2.030,
+"8 Fe",
+2.030,
+"9 Fe",
+1.887,
+"10 Fe",
+1.887,
+"11 Fe",
+2.120,
+"12 Fe",
+2.119,
+"13 Fe",
+1.876,
+"14 Fe",
+1.876,
+"15 Fe",
+2.313,
+"16 Fe",
+2.313,
+"17 Fe",
+2.453,
+"18 Fe",
+2.453,
+"19 Fe",
+1.782,
+"20 Fe",
+1.782,
+"21 Fe",
+1.184,
+"22 Fe",
+1.184,
+"23 Fe",
+2.036,
+"24 Fe",
+2.036,
+"25 Fe",
+1.831,
+"26 Fe",
+1.831,
+"27 Fe",
+2.405,
+"28 Fe",
+2.405,
+"29 Fe",
+1.746,
+"30 Fe",
+1.745,
+"31 Fe",
+1.647,
+"32 Fe",
+1.648,
+"33 Ge",
+-0.082,
+"34 Ge",
+-0.082,
+"35 Ge",
+-0.079,
+"36 Ge",
+-0.079,
+"37 Ge",
+-0.092,
+"38 Ge",
+-0.092,
+"39 Ge",
+-0.109,
+"40 Ge",
+-0.109,
+"41 Ge",
+-0.080,
+"42 Ge",
+-0.080,
+"43 Ge",
+-0.101,
+"44 Ge",
+-0.101,
+"45 Ge",
+-0.082,
+"46 Ge",
+-0.082,
+"47 Ge",
+-0.089,
+"48 Ge",
+-0.089
+]
+      },
+      "saturation magnetization": {
+        "value": 1.197
+      },
+      "magnetization temperature": {
+        "value": 0
+      },
+      "magnetization info": {
+        "value": "software VASP, k-points mesh 3x10x3, Ecut-off=410.533 eV, PAW_PBE, Fe_pv:PAW_PBE:02Aug2007, Ge:PAW_PBE:05Jan2001, Pressure=0.0 kbar"
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": null
+      },
+      "anisotropy energy type": {
+        "value": null
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": null
+      },
+      "kind of anisotropy": {
+        "value": null
+      },
+      "anisotropy info": {
+        "value": null
+      },
+      "exchange integrals": {
+        "value": null
+      },
+      "exchange info": {
+        "value": null
+      },
+      "magnetic order": {
+        "value": null
+      },
+      "curie temperature": {
+        "value": null
+      },
+      "curie temperature info": {
+        "value": null
+      },
+      "anisotropy field": {
+        "value": null
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": null
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": null
+      },
+      "domain wall width": {
+        "value": null
+      },
+      "domain wall info": {
+        "value": null
+      },
+      "exchange stiffness": {
+        "value": null
+      },
+      "exchange stiffness info": {
+        "value": null
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["ICCRAM"]
+      },
+      "reference": {
+        "value": null
+      },
+      "comments": {
+        "value": null
+      },
+      "attached files": {
+        "value": [
+"Fe32Ge16_#8_2.cif",
+"CONTCAR_Fe32Ge16_#8_2",
+"Fe32Ge16_#8_2.png"
+]
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

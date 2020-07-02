@@ -1,0 +1,214 @@
+{
+  "confidential": {
+  "value": false
+  }, 
+  "name": "NOVAMAG_theory_TUDA_Ni4S8_#1_402",
+  "properties": {
+    "approach": {
+      "value": "theory"
+    },
+    "summary": {
+      "value": "crystal, tetragonal distortion, magnetization, MAE"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "Ni4S8"
+      },
+      "production info": {
+        "value": "Imposed tetragonal distortion on cubic phase from Materials Project database"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 1
+      },
+      "unit cell volume": {
+        "value": 176.201457
+      },
+      "lattice parameters": {
+        "value": [
+          5.53638,
+          5.53913,
+          5.74569
+        ]
+      },
+      "lattice angles": {
+        "value": [
+          89.98832,
+          89.99776,
+          89.97609
+        ]
+      },
+      "atomic positions": {
+        "value": [
+"Ni1(1a)",
+0.00532,
+0.00482,
+-0.00029,
+"Ni2(1a)",
+0.50593,
+0.50465,
+-0.00435,
+"Ni3(1a)",
+0.50448,
+0.00223,
+0.49900,
+"Ni4(1a)",
+0.00289,
+0.50702,
+0.49696,
+"S1(1a)",
+0.89683,
+0.39760,
+0.10440,
+"S2(1a)",
+0.39727,
+0.11170,
+0.89011,
+"S3(1a)",
+0.39487,
+0.39462,
+0.38867,
+"S4(1a)",
+0.89564,
+0.11300,
+0.60574,
+"S5(1a)",
+0.11145,
+0.61288,
+0.89111,
+"S6(1a)",
+0.61178,
+0.89678,
+0.10385,
+"S7(1a)",
+0.60963,
+0.60941,
+0.60238,
+"S8(1a)",
+0.11090,
+0.89830,
+0.39242
+]
+      },
+      "crystal info": {
+        "value": "1% compressive strain is applied to get the tetragonally distorted structure under the constant volume approximation (unrelaxed crystal structure)"
+      }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": null
+      },
+      "unit cell formation enthalpy": {
+        "value": null
+      },
+      "energy info": {
+        "value": null
+      },
+      "interatomic potentials info": {
+        "value": null
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": null
+      },
+      "atomic spin specie": {
+        "value": null
+      },
+      "saturation magnetization": {
+        "value": 0.0181354
+      },
+      "magnetization temperature": {
+        "value": 0.0
+      },
+      "magnetization info": {
+        "value": "software VASP (vasp.5.3.3), k-points mesh 9x9x8, Ecut-off=500 eV, PAW_PBE, Ni:PAW_PBE:02Aug2007, S:PAW_PBE:06Sep2000"
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": null
+      },
+      "anisotropy energy type": {
+        "value": "uniaxial"
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": [0.00771992,0.00]
+      },
+      "kind of anisotropy": {
+        "value": "easy axis"
+      },
+      "anisotropy info": {
+        "value": "software VASP (vasp.5.3.3) with spin-orbit coupling, k-points mesh 9x9x8, Ecut-off=500 eV, PAW_PBE, Ni:PAW_PBE:02Aug2007, S:PAW_PBE:06Sep2000"
+      },
+      "exchange integrals": {
+        "value": null
+      },
+      "exchange info": {
+        "value": null
+      },
+      "magnetic order": {
+        "value": null
+      },
+      "curie temperature": {
+        "value": null
+      },
+      "curie temperature info": {
+        "value": null
+      },
+      "anisotropy field": {
+        "value": null
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": null
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": null
+      },
+      "domain wall width": {
+        "value": null
+      },
+      "domain wall info": {
+        "value": null
+      },
+      "exchange stiffness": {
+        "value": null
+      },
+      "exchange stiffness info": {
+        "value": null
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["TUDA"]
+      },
+      "reference": {
+        "value": null
+      },
+      "comments": {
+        "value": "A tetragonal distortion was imposed on cubic material by changing the lattice constant in a brute force way, just to find out how the material would change under strain"
+      },
+      "attached files": {
+        "value": [
+"Ni4S8_#1_402.cif",
+"CONTCAR_Ni4S8_#1_402",
+"Ni4S8_#1_402.png"
+]
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

@@ -1,0 +1,373 @@
+13:22:16.459 [main] INFO  json_loader.utils.Backup - pg_dump: el último OID interno es 16383
+13:22:16.470 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo las extensiones
+13:22:16.470 [main] INFO  json_loader.utils.Backup - pg_dump: identificando miembros de extensión
+13:22:16.470 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo esquemas
+13:22:16.470 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo las tablas definidas por el usuario
+13:22:16.517 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo las funciones definidas por el usuario
+13:22:16.526 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo los tipos definidos por el usuario
+13:22:16.542 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo los lenguajes procedurales
+13:22:16.546 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo las funciones de agregación definidas por el usuario
+13:22:16.549 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo los operadores definidos por el usuario
+13:22:16.554 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo los métodos de acceso definidos por el usuario
+13:22:16.555 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo las clases de operadores definidos por el usuario
+13:22:16.557 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo las familias de operadores definidas por el usuario
+13:22:16.558 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo los procesadores (parsers) de búsqueda en texto definidos
+13:22:16.558 [main] INFO  json_loader.utils.Backup - por el usuario
+13:22:16.559 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo las plantillas de búsqueda en texto definidas por el usuario
+13:22:16.562 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo los diccionarios de búsqueda en texto definidos por el usuario
+13:22:16.563 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo las configuraciones de búsqueda en texto definidas por el usuario
+13:22:16.564 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo los conectores de datos externos definidos por el usuario
+13:22:16.566 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo los servidores foráneos definidas por el usuario
+13:22:16.567 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo los privilegios por omisión
+13:22:16.569 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo los ordenamientos definidos por el usuario
+13:22:16.570 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo las conversiones definidas por el usuario
+13:22:16.571 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo conversiones de tipo
+13:22:16.573 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo las transformaciones
+13:22:16.573 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo la información de herencia de las tablas
+13:22:16.574 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo los disparadores por eventos
+13:22:16.575 [main] INFO  json_loader.utils.Backup - pg_dump: buscando tablas de extensión
+13:22:16.576 [main] INFO  json_loader.utils.Backup - pg_dump: buscando relaciones de herencia
+13:22:16.576 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo la información de columnas para las tablas interesantes
+13:22:16.576 [main] INFO  json_loader.utils.Backup - pg_dump: buscando las columnas y tipos de la tabla «public.atoms»
+13:22:16.578 [main] INFO  json_loader.utils.Backup - pg_dump: buscando las columnas y tipos de la tabla «public.molecules»
+13:22:16.579 [main] INFO  json_loader.utils.Backup - pg_dump: buscando las columnas y tipos de la tabla «public.composition»
+13:22:16.580 [main] INFO  json_loader.utils.Backup - pg_dump: buscando las columnas y tipos de la tabla «public.magnetic_orders»
+13:22:16.582 [main] INFO  json_loader.utils.Backup - pg_dump: buscando las columnas y tipos de la tabla «public.items»
+13:22:16.583 [main] INFO  json_loader.utils.Backup - pg_dump: buscando expresiones por omisión de la tabla «public.items»
+13:22:16.584 [main] INFO  json_loader.utils.Backup - pg_dump: buscando restricciones de revisión (check) para la tabla «public.items»
+13:22:16.587 [main] INFO  json_loader.utils.Backup - pg_dump: buscando las columnas y tipos de la tabla «public.authors»
+13:22:16.588 [main] INFO  json_loader.utils.Backup - pg_dump: buscando las columnas y tipos de la tabla «public.authoring»
+13:22:16.589 [main] INFO  json_loader.utils.Backup - pg_dump: buscando las columnas y tipos de la tabla «public.file_types»
+13:22:16.590 [main] INFO  json_loader.utils.Backup - pg_dump: buscando las columnas y tipos de la tabla «public.attached_files»
+13:22:16.591 [main] INFO  json_loader.utils.Backup - pg_dump: marcando las columnas heredadas en las subtablas
+13:22:16.592 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo los índices
+13:22:16.592 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los índices para la tabla «public.atoms»
+13:22:16.594 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los índices para la tabla «public.molecules»
+13:22:16.596 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los índices para la tabla «public.composition»
+13:22:16.597 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los índices para la tabla «public.magnetic_orders»
+13:22:16.599 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los índices para la tabla «public.items»
+13:22:16.600 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los índices para la tabla «public.authors»
+13:22:16.601 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los índices para la tabla «public.authoring»
+13:22:16.603 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los índices para la tabla «public.file_types»
+13:22:16.604 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los índices para la tabla «public.attached_files»
+13:22:16.606 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo las restricciones
+13:22:16.606 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo restricciones de llave foránea para la tabla «public.atoms»
+13:22:16.607 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo restricciones de llave foránea para la tabla «public.molecules»
+13:22:16.607 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo restricciones de llave foránea para la tabla «public.composition»
+13:22:16.608 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo restricciones de llave foránea para la tabla «public.magnetic_orders»
+13:22:16.608 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo restricciones de llave foránea para la tabla «public.items»
+13:22:16.610 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo restricciones de llave foránea para la tabla «public.authors»
+13:22:16.610 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo restricciones de llave foránea para la tabla «public.authoring»
+13:22:16.611 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo restricciones de llave foránea para la tabla «public.file_types»
+13:22:16.611 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo restricciones de llave foránea para la tabla «public.attached_files»
+13:22:16.612 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo los disparadores (triggers)
+13:22:16.613 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los disparadores (triggers) para la tabla «public.atoms»
+13:22:16.614 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los disparadores (triggers) para la tabla «public.molecules»
+13:22:16.615 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los disparadores (triggers) para la tabla «public.composition»
+13:22:16.616 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los disparadores (triggers) para la tabla «public.magnetic_orders»
+13:22:16.617 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los disparadores (triggers) para la tabla «public.items»
+13:22:16.618 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los disparadores (triggers) para la tabla «public.authors»
+13:22:16.618 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los disparadores (triggers) para la tabla «public.authoring»
+13:22:16.619 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los disparadores (triggers) para la tabla «public.file_types»
+13:22:16.619 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los disparadores (triggers) para la tabla «public.attached_files»
+13:22:16.620 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo las reglas de reescritura
+13:22:16.621 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo políticas
+13:22:16.621 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo si seguridad de filas está activa para la tabla «public.atoms»
+13:22:16.621 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo las políticas para la tabla «public.atoms»
+13:22:16.623 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo si seguridad de filas está activa para la tabla «public.molecules»
+13:22:16.623 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo las políticas para la tabla «public.molecules»
+13:22:16.624 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo si seguridad de filas está activa para la tabla «public.composition»
+13:22:16.624 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo las políticas para la tabla «public.composition»
+13:22:16.625 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo si seguridad de filas está activa para la tabla «public.magnetic_orders»
+13:22:16.625 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo las políticas para la tabla «public.magnetic_orders»
+13:22:16.626 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo si seguridad de filas está activa para la tabla «public.items_mafid_seq»
+13:22:16.626 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo las políticas para la tabla «public.items_mafid_seq»
+13:22:16.627 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo si seguridad de filas está activa para la tabla «public.items»
+13:22:16.627 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo las políticas para la tabla «public.items»
+13:22:16.627 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo si seguridad de filas está activa para la tabla «public.authors»
+13:22:16.627 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo las políticas para la tabla «public.authors»
+13:22:16.628 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo si seguridad de filas está activa para la tabla «public.authoring»
+13:22:16.629 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo las políticas para la tabla «public.authoring»
+13:22:16.629 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo si seguridad de filas está activa para la tabla «public.file_types»
+13:22:16.629 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo las políticas para la tabla «public.file_types»
+13:22:16.630 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo si seguridad de filas está activa para la tabla «public.attached_files»
+13:22:16.630 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo las políticas para la tabla «public.attached_files»
+13:22:16.633 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo objetos grandes
+13:22:16.635 [main] INFO  json_loader.utils.Backup - pg_dump: obteniendo datos de dependencias
+13:22:16.649 [main] INFO  json_loader.utils.Backup - pg_dump: salvando codificaciones = UTF8
+13:22:16.650 [main] INFO  json_loader.utils.Backup - pg_dump: salvando standard_conforming_strings = on
+13:22:16.650 [main] INFO  json_loader.utils.Backup - pg_dump: deshabilitando disparadores (triggers) para atoms
+13:22:16.651 [main] INFO  json_loader.utils.Backup - pg_dump: procesando datos de la tabla «public.atoms»
+13:22:16.652 [main] INFO  json_loader.utils.Backup - pg_dump: habilitando disparadores (triggers) para atoms
+13:22:16.652 [main] INFO  json_loader.utils.Backup - pg_dump: deshabilitando disparadores (triggers) para file_types
+13:22:16.652 [main] INFO  json_loader.utils.Backup - pg_dump: procesando datos de la tabla «public.file_types»
+13:22:16.653 [main] INFO  json_loader.utils.Backup - pg_dump: habilitando disparadores (triggers) para file_types
+13:22:16.653 [main] INFO  json_loader.utils.Backup - pg_dump: deshabilitando disparadores (triggers) para magnetic_orders
+13:22:16.654 [main] INFO  json_loader.utils.Backup - pg_dump: procesando datos de la tabla «public.magnetic_orders»
+13:22:16.654 [main] INFO  json_loader.utils.Backup - pg_dump: habilitando disparadores (triggers) para magnetic_orders
+13:22:16.654 [main] INFO  json_loader.utils.Backup - pg_dump: deshabilitando disparadores (triggers) para molecules
+13:22:16.655 [main] INFO  json_loader.utils.Backup - pg_dump: procesando datos de la tabla «public.molecules»
+13:22:16.657 [main] INFO  json_loader.utils.Backup - pg_dump: habilitando disparadores (triggers) para molecules
+13:22:16.657 [main] INFO  json_loader.utils.Backup - pg_dump: deshabilitando disparadores (triggers) para items
+13:22:16.658 [main] INFO  json_loader.utils.Backup - pg_dump: procesando datos de la tabla «public.items»
+13:22:16.701 [main] INFO  json_loader.utils.Backup - pg_dump: habilitando disparadores (triggers) para items
+13:22:16.701 [main] INFO  json_loader.utils.Backup - pg_dump: deshabilitando disparadores (triggers) para attached_files
+13:22:16.701 [main] INFO  json_loader.utils.Backup - pg_dump: procesando datos de la tabla «public.attached_files»
+13:22:18.183 [main] INFO  json_loader.utils.Backup - pg_dump: habilitando disparadores (triggers) para attached_files
+13:22:18.183 [main] INFO  json_loader.utils.Backup - pg_dump: deshabilitando disparadores (triggers) para authors
+13:22:18.183 [main] INFO  json_loader.utils.Backup - pg_dump: procesando datos de la tabla «public.authors»
+13:22:18.184 [main] INFO  json_loader.utils.Backup - pg_dump: habilitando disparadores (triggers) para authors
+13:22:18.184 [main] INFO  json_loader.utils.Backup - pg_dump: deshabilitando disparadores (triggers) para authoring
+13:22:18.184 [main] INFO  json_loader.utils.Backup - pg_dump: procesando datos de la tabla «public.authoring»
+13:22:18.189 [main] INFO  json_loader.utils.Backup - pg_dump: habilitando disparadores (triggers) para authoring
+13:22:18.189 [main] INFO  json_loader.utils.Backup - pg_dump: deshabilitando disparadores (triggers) para composition
+13:22:18.189 [main] INFO  json_loader.utils.Backup - pg_dump: procesando datos de la tabla «public.composition»
+13:22:18.193 [main] INFO  json_loader.utils.Backup - pg_dump: habilitando disparadores (triggers) para composition
+13:22:18.193 [main] INFO  json_loader.utils.Backup - pg_dump: ejecutando SEQUENCE SET items_mafid_seq
+13:22:18.193 [main] INFO  json_loader.utils.Backup - pg_dump: estableciendo dueño y privilegios para TABLE DATA «public.atoms»
+13:22:18.193 [main] INFO  json_loader.utils.Backup - pg_dump: estableciendo dueño y privilegios para TABLE DATA «public.file_types»
+13:22:18.193 [main] INFO  json_loader.utils.Backup - pg_dump: estableciendo dueño y privilegios para TABLE DATA «public.magnetic_orders»
+13:22:18.194 [main] INFO  json_loader.utils.Backup - pg_dump: estableciendo dueño y privilegios para TABLE DATA «public.molecules»
+13:22:18.194 [main] INFO  json_loader.utils.Backup - pg_dump: estableciendo dueño y privilegios para TABLE DATA «public.items»
+13:22:18.194 [main] INFO  json_loader.utils.Backup - pg_dump: estableciendo dueño y privilegios para TABLE DATA «public.attached_files»
+13:22:18.194 [main] INFO  json_loader.utils.Backup - pg_dump: estableciendo dueño y privilegios para TABLE DATA «public.authors»
+13:22:18.194 [main] INFO  json_loader.utils.Backup - pg_dump: estableciendo dueño y privilegios para TABLE DATA «public.authoring»
+13:22:18.195 [main] INFO  json_loader.utils.Backup - pg_dump: estableciendo dueño y privilegios para TABLE DATA «public.composition»
+13:22:18.195 [main] INFO  json_loader.utils.Backup - pg_dump: estableciendo dueño y privilegios para SEQUENCE SET «public.items_mafid_seq»
+13:22:18.200 [main] INFO  json_loader.utils.Backup - Backup at time in milli=1539948135958 finished succesfully
+Loading a zip file...
+13:22:18.653 [main] INFO  json_loader.utils.ConnectionPool - Autocommit activated=false
+13:22:18.690 [main] INFO  json_loader.utils.ConnectionPool - Autocommit activation=false
+Isolation level=TRANSACTION_READ_COMMITTED
+BEGIN Directory: /root/novamag/novamag-loader/temp/1539948138201/CoSc	 n=0
+0	/root/novamag/novamag-loader/temp/1539948138201/CoSc/Co8Sc2_#139_1A.json
+13:22:18.860 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:18.860 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:18.961 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:18.963 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:18.977 [main] INFO  json_loader.utils.ConnectionPool - Autocommit activated=false
+13:22:18.978 [main] INFO  json_loader.utils.ConnectionPool - Autocommit activation=false
+Isolation level=TRANSACTION_READ_COMMITTED
+13:22:18.984 [main] INFO  json_loader.utils.ConnectionPool - Resultset closed OK
+13:22:18.985 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:18.985 [main] INFO  json_loader.utils.ConnectionPool - Connection closed OK
+13:22:18.997 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:18.999 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:18.999 [main] INFO  json_loader.utils.ConnectionPool - Resultset closed OK
+13:22:18.999 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+1	/root/novamag/novamag-loader/temp/1539948138201/CoSc/Co5Sc1_#191_1A.json
+13:22:19.008 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.009 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.019 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.021 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.030 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.031 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.031 [main] INFO  json_loader.utils.ConnectionPool - Resultset closed OK
+13:22:19.031 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+2	/root/novamag/novamag-loader/temp/1539948138201/CoSc/Co8Sc2_#87_1A.json
+13:22:19.043 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.052 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.053 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.059 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.059 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.060 [main] INFO  json_loader.utils.ConnectionPool - Resultset closed OK
+13:22:19.060 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+3	/root/novamag/novamag-loader/temp/1539948138201/CoSc/Co12Sc4_#194_1A.json
+13:22:19.067 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.068 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.074 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.076 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.091 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.092 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.092 [main] INFO  json_loader.utils.ConnectionPool - Resultset closed OK
+13:22:19.092 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+4	/root/novamag/novamag-loader/temp/1539948138201/CoSc/Co16Sc2_#139_1A.json
+13:22:19.101 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.102 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.107 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.107 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.113 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.114 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.114 [main] INFO  json_loader.utils.ConnectionPool - Resultset closed OK
+13:22:19.114 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+5	/root/novamag/novamag-loader/temp/1539948138201/CoSc/Co6Sc2_#123_1A.json
+13:22:19.125 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.125 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.129 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.130 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.135 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.140 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.140 [main] INFO  json_loader.utils.ConnectionPool - Resultset closed OK
+13:22:19.141 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+6	/root/novamag/novamag-loader/temp/1539948138201/CoSc/Co3Sc1_#123_1A.json
+13:22:19.145 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.145 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.148 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.149 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.167 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.168 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.168 [main] INFO  json_loader.utils.ConnectionPool - Resultset closed OK
+13:22:19.168 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+7	/root/novamag/novamag-loader/temp/1539948138201/CoSc/Co4Sc2_#139_1A.json
+13:22:19.180 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.180 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.184 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.184 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.189 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.191 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.191 [main] INFO  json_loader.utils.ConnectionPool - Resultset closed OK
+13:22:19.191 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+8	/root/novamag/novamag-loader/temp/1539948138201/CoSc/Co6Sc2_#139_1A.json
+13:22:19.197 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.205 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.206 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.211 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.212 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+13:22:19.212 [main] INFO  json_loader.utils.ConnectionPool - Resultset closed OK
+13:22:19.212 [main] INFO  json_loader.utils.ConnectionPool - Statement closed OK
+END Directory: /root/novamag/novamag-loader/temp/1539948138201/CoSc	 n=9
+---------------------------------------------------
+The file ../zipsNoel/CoSc.zip was successfully loaded.
+9 items loaded
+---------------------------------------------------
+13:22:19.216 [main] INFO  json_loader.Loader - ---------------------------------------------------
+13:22:19.216 [main] INFO  json_loader.Loader - The file ../zipsNoel/CoSc.zip was successfully loaded.
+13:22:19.216 [main] INFO  json_loader.Loader - 9 items loaded
+13:22:19.216 [main] INFO  json_loader.Loader - ---------------------------------------------------
+13:22:19.228 [main] INFO  json_loader.utils.Backup - pg_dump: el último OID interno es 16383
+13:22:19.229 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo las extensiones
+13:22:19.230 [main] INFO  json_loader.utils.Backup - pg_dump: identificando miembros de extensión
+13:22:19.231 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo esquemas
+13:22:19.234 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo las tablas definidas por el usuario
+13:22:19.274 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo las funciones definidas por el usuario
+13:22:19.281 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo los tipos definidos por el usuario
+13:22:19.293 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo los lenguajes procedurales
+13:22:19.295 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo las funciones de agregación definidas por el usuario
+13:22:19.297 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo los operadores definidos por el usuario
+13:22:19.301 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo los métodos de acceso definidos por el usuario
+13:22:19.302 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo las clases de operadores definidos por el usuario
+13:22:19.303 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo las familias de operadores definidas por el usuario
+13:22:19.304 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo los procesadores (parsers) de búsqueda en texto definidos
+13:22:19.304 [main] INFO  json_loader.utils.Backup - por el usuario
+13:22:19.305 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo las plantillas de búsqueda en texto definidas por el usuario
+13:22:19.305 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo los diccionarios de búsqueda en texto definidos por el usuario
+13:22:19.306 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo las configuraciones de búsqueda en texto definidas por el usuario
+13:22:19.307 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo los conectores de datos externos definidos por el usuario
+13:22:19.309 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo los servidores foráneos definidas por el usuario
+13:22:19.310 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo los privilegios por omisión
+13:22:19.311 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo los ordenamientos definidos por el usuario
+13:22:19.312 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo las conversiones definidas por el usuario
+13:22:19.313 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo conversiones de tipo
+13:22:19.314 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo las transformaciones
+13:22:19.315 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo la información de herencia de las tablas
+13:22:19.315 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo los disparadores por eventos
+13:22:19.316 [main] INFO  json_loader.utils.Backup - pg_dump: buscando tablas de extensión
+13:22:19.317 [main] INFO  json_loader.utils.Backup - pg_dump: buscando relaciones de herencia
+13:22:19.317 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo la información de columnas para las tablas interesantes
+13:22:19.317 [main] INFO  json_loader.utils.Backup - pg_dump: buscando las columnas y tipos de la tabla «public.atoms»
+13:22:19.319 [main] INFO  json_loader.utils.Backup - pg_dump: buscando las columnas y tipos de la tabla «public.molecules»
+13:22:19.320 [main] INFO  json_loader.utils.Backup - pg_dump: buscando las columnas y tipos de la tabla «public.composition»
+13:22:19.321 [main] INFO  json_loader.utils.Backup - pg_dump: buscando las columnas y tipos de la tabla «public.magnetic_orders»
+13:22:19.322 [main] INFO  json_loader.utils.Backup - pg_dump: buscando las columnas y tipos de la tabla «public.items»
+13:22:19.324 [main] INFO  json_loader.utils.Backup - pg_dump: buscando expresiones por omisión de la tabla «public.items»
+13:22:19.325 [main] INFO  json_loader.utils.Backup - pg_dump: buscando restricciones de revisión (check) para la tabla «public.items»
+13:22:19.326 [main] INFO  json_loader.utils.Backup - pg_dump: buscando las columnas y tipos de la tabla «public.authors»
+13:22:19.327 [main] INFO  json_loader.utils.Backup - pg_dump: buscando las columnas y tipos de la tabla «public.authoring»
+13:22:19.328 [main] INFO  json_loader.utils.Backup - pg_dump: buscando las columnas y tipos de la tabla «public.file_types»
+13:22:19.329 [main] INFO  json_loader.utils.Backup - pg_dump: buscando las columnas y tipos de la tabla «public.attached_files»
+13:22:19.330 [main] INFO  json_loader.utils.Backup - pg_dump: marcando las columnas heredadas en las subtablas
+13:22:19.331 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo los índices
+13:22:19.331 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los índices para la tabla «public.atoms»
+13:22:19.332 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los índices para la tabla «public.molecules»
+13:22:19.333 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los índices para la tabla «public.composition»
+13:22:19.335 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los índices para la tabla «public.magnetic_orders»
+13:22:19.336 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los índices para la tabla «public.items»
+13:22:19.337 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los índices para la tabla «public.authors»
+13:22:19.338 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los índices para la tabla «public.authoring»
+13:22:19.339 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los índices para la tabla «public.file_types»
+13:22:19.341 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los índices para la tabla «public.attached_files»
+13:22:19.342 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo las restricciones
+13:22:19.342 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo restricciones de llave foránea para la tabla «public.atoms»
+13:22:19.342 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo restricciones de llave foránea para la tabla «public.molecules»
+13:22:19.343 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo restricciones de llave foránea para la tabla «public.composition»
+13:22:19.343 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo restricciones de llave foránea para la tabla «public.magnetic_orders»
+13:22:19.344 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo restricciones de llave foránea para la tabla «public.items»
+13:22:19.345 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo restricciones de llave foránea para la tabla «public.authors»
+13:22:19.345 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo restricciones de llave foránea para la tabla «public.authoring»
+13:22:19.346 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo restricciones de llave foránea para la tabla «public.file_types»
+13:22:19.346 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo restricciones de llave foránea para la tabla «public.attached_files»
+13:22:19.347 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo los disparadores (triggers)
+13:22:19.347 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los disparadores (triggers) para la tabla «public.atoms»
+13:22:19.348 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los disparadores (triggers) para la tabla «public.molecules»
+13:22:19.348 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los disparadores (triggers) para la tabla «public.composition»
+13:22:19.349 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los disparadores (triggers) para la tabla «public.magnetic_orders»
+13:22:19.349 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los disparadores (triggers) para la tabla «public.items»
+13:22:19.350 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los disparadores (triggers) para la tabla «public.authors»
+13:22:19.350 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los disparadores (triggers) para la tabla «public.authoring»
+13:22:19.350 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los disparadores (triggers) para la tabla «public.file_types»
+13:22:19.351 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo los disparadores (triggers) para la tabla «public.attached_files»
+13:22:19.351 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo las reglas de reescritura
+13:22:19.352 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo políticas
+13:22:19.352 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo si seguridad de filas está activa para la tabla «public.atoms»
+13:22:19.353 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo las políticas para la tabla «public.atoms»
+13:22:19.354 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo si seguridad de filas está activa para la tabla «public.molecules»
+13:22:19.354 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo las políticas para la tabla «public.molecules»
+13:22:19.354 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo si seguridad de filas está activa para la tabla «public.composition»
+13:22:19.354 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo las políticas para la tabla «public.composition»
+13:22:19.355 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo si seguridad de filas está activa para la tabla «public.magnetic_orders»
+13:22:19.356 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo las políticas para la tabla «public.magnetic_orders»
+13:22:19.356 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo si seguridad de filas está activa para la tabla «public.items_mafid_seq»
+13:22:19.356 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo las políticas para la tabla «public.items_mafid_seq»
+13:22:19.357 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo si seguridad de filas está activa para la tabla «public.items»
+13:22:19.357 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo las políticas para la tabla «public.items»
+13:22:19.358 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo si seguridad de filas está activa para la tabla «public.authors»
+13:22:19.358 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo las políticas para la tabla «public.authors»
+13:22:19.358 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo si seguridad de filas está activa para la tabla «public.authoring»
+13:22:19.358 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo las políticas para la tabla «public.authoring»
+13:22:19.359 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo si seguridad de filas está activa para la tabla «public.file_types»
+13:22:19.359 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo las políticas para la tabla «public.file_types»
+13:22:19.360 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo si seguridad de filas está activa para la tabla «public.attached_files»
+13:22:19.360 [main] INFO  json_loader.utils.Backup - pg_dump: extrayendo las políticas para la tabla «public.attached_files»
+13:22:19.363 [main] INFO  json_loader.utils.Backup - pg_dump: leyendo objetos grandes
+13:22:19.364 [main] INFO  json_loader.utils.Backup - pg_dump: obteniendo datos de dependencias
+13:22:19.377 [main] INFO  json_loader.utils.Backup - pg_dump: salvando codificaciones = UTF8
+13:22:19.377 [main] INFO  json_loader.utils.Backup - pg_dump: salvando standard_conforming_strings = on
+13:22:19.378 [main] INFO  json_loader.utils.Backup - pg_dump: deshabilitando disparadores (triggers) para atoms
+13:22:19.378 [main] INFO  json_loader.utils.Backup - pg_dump: procesando datos de la tabla «public.atoms»
+13:22:19.379 [main] INFO  json_loader.utils.Backup - pg_dump: habilitando disparadores (triggers) para atoms
+13:22:19.379 [main] INFO  json_loader.utils.Backup - pg_dump: deshabilitando disparadores (triggers) para file_types
+13:22:19.379 [main] INFO  json_loader.utils.Backup - pg_dump: procesando datos de la tabla «public.file_types»
+13:22:19.380 [main] INFO  json_loader.utils.Backup - pg_dump: habilitando disparadores (triggers) para file_types
+13:22:19.380 [main] INFO  json_loader.utils.Backup - pg_dump: deshabilitando disparadores (triggers) para magnetic_orders
+13:22:19.380 [main] INFO  json_loader.utils.Backup - pg_dump: procesando datos de la tabla «public.magnetic_orders»
+13:22:19.381 [main] INFO  json_loader.utils.Backup - pg_dump: habilitando disparadores (triggers) para magnetic_orders
+13:22:19.381 [main] INFO  json_loader.utils.Backup - pg_dump: deshabilitando disparadores (triggers) para molecules
+13:22:19.381 [main] INFO  json_loader.utils.Backup - pg_dump: procesando datos de la tabla «public.molecules»
+13:22:19.382 [main] INFO  json_loader.utils.Backup - pg_dump: habilitando disparadores (triggers) para molecules
+13:22:19.383 [main] INFO  json_loader.utils.Backup - pg_dump: deshabilitando disparadores (triggers) para items
+13:22:19.383 [main] INFO  json_loader.utils.Backup - pg_dump: procesando datos de la tabla «public.items»
+13:22:19.419 [main] INFO  json_loader.utils.Backup - pg_dump: habilitando disparadores (triggers) para items
+13:22:19.420 [main] INFO  json_loader.utils.Backup - pg_dump: deshabilitando disparadores (triggers) para attached_files
+13:22:19.420 [main] INFO  json_loader.utils.Backup - pg_dump: procesando datos de la tabla «public.attached_files»
+13:22:21.147 [main] INFO  json_loader.utils.Backup - pg_dump: habilitando disparadores (triggers) para attached_files
+13:22:21.147 [main] INFO  json_loader.utils.Backup - pg_dump: deshabilitando disparadores (triggers) para authors
+13:22:21.148 [main] INFO  json_loader.utils.Backup - pg_dump: procesando datos de la tabla «public.authors»
+13:22:21.148 [main] INFO  json_loader.utils.Backup - pg_dump: habilitando disparadores (triggers) para authors
+13:22:21.148 [main] INFO  json_loader.utils.Backup - pg_dump: deshabilitando disparadores (triggers) para authoring
+13:22:21.149 [main] INFO  json_loader.utils.Backup - pg_dump: procesando datos de la tabla «public.authoring»
+13:22:21.152 [main] INFO  json_loader.utils.Backup - pg_dump: habilitando disparadores (triggers) para authoring
+13:22:21.152 [main] INFO  json_loader.utils.Backup - pg_dump: deshabilitando disparadores (triggers) para composition
+13:22:21.152 [main] INFO  json_loader.utils.Backup - pg_dump: procesando datos de la tabla «public.composition»
+13:22:21.155 [main] INFO  json_loader.utils.Backup - pg_dump: habilitando disparadores (triggers) para composition
+13:22:21.155 [main] INFO  json_loader.utils.Backup - pg_dump: ejecutando SEQUENCE SET items_mafid_seq
+13:22:21.156 [main] INFO  json_loader.utils.Backup - pg_dump: estableciendo dueño y privilegios para TABLE DATA «public.atoms»
+13:22:21.156 [main] INFO  json_loader.utils.Backup - pg_dump: estableciendo dueño y privilegios para TABLE DATA «public.file_types»
+13:22:21.156 [main] INFO  json_loader.utils.Backup - pg_dump: estableciendo dueño y privilegios para TABLE DATA «public.magnetic_orders»
+13:22:21.157 [main] INFO  json_loader.utils.Backup - pg_dump: estableciendo dueño y privilegios para TABLE DATA «public.molecules»
+13:22:21.157 [main] INFO  json_loader.utils.Backup - pg_dump: estableciendo dueño y privilegios para TABLE DATA «public.items»
+13:22:21.157 [main] INFO  json_loader.utils.Backup - pg_dump: estableciendo dueño y privilegios para TABLE DATA «public.attached_files»
+13:22:21.157 [main] INFO  json_loader.utils.Backup - pg_dump: estableciendo dueño y privilegios para TABLE DATA «public.authors»
+13:22:21.157 [main] INFO  json_loader.utils.Backup - pg_dump: estableciendo dueño y privilegios para TABLE DATA «public.authoring»
+13:22:21.158 [main] INFO  json_loader.utils.Backup - pg_dump: estableciendo dueño y privilegios para TABLE DATA «public.composition»
+13:22:21.158 [main] INFO  json_loader.utils.Backup - pg_dump: estableciendo dueño y privilegios para SEQUENCE SET «public.items_mafid_seq»
+13:22:21.163 [main] INFO  json_loader.utils.Backup - Backup at time in milli=1539948139219 finished succesfully

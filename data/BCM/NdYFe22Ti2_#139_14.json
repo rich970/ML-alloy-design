@@ -1,0 +1,157 @@
+{
+  "confidential": {
+  "value": false
+  }, 
+  "name": "NOVAMAG_exp_BCM_NdYFe22Ti2_#139_14",
+  "properties": {
+    "approach": {
+      "value": "experiment"
+    },
+    "summary": {
+      "value": "crystal, anisotropy, Tc, coercivity"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "NdYFe22Ti2"
+      },
+      "production info": {
+        "value": "melt-spun ribbons"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 139
+      },
+      "unit cell volume": {
+        "value": null
+      },
+      "lattice parameters": {
+        "value": null
+      },
+      "lattice angles": {
+        "value": [
+          90.000,
+          90.000,
+          90.000
+        ]
+      },
+      "atomic positions": {
+        "value": null
+      },
+      "crystal info": {
+        "value": "known phase, prototype MnTh12 (1:12 phase)"
+      }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": null
+      },
+      "unit cell formation enthalpy": {
+        "value": null
+      },
+      "energy info": {
+        "value": null
+      },
+      "interatomic potentials info": {
+        "value": null
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": null
+      },
+      "atomic spin specie": {
+        "value": null
+      },
+      "saturation magnetization": {
+        "value": null
+      },
+      "magnetization temperature": {
+        "value": null
+      },
+      "magnetization info": {
+        "value": null
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": null
+      },
+      "anisotropy energy type": {
+        "value": null
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": null
+      },
+      "kind of anisotropy": {
+        "value": "easy axis"
+      },
+      "anisotropy info": {
+        "value": null
+      },
+      "exchange integrals": {
+        "value": null
+      },
+      "exchange info": {
+        "value": null
+      },
+      "magnetic order": {
+        "value": "ferromagnet"
+      },
+      "curie temperature": {
+        "value": 543
+      },
+      "curie temperature info": {
+        "value": null
+      },
+      "anisotropy field": {
+        "value": 1.75
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": 0.055
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": null
+      },
+      "domain wall width": {
+        "value": null
+      },
+      "domain wall info": {
+        "value": null
+      },
+      "exchange stiffness": {
+        "value": null
+      },
+      "exchange stiffness info": {
+        "value": null
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["BCM, UDEL"]
+      },
+      "reference": {
+        "value": null
+      },
+      "comments": {
+        "value": null
+      },
+      "attached files": {
+        "value": null
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

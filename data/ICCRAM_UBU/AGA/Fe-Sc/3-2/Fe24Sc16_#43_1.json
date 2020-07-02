@@ -1,0 +1,259 @@
+{
+  "confidential": {
+  "value": false
+  }, 
+  "name": "NOVAMAG_theory_ICCRAM_Fe24Sc16_#43_1",
+  "properties": {
+    "approach": {
+      "value": "theory"
+    },
+    "summary": {
+      "value": "AGA, crystal, energy, magnetization"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "Fe24Sc16"
+      },
+      "production info": {
+        "value": "obtained by Adaptive Genetic Algorithm Structure Prediction Methods,  software USPEX+VASP"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 43
+      },
+      "unit cell volume": {
+        "value": 623.029974
+      },
+      "lattice parameters": {
+        "value": [
+          13.75264,
+          8.76822,
+          5.16667
+        ]
+      },
+      "lattice angles": {
+        "value": [
+          90.00000,
+          90.00000,
+          90.00000
+        ]
+      },
+      "atomic positions": {
+        "value": [
+"Fe1(16b)",
+0.87302,
+0.17375,
+0.08229,
+"Fe2(8a)",
+0.00000,
+0.00000,
+0.06946,
+"Sc1(16b)",
+0.79943,
+0.42018,
+0.33812
+]
+      },
+      "crystal info": {
+        "value": "software VASP, k-points mesh 3x5x8, Ecut-off=410.533 eV, PAW_PBE, Fe_pv:PAW_PBE:02Aug2007, Sc_sv:PAW_PBE:07Sep2000, Pressure=0.0 kbar,temperature=0K"
+      }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": -302.78408495
+      },
+      "unit cell formation enthalpy": {
+        "value": -4.666915
+      },
+      "energy info": {
+        "value": "software VASP, k-points mesh 3x5x8, Ecut-off=410.533 eV, PAW_PBE, Fe_pv:PAW_PBE:02Aug2007, Sc_sv:PAW_PBE:07Sep2000, Pressure=0.0 kbar,temperature=0K"
+      },
+      "interatomic potentials info": {
+        "value": null
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": 36.087
+      },
+      "atomic spin specie": {
+        "value": [
+"1 Fe",
+1.682,
+"2 Fe",
+1.696,
+"3 Fe",
+1.684,
+"4 Fe",
+1.695,
+"5 Fe",
+1.682,
+"6 Fe",
+1.696,
+"7 Fe",
+1.684,
+"8 Fe",
+1.696,
+"9 Fe",
+1.682,
+"10 Fe",
+1.696,
+"11 Fe",
+1.684,
+"12 Fe",
+1.696,
+"13 Fe",
+1.682,
+"14 Fe",
+1.696,
+"15 Fe",
+1.684,
+"16 Fe",
+1.695,
+"17 Fe",
+1.663,
+"18 Fe",
+1.667,
+"19 Fe",
+1.663,
+"20 Fe",
+1.667,
+"21 Fe",
+1.663,
+"22 Fe",
+1.667,
+"23 Fe",
+1.663,
+"24 Fe",
+1.667,
+"25 Sc",
+-0.269,
+"26 Sc",
+-0.264,
+"27 Sc",
+-0.270,
+"28 Sc",
+-0.263,
+"29 Sc",
+-0.269,
+"30 Sc",
+-0.264,
+"31 Sc",
+-0.270,
+"32 Sc",
+-0.263,
+"33 Sc",
+-0.269,
+"34 Sc",
+-0.264,
+"35 Sc",
+-0.270,
+"36 Sc",
+-0.263,
+"37 Sc",
+-0.269,
+"38 Sc",
+-0.264,
+"39 Sc",
+-0.270,
+"40 Sc",
+-0.263
+]
+      },
+      "saturation magnetization": {
+        "value": 0.675
+      },
+      "magnetization temperature": {
+        "value": 0
+      },
+      "magnetization info": {
+        "value": "software VASP, k-points mesh 3x5x8, Ecut-off=410.533 eV, PAW_PBE, Fe_pv:PAW_PBE:02Aug2007, Sc_sv:PAW_PBE:07Sep2000, Pressure=0.0 kbar"
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": null
+      },
+      "anisotropy energy type": {
+        "value": null
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": null
+      },
+      "kind of anisotropy": {
+        "value": null
+      },
+      "anisotropy info": {
+        "value": null
+      },
+      "exchange integrals": {
+        "value": null
+      },
+      "exchange info": {
+        "value": null
+      },
+      "magnetic order": {
+        "value": null
+      },
+      "curie temperature": {
+        "value": null
+      },
+      "curie temperature info": {
+        "value": null
+      },
+      "anisotropy field": {
+        "value": null
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": null
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": null
+      },
+      "domain wall width": {
+        "value": null
+      },
+      "domain wall info": {
+        "value": null
+      },
+      "exchange stiffness": {
+        "value": null
+      },
+      "exchange stiffness info": {
+        "value": null
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["ICCRAM"]
+      },
+      "reference": {
+        "value": null
+      },
+      "comments": {
+        "value": null
+      },
+      "attached files": {
+        "value": [
+"Fe24Sc16_#43_1.cif",
+"CONTCAR_Fe24Sc16_#43_1",
+"Fe24Sc16_#43_1.png"
+]
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

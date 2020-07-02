@@ -1,0 +1,178 @@
+{
+  "confidential": {
+  "value": false
+  }, 
+  "name": "NOVAMAG_experiment_BCM_Fe6Mn6Sn3Sb1_#194_0_1",
+  "properties": {
+    "approach": {
+      "value": "experiment"
+    },
+    "summary": {
+      "value": "crystallographic information, anisotropy, curie temperature, magnetization, anisotropy field"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "Fe6Mn6Sn3Sb1"
+      },
+      "production info": {
+        "value": "2 Solid State Reactions at 800ºC, for 48h"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 194
+      },
+      "unit cell volume": {
+        "value": 117.4051
+      },
+      "lattice parameters": {
+        "value": [
+          5.5338,
+          5.5338,
+          4.4270
+        ]
+      },
+      "lattice angles": {
+        "value": [
+          90.000,
+          90.000,
+          120.000
+        ]
+      },
+      "atomic positions": {
+        "value": [
+          "Fe1(6h)",
+          0.8789,
+          0.6973,
+          0.2500,
+          "Mn1(6h)",
+          0.8789,
+          0.6973,
+          0.2500,
+          "Sn1(2c)",
+          0.3333,
+          0.6666,
+          0.2500,
+          "Sb1(2c)",
+          0.3333,
+          0.6666,
+          0.2500
+        ]
+      },
+      "crystal info": {
+        "value": "Conditions for (XRD) measurement: room temperature, atmospheric pressure, Cu-K alpha radiation"
+      }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": null
+      },
+      "unit cell formation enthalpy": {
+        "value": null
+      },
+      "energy info": {
+        "value": null
+      },
+      "interatomic potentials info": {
+        "value": null
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": null
+      },
+      "atomic spin specie": {
+        "value": null
+      },
+      "saturation magnetization": {
+        "value": null
+      },
+      "magnetization temperature": {
+        "value": null
+      },
+      "magnetization info": {
+        "value": null
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": null
+      },
+      "anisotropy energy type": {
+        "value": "uniaxial"
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": null
+      },
+      "kind of anisotropy": {
+        "value": "easy axis"
+      },
+      "anisotropy info": {
+        "value": null
+      },
+      "exchange integrals": {
+        "value": null
+      },
+      "exchange info": {
+        "value": null
+      },
+      "magnetic order": {
+        "value": null
+      },
+      "curie temperature": {
+        "value": 404.45
+      },
+      "curie temperature info": {
+        "value": null
+      },
+      "anisotropy field": {
+        "value": 1.00
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": null
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": null
+      },
+      "domain wall width": {
+        "value": null
+      },
+      "domain wall info": {
+        "value": null
+      },
+      "exchange stiffness": {
+        "value": null
+      },
+      "exchange stiffness info": {
+        "value": null
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["BCM"]
+      },
+      "reference": {
+        "value": "O. Yu. Vekilova et al., Tuning magnetocrystalline anisotropy of Fe3Sn by alloying, arXiv:1803.08292 [cond-mat.mtrl-sci] (2018)."
+      },
+      "comments": {
+        "value": null
+      },
+      "attached files": {
+        "value": null
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

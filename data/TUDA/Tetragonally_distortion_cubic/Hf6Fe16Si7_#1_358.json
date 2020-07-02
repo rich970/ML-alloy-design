@@ -1,0 +1,282 @@
+{
+  "confidential": {
+  "value": false
+  }, 
+  "name": "NOVAMAG_theory_TUDA_Hf6Fe16Si7_#1_358",
+  "properties": {
+    "approach": {
+      "value": "theory"
+    },
+    "summary": {
+      "value": "crystal, tetragonal distortion, magnetization, MAE"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "Hf6Fe16Si7"
+      },
+      "production info": {
+        "value": "Imposed tetragonal distortion on cubic phase from Materials Project database"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 1
+      },
+      "unit cell volume": {
+        "value": 371.304906
+      },
+      "lattice parameters": {
+        "value": [
+          7.96707,
+          7.98658,
+          8.13809
+        ]
+      },
+      "lattice angles": {
+        "value": [
+          60.93533,
+          60.69344,
+          60.24887
+        ]
+      },
+      "atomic positions": {
+        "value": [
+"Hf1(1a)",
+0.79489,
+0.20510,
+0.79481,
+"Hf2(1a)",
+0.20524,
+0.20525,
+0.79461,
+"Hf3(1a)",
+0.79465,
+0.79497,
+0.20508,
+"Hf4(1a)",
+0.20534,
+0.79478,
+0.20522,
+"Hf5(1a)",
+0.79467,
+0.20529,
+0.20517,
+"Hf6(1a)",
+0.20515,
+0.79500,
+0.79460,
+"Fe1(1a)",
+0.62100,
+0.13687,
+0.62106,
+"Fe2(1a)",
+0.17545,
+0.17539,
+0.17549,
+"Fe3(1a)",
+0.86322,
+0.37890,
+0.37896,
+"Fe4(1a)",
+0.17542,
+0.17536,
+0.47381,
+"Fe5(1a)",
+0.17543,
+0.47368,
+0.17547,
+"Fe6(1a)",
+0.52622,
+0.82464,
+0.82458,
+"Fe7(1a)",
+0.13692,
+0.62102,
+0.62102,
+"Fe8(1a)",
+0.82462,
+0.52621,
+0.82459,
+"Fe9(1a)",
+0.82455,
+0.82459,
+0.52634,
+"Fe10(1a)",
+0.47375,
+0.17537,
+0.17547,
+"Fe11(1a)",
+0.62102,
+0.62107,
+0.13681,
+"Fe12(1a)",
+0.37893,
+0.37887,
+0.37893,
+"Fe13(1a)",
+0.37894,
+0.37888,
+0.86327,
+"Fe14(1a)",
+0.37895,
+0.86318,
+0.37895,
+"Fe15(1a)",
+0.82456,
+0.82461,
+0.82454,
+"Fe16(1a)",
+0.62106,
+0.62111,
+0.62111,
+"Si1(1a)",
+0.00012,
+0.00001,
+0.50009,
+"Si2(1a)",
+0.50005,
+-0.00004,
+-0.00001,
+"Si3(1a)",
+0.49985,
+0.50002,
+0.49993,
+"Si4(1a)",
+0.00018,
+0.49970,
+0.50019,
+"Si5(1a)",
+-0.00008,
+0.50003,
+-0.00015,
+"Si6(1a)",
+0.49972,
+0.00022,
+0.49998,
+"Si7(1a)",
+0.50015,
+0.49992,
+0.00005
+]
+      },
+      "crystal info": {
+        "value": "1% compressive strain is applied to get the tetragonally distorted structure under the constant volume approximation (unrelaxed crystal structure)"
+      }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": null
+      },
+      "unit cell formation enthalpy": {
+        "value": null
+      },
+      "energy info": {
+        "value": null
+      },
+      "interatomic potentials info": {
+        "value": null
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": null
+      },
+      "atomic spin specie": {
+        "value": null
+      },
+      "saturation magnetization": {
+        "value": 0.17786
+      },
+      "magnetization temperature": {
+        "value": 0.0
+      },
+      "magnetization info": {
+        "value": "software VASP (vasp.5.3.3), k-points mesh 6x6x6, Ecut-off=500 eV, PAW_PBE, Hf:PAW_PBE:20Jan2003, Fe:PAW_PBE:06Sep2000, Si:PAW_PBE:05Jan2001"
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": null
+      },
+      "anisotropy energy type": {
+        "value": "uniaxial"
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": [-1.07881,0.00]
+      },
+      "kind of anisotropy": {
+        "value": "easy plane"
+      },
+      "anisotropy info": {
+        "value": "software VASP (vasp.5.3.3) with spin-orbit coupling, k-points mesh 6x6x6, Ecut-off=500 eV, PAW_PBE, Hf:PAW_PBE:20Jan2003, Fe:PAW_PBE:06Sep2000, Si:PAW_PBE:05Jan2001"
+      },
+      "exchange integrals": {
+        "value": null
+      },
+      "exchange info": {
+        "value": null
+      },
+      "magnetic order": {
+        "value": null
+      },
+      "curie temperature": {
+        "value": null
+      },
+      "curie temperature info": {
+        "value": null
+      },
+      "anisotropy field": {
+        "value": null
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": null
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": null
+      },
+      "domain wall width": {
+        "value": null
+      },
+      "domain wall info": {
+        "value": null
+      },
+      "exchange stiffness": {
+        "value": null
+      },
+      "exchange stiffness info": {
+        "value": null
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["TUDA"]
+      },
+      "reference": {
+        "value": null
+      },
+      "comments": {
+        "value": "A tetragonal distortion was imposed on cubic material by changing the lattice constant in a brute force way, just to find out how the material would change under strain"
+      },
+      "attached files": {
+        "value": [
+"Hf6Fe16Si7_#1_358.cif",
+"CONTCAR_Hf6Fe16Si7_#1_358",
+"Hf6Fe16Si7_#1_358.png"
+]
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

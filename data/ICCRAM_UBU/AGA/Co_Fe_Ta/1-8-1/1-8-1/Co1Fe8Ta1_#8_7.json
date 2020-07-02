@@ -1,0 +1,219 @@
+{
+  "confidential": {
+  "value": false
+  }, 
+  "name": "NOVAMAG_theory_ICCRAM_Co1Fe8Ta1_#8_7",
+  "properties": {
+    "approach": {
+      "value": "theory"
+    },
+    "summary": {
+      "value": "AGA, crystal, energy, magnetization"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "Co1Fe8Ta1"
+      },
+      "production info": {
+        "value": "obtained by Adaptive Genetic Algorithm Structure Prediction Methods,  software USPEX+VASP"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 8
+      },
+      "unit cell volume": {
+        "value": 120.048454
+      },
+      "lattice parameters": {
+        "value": [
+          8.30447,
+          4.74093,
+          7.03575
+        ]
+      },
+      "lattice angles": {
+        "value": [
+          90.00000,
+          119.91536,
+          90.00000
+        ]
+      },
+      "atomic positions": {
+        "value": [
+"Co1(2a)",
+0.00019,
+0.00000,
+-0.00004,
+"Fe1(2a)",
+-0.03065,
+0.00000,
+0.31715,
+"Fe2(4b)",
+0.68292,
+0.23930,
+0.62930,
+"Fe3(2a)",
+0.47166,
+0.00000,
+0.82663,
+"Fe4(2a)",
+-0.05879,
+0.00000,
+0.63807,
+"Fe5(4b)",
+0.75892,
+0.25963,
+0.00570,
+"Fe6(2a)",
+0.60281,
+0.00000,
+0.24126,
+"Ta1(2a)",
+0.33232,
+0.00000,
+0.39221
+]
+      },
+      "crystal info": {
+        "value": "software VASP, k-points mesh 7x10x10, Ecut-off=410.533 eV, PAW_PBE, Co_pv:PAW_PBE:23Apr2009, Fe_pv:PAW_PBE:02Aug2007, Ta_pv:PAW_PBE:07Sep2000, Pressure=0.0 kbar,temperature=0K"
+      }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": -84.71236384
+      },
+      "unit cell formation enthalpy": {
+        "value": 0.180044
+      },
+      "energy info": {
+        "value": "software VASP, k-points mesh 7x10x10, Ecut-off=410.533 eV, PAW_PBE, Co_pv:PAW_PBE:23Apr2009, Fe_pv:PAW_PBE:02Aug2007, Ta_pv:PAW_PBE:07Sep2000, Pressure=0.0 kbar,temperature=0K"
+      },
+      "interatomic potentials info": {
+        "value": null
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": 17.546
+      },
+      "atomic spin specie": {
+        "value": [
+"1 Co",
+1.393,
+"2 Fe",
+1.706,
+"3 Fe",
+1.810,
+"4 Fe",
+1.952,
+"5 Fe",
+2.281,
+"6 Fe",
+2.120,
+"7 Fe",
+1.919,
+"8 Fe",
+2.129,
+"9 Fe",
+2.752,
+"10 Ta",
+-0.514
+]
+      },
+      "saturation magnetization": {
+        "value": 1.702
+      },
+      "magnetization temperature": {
+        "value": 0
+      },
+      "magnetization info": {
+        "value": "software VASP, k-points mesh 7x10x10, Ecut-off=410.533 eV, PAW_PBE, Co_pv:PAW_PBE:23Apr2009, Fe_pv:PAW_PBE:02Aug2007, Ta_pv:PAW_PBE:07Sep2000, Pressure=0.0 kbar"
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": null
+      },
+      "anisotropy energy type": {
+        "value": null
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": null
+      },
+      "kind of anisotropy": {
+        "value": null
+      },
+      "anisotropy info": {
+        "value": null
+      },
+      "exchange integrals": {
+        "value": null
+      },
+      "exchange info": {
+        "value": null
+      },
+      "magnetic order": {
+        "value": null
+      },
+      "curie temperature": {
+        "value": null
+      },
+      "curie temperature info": {
+        "value": null
+      },
+      "anisotropy field": {
+        "value": null
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": null
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": null
+      },
+      "domain wall width": {
+        "value": null
+      },
+      "domain wall info": {
+        "value": null
+      },
+      "exchange stiffness": {
+        "value": null
+      },
+      "exchange stiffness info": {
+        "value": null
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["ICCRAM"]
+      },
+      "reference": {
+        "value": null
+      },
+      "comments": {
+        "value": null
+      },
+      "attached files": {
+        "value": [
+"Co1Fe8Ta1_#8_7.cif",
+"CONTCAR_Co1Fe8Ta1_#8_7",
+"Co1Fe8Ta1_#8_7.png"
+]
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

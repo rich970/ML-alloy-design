@@ -1,0 +1,231 @@
+{
+  "confidential": {
+  "value": false
+  }, 
+  "name": "NOVAMAG_theory_UPP_Fe12Sn3Sb1_#156_9",
+  "properties": {
+    "approach": {
+      "value": "theory"
+    },
+    "summary": {
+      "value": "crystal, energy, magnetization, MAE"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "Fe12Sn3Sb1"
+      },
+      "production info": {
+        "value": "Unit cell of the alloy system has been generated from the known stable phase Fe3Sn by distributing dopants on the Sn sublattice"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 156
+      },
+      "unit cell volume": {
+        "value": 225.016213
+      },
+      "lattice parameters": {
+        "value": [
+          5.48862,
+          5.48862,
+          8.62494
+        ]
+      },
+      "lattice angles": {
+        "value": [
+          90.00000,
+          90.00000,
+          120.00000
+        ]
+      },
+      "atomic positions": {
+        "value": [
+"Fe1(3d)",
+0.85001,
+0.14999,
+0.12472,
+"Fe2(3d)",
+0.84990,
+0.15010,
+0.62503,
+"Fe3(3d)",
+0.15006,
+0.84994,
+0.37551,
+"Fe4(3d)",
+0.15073,
+0.84927,
+0.87468,
+"Sn1(1b)",
+0.33333,
+0.66667,
+0.62477,
+"Sn2(1c)",
+0.66667,
+0.33333,
+0.87436,
+"Sn3(1c)",
+0.66667,
+0.33333,
+0.37502,
+"Sb1(1b)",
+0.33333,
+0.66667,
+0.12599
+]
+      },
+      "crystal info": {
+        "value": "software VASP (version 5.3.5), irreducible k-points mesh 1088, Ecut-off=default, PAW_PBE, Fe:PAW_PBE:06Sep2000, Sn_d:PAW_PBE:06Sep2000, Sb:PAW_PBE:06Sep2000, Pressure=0.0 kbar,temperature=0K"
+      }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": -113.86660636
+      },
+      "unit cell formation enthalpy": {
+        "value": null
+      },
+      "energy info": {
+        "value": "software VASP (version 5.3.5), irreducible k-points mesh 1088, Ecut-off=default, PAW_PBE, Fe:PAW_PBE:06Sep2000, Sn_d:PAW_PBE:06Sep2000, Sb:PAW_PBE:06Sep2000, Pressure=0.0 kbar,temperature=0K"
+      },
+      "interatomic potentials info": {
+        "value": null
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": 28.277
+      },
+      "atomic spin specie": {
+        "value": [
+"1 Fe",
+2.442,
+"2 Fe",
+2.389,
+"3 Fe",
+2.408,
+"4 Fe",
+2.411,
+"5 Fe",
+2.376,
+"6 Fe",
+2.393,
+"7 Fe",
+2.400,
+"8 Fe",
+2.408,
+"9 Fe",
+2.364,
+"10 Fe",
+2.378,
+"11 Fe",
+2.388,
+"12 Fe",
+2.425,
+"13 Sn",
+-0.147,
+"14 Sn",
+-0.146,
+"15 Sn",
+-0.146,
+"16 Sb",
+-0.066
+]
+      },
+      "saturation magnetization": {
+        "value": 1.464
+      },
+      "magnetization temperature": {
+        "value": 0
+      },
+      "magnetization info": {
+        "value": "software VASP (version 5.3.5), irreducible k-points mesh 1088, Ecut-off=default, PAW_PBE, Fe:PAW_PBE:06Sep2000, Sn_d:PAW_PBE:06Sep2000, Sb:PAW_PBE:06Sep2000, Pressure=0.0 kbar"
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": null
+      },
+      "anisotropy energy type": {
+        "value": "uniaxial"
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": [0.33,0.00]
+      },
+      "kind of anisotropy": {
+        "value": "easy axis"
+      },
+      "anisotropy info": {
+        "value": "code RSPT, k-points 24x24x24 (13824)"
+      },
+      "exchange integrals": {
+        "value": null
+      },
+      "exchange info": {
+        "value": null
+      },
+      "magnetic order": {
+        "value": null
+      },
+      "curie temperature": {
+        "value": null
+      },
+      "curie temperature info": {
+        "value": null
+      },
+      "anisotropy field": {
+        "value": null
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": null
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": null
+      },
+      "domain wall width": {
+        "value": null
+      },
+      "domain wall info": {
+        "value": null
+      },
+      "exchange stiffness": {
+        "value": null
+      },
+      "exchange stiffness info": {
+        "value": null
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["UPP"]
+      },
+      "reference": {
+        "value": "O. Yu. Vekilova, et al, Tuning magnetocrystalline anisotropy of Fe3Sn by alloying, Phys. Rev. B, 99,024421 (2019)"
+      },
+      "comments": {
+        "value": null
+      },
+      "attached files": {
+        "value": [
+"Fe12Sn3Sb1_#156_9.cif",
+"CONTCAR_Fe12Sn3Sb1_#156_9",
+"Fe12Sn3Sb1_#156_9.png"
+]
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}

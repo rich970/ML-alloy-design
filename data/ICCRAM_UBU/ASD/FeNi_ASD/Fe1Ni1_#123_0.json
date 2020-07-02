@@ -1,0 +1,171 @@
+{
+  "name": "NOVAMAG_theory_ICCRAM_Fe1Ni1_#123_0",
+  "properties": {
+    "approach": {
+      "value": "theory"
+    },
+    "summary": {
+      "value": "AGA, crystal, energy, magnetization, anisotropy, exchange, Tc, domain wall width, exchange stiffness"
+    },
+    "chemistry": {
+      "chemical formula": {
+        "value": "Fe1Ni1"
+      },
+      "production info": {
+        "value": "obtained by Adaptive Genetic Algorithm,  software USPEX+VASP"
+      }
+    },
+    "crystal": {
+      "compound space group": {
+        "value": 123
+      },
+      "unit cell volume": {
+        "value": 22.7138
+      },
+      "lattice parameters": {
+        "value": [
+          2.518,
+          2.518,
+          3.582
+        ]
+      },
+      "lattice angles": {
+        "value": [
+          90.000,
+          90.000,
+          90.000
+        ]
+      },
+      "atomic positions": {
+        "value": [
+          "Fe1(1a)",
+          0.0,
+          0.0,
+          0.0,
+          "Ni1(1d)",
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "crystal info": {
+        "value": "software VASP, k-points mesh 16x16x11, Ecut-off=400 eV, PAW_PBE, Fe_pv:PAW_PBE:06Sep2000, Ni_pv:PAW_PBE:06Sep2000,Pressure=0.0 kbar,temperature=0K"
+      }
+    },
+    "thermodynamics": {
+      "unit cell energy": {
+        "value": -13.892258
+      },
+      "unit cell formation enthalpy": {
+        "value": null
+      },
+      "energy info": {
+        "value": "software VASP(vasp.5.4.1), k-points mesh 16x16x11, Ecut-off=400 eV, PAW_PBE, Fe_pv:PAW_PBE:06Sep2000, Ni_pv:PAW_PBE:06Sep2000, Pressure=0.0 kbar,temperature=0K"
+      },
+      "interatomic potentials info": {
+        "value": "https://www.ctcms.nist.gov/potentials/Fe-Ni.html"
+      },
+      "magnetic free energy": {
+        "value": null
+      },
+      "magnetic free energy info": {
+        "value": null
+      }
+    },
+    "magnetics": {
+      "unit cell spin polarization": {
+        "value": 3.33
+      },
+      "atomic spin specie": {
+        "value": ["Fe1",2.659,"Ni1",0.671]
+      },
+      "saturation magnetization": {
+        "value": 1.71
+      },
+      "magnetization temperature": {
+        "value": 0.00
+      },
+      "magnetization info": {
+        "value": "software VASP, k-points mesh 16x16x11, Ecut-off=400 eV, PAW_PBE, Fe_pv:PAW_PBE:06Sep2000, Ni_pv:PAW_PBE:06Sep2000, Pressure=0.0 kbar"
+      },
+      "magnetocrystalline anisotropy energy": {
+        "value": [0,0,1,-13.94019080,1,0,1,-13.94012990,1,0,0,-13.94008791,0,1,0,-13.94008803]
+      },
+      "anisotropy energy type": {
+        "value": "uniaxial"
+      },
+      "magnetocrystalline anisotropy constants": {
+        "value": [0.73,0.00]
+      },
+      "kind of anisotropy": {
+        "value": "easy axis"
+      },
+      "anisotropy info": {
+        "value": "software VASP, including spin-orbit coupling, 2816 k-points in IBZ, Ecut-off=400 eV, PAW_PBE, Fe_pv:PAW_PBE:06Sep2000, Ni_pv:PAW_PBE:06Sep2000, Pressure=0.0 kbar"
+      },
+      "exchange integrals": {
+        "value": ["Fe-Fe",2.22119,1.35194,0.38785,0.50683,-0.67064,-0.4195,"Ni-Ni",0.29772,-0.04463,0.04442,0.04059,-0.01808,-0.00461,"Fe-Ni",1.27737,0.08671,0.03079,-0.02957,0.01218,0.0091]
+      },
+      "exchange info": {
+        "value": "software Fleur (v26), spin spirals (Fourier transform), kmax=4.1 a.u., 1960 k-points and 463 q-points, PBE, Pressure=0.0 kbar"
+      },
+      "magnetic order": {
+        "value": "ferromagnet"
+      },
+      "curie temperature": {
+        "value": 800.00
+      },
+      "curie temperature info": {
+        "value": "Atomistic Spin Dynamics, system size 40x40x40 spins, periodic boundary conditions"
+      },
+      "anisotropy field": {
+        "value": null
+      },
+      "remanence": {
+        "value": null
+      },
+      "coercivity": {
+        "value": null
+      },
+      "energy product": {
+        "value": null
+      },
+      "hysteresis info": {
+        "value": null
+      },
+      "domain wall width": {
+        "value": 13.70
+      },
+      "domain wall info": {
+        "value": "Atomistic Spin Dynamics, system size 300x40x40 spins, temperature=5K"
+      },
+      "exchange stiffness": {
+        "value": 13.90
+      },
+      "exchange stiffness info": {
+        "value": "Atomistic Spin Dynamics, system size 300x40x40 spins, temperature=5K"
+      }
+    },
+    "additional information": {
+      "authors": {
+        "value": ["ICCRAM"]
+      },
+      "reference": {
+        "value": "P. Nieves, S. Arapan, T. Schrefl, and S. Cuesta-López, Atomistic spin dynamics simulations of the MnAl t-phase and its antiphase boundary, Phys. Rev. B 96, 224411 (2017)"
+      },
+      "comments": {
+        "value": null
+      },
+      "attached files": {
+        "value": [
+"Fe1Ni1_#123_0.cif",
+"CONTCAR_Fe1Ni1_#123_0",
+"Fe1Ni1_#123_0.png"
+]
+      },
+      "attached files info": {
+        "value": null
+      }
+    }
+  }
+}
