@@ -91,7 +91,7 @@ def get_element_occurance(X, PT, verbose=False):
     n_el = pd.DataFrame(columns=['element', 'count'])
     for el in symbols:
         regex_list = formulas.str.extractall(
-            pat="(?P<element>{0})(?P<digit>\d*)".format(el))
+            pat=r"(?P<element>{0})(?P<digit>\d*)".format(el))
         # drop the multi-index that extractall creates
         regex_list = regex_list.droplevel(level=1).copy()
         count = len(regex_list)
@@ -108,24 +108,23 @@ def get_element_occurance(X, PT, verbose=False):
 
 def get_compound_radix(X, PT):
     formulas = X['chemical formula'].copy()
-    X['compound_radix']=np.zeros(len(X)) #Make a new column for the
-                                         #compound index i.e. 2 = binary
-    
-    #Get a list of symbols and sort in order of descending string length
+    # Make a new column for the compound index i.e. 2 = binary
+    X['compound_radix'] = np.zeros(len(X))
+    # Get a list of symbols and sort in order of descending string length
     symbols = PT['symbol'].copy()
-    s = symbols.str.len().sort_values(ascending = False).index
+    s = symbols.str.len().sort_values(ascending=False).index
     symbols = symbols.reindex(s)
 
     for el in symbols:
         regex_list = formulas.str.extractall(
-                pat = "(?P<element>{0})(?P<digit>\d*)".format(el))
+                pat=r"(?P<element>{0})(?P<digit>\d*)".format(el))
         # drop the multi-indexing that 'extractall' creates
         regex_list = regex_list.droplevel(level=1).copy()
         # Remove the elements we have just found from the formulas list
         formulas[regex_list.index] = formulas[regex_list.index].replace(
-                                          to_replace = regex_list.element
+                                          to_replace=regex_list.element
                                           + regex_list.digit,
-                                          value = '', regex = True)
+                                          value='', regex=True)
 
         # Use the regex indices to update the compound radix column
         X['compound_radix'][regex_list.index] += 1
@@ -139,29 +138,28 @@ def get_compound_radix(X, PT):
 
 def get_stoich_array(X, PT):
     if type(X) == pd.DataFrame:
-        formulas = X['chemical formula'].copy()  #if user passes whole of Novamag
+        formulas = X['chemical formula'].copy()  # if user passes whole of Novamag
     else:
-        formulas = pd.Series(X) #if user passes a single chemical formula string
+        formulas = pd.Series(X)  # if user passes a single chemical formula string
         print(formulas)
-    #Get a list of element symbols and sort in order of descending string length
-    #Need longest first as elements like S will be picked up within Si, As, Sb etc.
-    symbols = PT['symbol'].copy()  
+    # Get a list of element symbols and sort in order of descending length
+    # Need longest first as elements like S will be found within Si, As etc.
+    symbols = PT['symbol'].copy()
     s = symbols.str.len().sort_values(ascending = False).index
     symbols = symbols.reindex(s)
-     
-    #Will encode chemical formula data in a large array
-    stoich_array = pd.DataFrame(np.zeros([len(formulas),len(symbols)])) 
+    # Will encode chemical formula data in a large array
+    stoich_array = pd.DataFrame(np.zeros([len(formulas),len(symbols)]))
     stoich_array.columns = symbols.copy()
     stoich_array.index = formulas.copy()
 
     for el in symbols:
-        regex_list = formulas.str.extractall(pat = 
-                                             "(?P<element>{0})(?P<digit>\d*)".format(el))
-        regex_list = regex_list.droplevel(level=1).copy() #drop the multi-indexing that
-                                                          #'extractall' creates
+        regex_list = formulas.str.extractall(
+            pat=r"(?P<element>{0})(?P<digit>\d*)".format(el))
+        # drop the multi-indexing that 'extractall' creates
+        regex_list = regex_list.droplevel(level=1).copy()
         count = len(regex_list)
-        if count>0: 
-            #add the number of atoms to the correct element column in the stoich array
+        if count > 0:
+            # add the number of atoms to the correct el col in the stoich array
             stoich_array[el][regex_list.index] = regex_list.digit
 
         #Remove the elements we have just found from the formulas list
@@ -178,15 +176,27 @@ def get_stoich_array(X, PT):
 
 
 def get_Zw(PT, stoich_array):
-    Zw=pd.Series(np.zeros(len(stoich_array)))
+    Zw = pd.Series(np.zeros(len(stoich_array)))
     for i in range(len(stoich_array)):
-            compound = stoich_array.iloc[i] #take slice for each compound
-            cols = compound.to_numpy().nonzero()     #nonzero elements columns
-            at_fraction = compound.iloc[cols]/sum(compound.iloc[cols])
-            Zw.iloc[i] = np.dot(at_fraction,
-                                      PT.loc[compound.index[cols]]['atomic_weight'])
+        compound = stoich_array.iloc[i]  # take slice for each compound
+        cols = compound.to_numpy().nonzero()  # nonzero elements columns
+        at_fraction = compound.iloc[cols]/sum(compound.iloc[cols])
+        Zw.iloc[i] = np.dot(
+            at_fraction, PT.loc[compound.index[cols]]['atomic_weight'])
     return Zw
 
+
+def get_Groupw(PT, stoich_array):
+    groupw = pd.Series(np.zeros(len(stoich_array)))
+    group_block = PT['group_block'].str.extract(pat=r'(\d+)').dropna()
+    group_block = group_block.astype(int)
+    for i in range(len(stoich_array)):
+        compound = stoich_array.iloc[i]  # take slice for each compound
+        cols = compound.to_numpy().nonzero()  # nonzero elements columns
+        at_fraction = compound.iloc[cols]/sum(compound.iloc[cols])
+        groupw.iloc[i] = np.dot(
+            at_fraction, group_block.loc[compound.index[cols]])
+    return groupw
 
 def get_Periodw(PT, stoich_array):
     periodw=pd.Series(np.zeros(len(stoich_array)))

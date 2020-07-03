@@ -144,6 +144,7 @@ print('Spearman rank correlation between K and Ms is {0}'.format(corr))
 stoich_array = al.get_stoich_array(X, PT)
 X['Zw'] = al.get_Zw(PT, stoich_array)
 X['periodw'] = al.get_Periodw(PT, stoich_array)
+X['groupw'] = al.get_Groupw(PT, stoich_array)
 X['meltingTw'] = al.get_MeltingTw(PT, stoich_array)
 X['miedemaH'] = al.get_Miedemaw(MM, stoich_array)
 X['valencew'] = al.get_Valencew(PT, stoich_array)
@@ -163,6 +164,7 @@ plt.plot([Z_Co, Z_Co], [0, ch2.get_ylim()[1]])
 # =============================================================================
 my_cols = ['Zw',
            'periodw',
+           'groupw',
            'meltingTw',
            'miedemaH',
            'valencew']
@@ -172,31 +174,31 @@ X.dropna(axis=0, subset=['saturation magnetization'] + my_cols, inplace=True)
 y = X['saturation magnetization']
 X.drop(['saturation magnetization'], axis=1, inplace=True)
 
-split = False
-if split is True:
-    # Break off validation set from training data
-    X_train, X_valid, y_train, y_valid = train_test_split(X, y,
-                                                          train_size=0.8,
-                                                          test_size=0.2,
-                                                          random_state=0)
-    X_train = X_train[my_cols].copy()
-    X_valid = X_valid[my_cols].copy()
-    model = RandomForestRegressor(
-        n_estimators=200, random_state=0, max_depth=12)
-    model.fit(X_train, y_train)
-    # Preprocessing of validation data, get predictions
-    preds = model.predict(X_valid)
-    print('MAE:', mean_absolute_error(y_valid, preds))
 
-else:
-    folds = 5
-    cv = ShuffleSplit(n_splits=folds, test_size=0.2, random_state=0)
-    model = RandomForestRegressor(
-        n_estimators=200, random_state=0, max_depth=12)
-    scores = cross_val_score(
-        model, X[my_cols], y, scoring='neg_mean_absolute_error', cv=cv)
-    print('{0}-fold validation scores: {1}'.format(folds, scores))
+# Break off validation set from training data
+X_train, X_valid, y_train, y_valid = train_test_split(X, y,
+                                                      train_size=0.8,
+                                                      test_size=0.2,
+                                                      random_state=0)
+X_train = X_train[my_cols].copy()
+X_valid = X_valid[my_cols].copy()
+model = RandomForestRegressor(
+    n_estimators=200, random_state=0, max_depth=12)
+model.fit(X_train, y_train)
+
+# Preprocessing of validation data, get predictions
+# preds = model.predict(X_valid)
+# print('MAE:', mean_absolute_error(y_valid, preds))
+
+# Do k-fold cross validation to assess model
+folds = 5
+cv = ShuffleSplit(n_splits=folds, test_size=0.2, random_state=0)
+scores = cross_val_score(
+    model, X[my_cols], y, scoring='neg_mean_absolute_error', cv=cv)
+print('{0}-fold validation scores: {1}'.format(folds, scores))
 
 preds = model.predict(X[my_cols])
 plt.figure()
 plt.plot(y, preds, 'o')
+plt.xlabel('Saturation magnetisation [T]')
+plt.ylabel('Predicted Saturation magnetisation [T]')
