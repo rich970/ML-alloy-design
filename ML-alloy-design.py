@@ -38,8 +38,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import cross_val_score
+from sklearn.model_selection import ShuffleSplit
+from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error
 import alloys as al
 
@@ -70,7 +71,7 @@ for col in na_cols:
         X = X.drop(col, axis=1).copy()
 print('Number of dropped features is: {0}'.format(len(dropped_cols)))
 
-# Select categorical columns with relatively low cardinality
+# Select categorical columns
 categorical_cols = [col for col in X.columns if X[col].dtype == "object"]
 print('Number of categorical features is: {0}'.format(len(categorical_cols)))
 # Select numerical columns
@@ -171,21 +172,31 @@ X.dropna(axis=0, subset=['saturation magnetization'] + my_cols, inplace=True)
 y = X['saturation magnetization']
 X.drop(['saturation magnetization'], axis=1, inplace=True)
 
-# Break off validation set from training data
-X_train, X_valid, y_train, y_valid = train_test_split(X, y,
-                                                      train_size=0.8,
-                                                      test_size=0.2,
-                                                      random_state=0)
+split = False
+if split is True:
+    # Break off validation set from training data
+    X_train, X_valid, y_train, y_valid = train_test_split(X, y,
+                                                          train_size=0.8,
+                                                          test_size=0.2,
+                                                          random_state=0)
+    X_train = X_train[my_cols].copy()
+    X_valid = X_valid[my_cols].copy()
+    model = RandomForestRegressor(
+        n_estimators=200, random_state=0, max_depth=12)
+    model.fit(X_train, y_train)
+    # Preprocessing of validation data, get predictions
+    preds = model.predict(X_valid)
+    print('MAE:', mean_absolute_error(y_valid, preds))
 
-X_train = X_train[my_cols].copy()
-X_valid = X_valid[my_cols].copy()
+else:
+    folds = 5
+    cv = ShuffleSplit(n_splits=folds, test_size=0.2, random_state=0)
+    model = RandomForestRegressor(
+        n_estimators=200, random_state=0, max_depth=12)
+    scores = cross_val_score(
+        model, X[my_cols], y, scoring='neg_mean_absolute_error', cv=cv)
+    print('{0}-fold validation scores: {1}'.format(folds, scores))
 
-model = RandomForestRegressor(n_estimators=200, random_state=0, max_depth=12)
-model.fit(X_train, y_train)
-# scores = cross_val_score(model,
-#    X[my_cols], y, scoring='neg_mean_absolute_error', cv = 5)
-# print(scores)
-
-# Preprocessing of validation data, get predictions
-preds = model.predict(X_valid)
-print('MAE:', mean_absolute_error(y_valid, preds))
+preds = model.predict(X[my_cols])
+plt.figure()
+plt.plot(y, preds, 'o')
