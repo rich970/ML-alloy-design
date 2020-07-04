@@ -106,36 +106,6 @@ def get_element_occurance(X, PT, verbose=False):
     return n_el
 
 
-def get_compound_radix(X, PT):
-    formulas = X['chemical formula'].copy()
-    # Make a new column for the compound index i.e. 2 = binary
-    X['compound_radix'] = np.zeros(len(X))
-    # Get a list of symbols and sort in order of descending string length
-    symbols = PT['symbol'].copy()
-    s = symbols.str.len().sort_values(ascending=False).index
-    symbols = symbols.reindex(s)
-
-    for el in symbols:
-        regex_list = formulas.str.extractall(
-                pat=r"(?P<element>{0})(?P<digit>\d*)".format(el))
-        # drop the multi-indexing that 'extractall' creates
-        regex_list = regex_list.droplevel(level=1).copy()
-        # Remove the elements we have just found from the formulas list
-        formulas[regex_list.index] = formulas[regex_list.index].replace(
-                                          to_replace=regex_list.element
-                                          + regex_list.digit,
-                                          value='', regex=True)
-
-        # Use the regex indices to update the compound radix column
-        X['compound_radix'][regex_list.index] += 1
-    # How many binary, ternary, quaternary compounds do we have?
-    total_compound_radix = X['compound_radix'].value_counts()
-    print('We have {0} binary compounds'.format(total_compound_radix[2]))
-    print('We have {0} ternary compounds'.format(total_compound_radix[3]))
-    print('We have {0} quarternary compounds'.format(total_compound_radix[4]))
-    return X
-
-
 def get_stoich_array(X, PT):
     if type(X) == pd.DataFrame:
         formulas = X['chemical formula'].copy()  # if user passes whole of Novamag
@@ -247,3 +217,42 @@ def get_Miedemaw(MM, stoich_array):
             except KeyError:
                 miedemaw.iloc[i] = np.nan
     return miedemaw
+
+# def get_StoicEntw(PT, stoich_array):
+#     stoicentw=pd.Series(np.zeros(len(stoich_array)))
+#     for i in range(len(stoich_array)):
+#             compound = stoich_array.iloc[i] #take slice for each compound
+#             cols = compound.to_numpy().nonzero()     #nonzero elements columns 
+#             at_fraction = compound.iloc[cols]/sum(compound.iloc[cols])
+#             stoicentw.iloc[i] = np.dot(at_fraction,
+#                                       PT.loc[compound.index[cols]]['melting_point'])
+#     return meltingTw
+
+
+def get_CompoundRadix(PT, X):
+    if type(X) == pd.DataFrame:
+        formulas = X['chemical formula'].copy()  # if user passes whole of Novamag
+    else:
+        formulas = pd.Series(X)  # if user passes a single chemical formula string
+        print(formulas)
+    # Make a new column for the compound index i.e. 2 = binary
+    compoundradix = pd.Series(np.zeros(len(formulas)))
+    # Get a list of symbols and sort in order of descending string length
+    symbols = PT['symbol'].copy()
+    s = symbols.str.len().sort_values(ascending=False).index
+    symbols = symbols.reindex(s)
+
+    for el in symbols:
+        regex_list = formulas.str.extractall(
+                pat=r"(?P<element>{0})(?P<digit>\d*)".format(el))
+        # drop the multi-indexing that 'extractall' creates
+        regex_list = regex_list.droplevel(level=1).copy()
+        # Remove the elements we have just found from the formulas list
+        formulas[regex_list.index] = formulas[regex_list.index].replace(
+                                          to_replace=regex_list.element
+                                          + regex_list.digit,
+                                          value='', regex=True)
+
+        # Use the regex indices to update the compound radix column
+        compoundradix[regex_list.index] += 1
+    return compoundradix

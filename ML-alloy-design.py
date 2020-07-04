@@ -16,11 +16,12 @@ TASKS:
     # Implement feature generature functions
     # Design features based on periodic table inputs:
         build stoichemetry array DONE
+        Compound radix
         Lp stoichiometry norm (p=1,2,3)
         CW atomic mass DONE
         stoichiometry entropy
-        CW valence electrons
-        CW group
+        CW valence electrons DONE
+        CW group DONE
         CW period DONE
         CW molar volume
         CW melting T DONE
@@ -35,6 +36,7 @@ TASKS:
 """
 
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.model_selection import train_test_split
@@ -143,11 +145,18 @@ print('Spearman rank correlation between K and Ms is {0}'.format(corr))
 # =============================================================================
 stoich_array = al.get_stoich_array(X, PT)
 X['Zw'] = al.get_Zw(PT, stoich_array)
+X['compoundradix'] = al.get_CompoundRadix(PT, X)
 X['periodw'] = al.get_Periodw(PT, stoich_array)
 X['groupw'] = al.get_Groupw(PT, stoich_array)
 X['meltingTw'] = al.get_MeltingTw(PT, stoich_array)
 X['miedemaH'] = al.get_Miedemaw(MM, stoich_array)
 X['valencew'] = al.get_Valencew(PT, stoich_array)
+
+# # How many binary, ternary, quaternary compounds do we have?
+# total_compound_radix = compoundradix.value_counts()
+# print('We have {0} binary compounds'.format(total_compound_radix[2]))
+# print('We have {0} ternary compounds'.format(total_compound_radix[3]))
+# print('We have {0} quarternary compounds'.format(total_compound_radix[4]))
 
 # Plot the distribution of compisition weighted atomic mass
 Z_Fe = 55.8
@@ -163,6 +172,7 @@ plt.plot([Z_Co, Z_Co], [0, ch2.get_ylim()[1]])
 # Build the Random Forest model
 # =============================================================================
 my_cols = ['Zw',
+           'compoundradix',
            'periodw',
            'groupw',
            'meltingTw',
@@ -182,13 +192,13 @@ X_train, X_valid, y_train, y_valid = train_test_split(X, y,
                                                       random_state=0)
 X_train = X_train[my_cols].copy()
 X_valid = X_valid[my_cols].copy()
-model = RandomForestRegressor(
-    n_estimators=200, random_state=0, max_depth=12)
-model.fit(X_train, y_train)
 
+model = RandomForestRegressor(
+    n_estimators=160, random_state=0, max_depth=16)
+model.fit(X_train, y_train)
 # Preprocessing of validation data, get predictions
 # preds = model.predict(X_valid)
-# print('MAE:', mean_absolute_error(y_valid, preds))
+# print('{0}: MAE: {1}'.format(i, mean_absolute_error(y_valid, preds)))
 
 # Do k-fold cross validation to assess model
 folds = 5
@@ -202,3 +212,22 @@ plt.figure()
 plt.plot(y, preds, 'o')
 plt.xlabel('Saturation magnetisation [T]')
 plt.ylabel('Predicted Saturation magnetisation [T]')
+
+# =============================================================================
+# Test with literature alloy data
+# =============================================================================
+# Ni-Mn shows a peak around 10% Mn, so not a monotomic relationship.
+
+X_NiMn = pd.DataFrame(['Ni15Mn1', 'Ni15Mn2', 'Ni15Mn3', 'Ni15Mn4', 'Ni15Mn5',
+                       'Ni15Mn6', 'Ni15Mn7', 'Ni15Mn8', 'Ni15Mn9'],
+                      columns=['chemical formula'])
+stoich_array_NiMn = al.get_stoich_array(X_NiMn, PT)
+X_NiMn['Zw'] = al.get_Zw(PT, stoich_array_NiMn)
+X_NiMn['compoundradix'] = al.get_CompoundRadix(PT, X_NiMn)
+X_NiMn['periodw'] = al.get_Periodw(PT, stoich_array_NiMn)
+X_NiMn['groupw'] = al.get_Groupw(PT, stoich_array_NiMn)
+X_NiMn['meltingTw'] = al.get_MeltingTw(PT, stoich_array_NiMn)
+X_NiMn['miedemaH'] = al.get_Miedemaw(MM, stoich_array_NiMn)
+X_NiMn['valencew'] = al.get_Valencew(PT, stoich_array_NiMn)
+
+preds_NiMn = model.predict(X_NiMn[my_cols])
