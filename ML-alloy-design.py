@@ -102,9 +102,12 @@ print(X['kind of anisotropy'].unique())
 # Are all compounds unique?
 print('Number of duplicate values:')
 print(X['chemical formula'].value_counts())
+# for el in duplicates['chemical formula']:
+#     dup = duplicates[duplicates['chemical formula']==el]
+#     X.append(dup.median(), ignore_index=True)
+#     duplicates.drop(duplicates['chemical formula']==el, inplace=True)
 
 n_el = al.get_element_occurance(X, PT)
-
 # Plot up the distribution of elements
 plt.figure()
 n_el = n_el[n_el['count'] > 0]
@@ -181,9 +184,10 @@ my_cols = ['Zw',
 
 # Remove rows with missing target, separate target from predictors
 X.dropna(axis=0, subset=['saturation magnetization'] + my_cols, inplace=True)
+# Group duplicates by chemical formula and replace values with median
+X = X.groupby(by='chemical formula').median()
 y = X['saturation magnetization']
 X.drop(['saturation magnetization'], axis=1, inplace=True)
-
 
 # Break off validation set from training data
 X_train, X_valid, y_train, y_valid = train_test_split(X, y,
@@ -231,3 +235,32 @@ X_NiMn['miedemaH'] = al.get_Miedemaw(MM, stoich_array_NiMn)
 X_NiMn['valencew'] = al.get_Valencew(PT, stoich_array_NiMn)
 
 preds_NiMn = model.predict(X_NiMn[my_cols])
+
+# Calculate atomic fractions for NiMn compositions
+at_fraction = pd.DataFrame()
+for i in range(len(stoich_array_NiMn)):
+    compound = stoich_array_NiMn.iloc[i]  # take slice for each compound
+    cols = compound.to_numpy().nonzero()
+    print(cols)
+    at_fraction = at_fraction.append(
+        compound.iloc[cols]/sum(compound.iloc[cols]))
+
+# Convert Tesla to emu/g
+rho_Ni = 8.9  # [g/cm3]
+rho_Mn = 7.4  # [g/cm3]
+rho_NiMn = (rho_Ni*at_fraction['Ni'] + rho_Mn*at_fraction['Mn'])
+preds_NiMn = preds_NiMn/((4*np.pi*1e-4)*rho_NiMn)
+
+# Convert bohr magnetron to emu/g
+Exp_NiMn = pd.Series(data=[0.6, 0.76, 0.78, 0.79, 0.81, 0.8, 0.72],
+                     index=[0, 0.04, 0.055, 0.07, 0.1, 0.13, 0.165])
+M_Ni = 58.693
+M_Mn = 54.938
+formula_mass = ((M_Ni*(1-Exp_NiMn.index) + M_Mn*Exp_NiMn.index))/6.022e23
+Exp_NiMn = (Exp_NiMn*9.27e-21)/formula_mass
+
+plt.figure()
+sns.scatterplot(x=at_fraction['Mn'], y=preds_NiMn)
+sns.scatterplot(x=Exp_NiMn.index, y=Exp_NiMn.array)
+plt.xlabel('Mn concentration [at.%]')
+plt.ylabel('Magnetisation [emu/g]')
