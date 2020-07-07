@@ -218,15 +218,15 @@ def get_Miedemaw(MM, stoich_array):
                 miedemaw.iloc[i] = np.nan
     return miedemaw
 
-# def get_StoicEntw(PT, stoich_array):
-#     stoicentw=pd.Series(np.zeros(len(stoich_array)))
-#     for i in range(len(stoich_array)):
-#             compound = stoich_array.iloc[i] #take slice for each compound
-#             cols = compound.to_numpy().nonzero()     #nonzero elements columns 
-#             at_fraction = compound.iloc[cols]/sum(compound.iloc[cols])
-#             stoicentw.iloc[i] = np.dot(at_fraction,
-#                                       PT.loc[compound.index[cols]]['melting_point'])
-#     return meltingTw
+
+def get_StoicEntw(stoich_array):
+    stoicentw = pd.Series(np.zeros(len(stoich_array)))
+    for i in range(len(stoich_array)):
+        compound = stoich_array.iloc[i]  # take slice for each compound
+        cols = compound.to_numpy().nonzero()  # nonzero elements columns
+        at_fraction = compound.iloc[cols]/sum(compound.iloc[cols])
+        stoicentw.iloc[i] = -np.dot(at_fraction, np.log(at_fraction))
+    return stoicentw
 
 
 def get_CompoundRadix(PT, X):
